@@ -1,0 +1,1 @@
+/usr/bin/g++.exe -g -Wl,--enable-auto-import CMakeFiles/ds_7_2_select_sort.dir/ds_7_2_select_sort.cpp.o -o ds_7_2_select_sort.exe -Wl,--out-implib,libds_7_2_select_sort.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

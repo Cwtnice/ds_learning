@@ -1,0 +1,1 @@
+/usr/bin/g++.exe -g -Wl,--enable-auto-import "CMakeFiles/3_1_seq_stack.dir/3_stack&queue/3_1_seq_stack.cpp.o" -o 3_1_seq_stack.exe -Wl,--out-implib,lib3_1_seq_stack.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

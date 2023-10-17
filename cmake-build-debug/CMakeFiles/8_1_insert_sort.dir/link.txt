@@ -1,0 +1,1 @@
+/usr/bin/g++.exe -g -Wl,--enable-auto-import CMakeFiles/8_1_insert_sort.dir/8_sort/8_1_insert_sort.cpp.o -o 8_1_insert_sort.exe -Wl,--out-implib,lib8_1_insert_sort.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

@@ -1,0 +1,19 @@
+C:\Users\admin\AppData\Local\JetBrains\CLion2021.1\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make.exe -DCMAKE_C_COMPILER=/usr/bin/gcc.exe -DCMAKE_CXX_COMPILER=/usr/bin/g++.exe -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/admin/CLionProjects/ds_learning
+    -- src/0_test.cpp will be compiled to bin/0_test
+    -- src/3_1_seq_stack.cpp will be compiled to bin/3_1_seq_stack
+    -- src/3_2_link_stack.cpp will be compiled to bin/3_2_link_stack
+    -- src/3_3_seq_queue.cpp will be compiled to bin/3_3_seq_queue
+    -- src/3_4_link_queue.cpp will be compiled to bin/3_4_link_queue
+    -- src/8_1_insert_sort.cpp will be compiled to bin/8_1_insert_sort
+    -- src/8_2_insert_sort_2.cpp will be compiled to bin/8_2_insert_sort_2
+    -- src/8_3_shell_sort.cpp will be compiled to bin/8_3_shell_sort
+    -- src/8_4_bubble_sort.cpp will be compiled to bin/8_4_bubble_sort
+    -- src/8_5_quick_sort.cpp will be compiled to bin/8_5_quick_sort
+    -- src/8_6_select_sort.cpp will be compiled to bin/8_6_select_sort
+    -- src/8_7_heap_sort.cpp will be compiled to bin/8_7_heap_sort
+    -- src/8_8_merge_sort.cpp will be compiled to bin/8_8_merge_sort
+    -- src/8_9_radix_sort.cpp will be compiled to bin/8_9_radix_sort
+    -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug
