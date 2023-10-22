@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/admin/CLionProjects/ds_learning/4_tree/4_1_preorder_traversal.cpp
+iostream
+-
+vector
+-
+queue
+-
+
