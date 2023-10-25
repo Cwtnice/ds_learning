@@ -10,6 +10,10 @@ C:\Users\admin\AppData\Local\JetBrains\CLion2021.1\cygwin_cmake\bin\cmake.exe -D
     -- src/3_2_link_stack.cpp will be compiled to bin/3_2_link_stack
     -- src/3_3_seq_queue.cpp will be compiled to bin/3_3_seq_queue
     -- src/3_4_link_queue.cpp will be compiled to bin/3_4_link_queue
+    -- src/3_5_circular_queue.cpp will be compiled to bin/3_5_circular_queue
+    -- src/3_p_0_bracket_match.cpp will be compiled to bin/3_p_0_bracket_match
+    -- src/3_p_1_Infix_to_postfix.cpp will be compiled to bin/3_p_1_Infix_to_postfix
+    -- src/3_p_1_expression.cpp will be compiled to bin/3_p_1_expression
     -- src/4_1_preorder_traversal.cpp will be compiled to bin/4_1_preorder_traversal
     -- src/4_2_inorder_traversal.cpp will be compiled to bin/4_2_inorder_traversal
     -- src/4_3_postorder_traversal.cpp will be compiled to bin/4_3_postorder_traversal

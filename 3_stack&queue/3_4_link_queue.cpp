@@ -1,5 +1,5 @@
 /*
- * 链队列
+ * 链队列（带头结点）
  *
  */
 
@@ -36,7 +36,7 @@ char LinkQueue_Top(LinkQueue Q) {
     return Q.front->data;
 }
 
-// 入队 一般情况下, 链队列不会队满
+// 入队 从队尾入队所以是尾插法
 void LinkQueue_Push(LinkQueue &Q, char c) {
     auto *s = (LinkNode*)malloc(sizeof(LinkNode));  // 创建一个新结点并赋值
     s->data = c;
@@ -54,17 +54,19 @@ void LinkQueue_Pop(LinkQueue &Q) {
         return;
     }
 
-    LinkNode * top = Q.front;
-    cout << top->data << "出队！" << endl;
+    LinkNode * p = Q.front->next;
+    cout << p->data << "出队！" << endl;
+    Q.front->next = p->next;
 
-    Q.front = Q.front->next;
-    free(top);
+    if(Q.rear == p) Q.rear = Q.front;   // 若队列中只有一个结点 删除后变空
+
+    free(p);
 }
 
 // 遍历输出队列
 void LinkQueue_Print(LinkQueue Q){
-    printf("遍历输出队列：");
-    LinkNode *p =Q.front;
+    printf("遍历输出队列：虚拟头结点->");
+    LinkNode *p =Q.front->next;
     while (p){
         printf("%c->", p->data);
         p = p->next;
