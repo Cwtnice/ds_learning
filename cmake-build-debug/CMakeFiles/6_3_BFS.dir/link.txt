@@ -1,0 +1,1 @@
+/usr/bin/g++.exe -g -Wl,--enable-auto-import CMakeFiles/6_3_BFS.dir/6_graph/6_3_BFS.cpp.o -o 6_3_BFS.exe -Wl,--out-implib,lib6_3_BFS.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

@@ -130,6 +130,97 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named CMakeCXXCompilerId
+
+# Build rule for target.
+CMakeCXXCompilerId: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeCXXCompilerId
+.PHONY : CMakeCXXCompilerId
+
+# fast build rule for target.
+CMakeCXXCompilerId/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CMakeCXXCompilerId.dir/build.make CMakeFiles/CMakeCXXCompilerId.dir/build
+.PHONY : CMakeCXXCompilerId/fast
+
+#=============================================================================
+# Target rules for targets named 8_8_merge_sort
+
+# Build rule for target.
+8_8_merge_sort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 8_8_merge_sort
+.PHONY : 8_8_merge_sort
+
+# fast build rule for target.
+8_8_merge_sort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_8_merge_sort.dir/build.make CMakeFiles/8_8_merge_sort.dir/build
+.PHONY : 8_8_merge_sort/fast
+
+#=============================================================================
+# Target rules for targets named 8_6_select_sort
+
+# Build rule for target.
+8_6_select_sort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 8_6_select_sort
+.PHONY : 8_6_select_sort
+
+# fast build rule for target.
+8_6_select_sort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_6_select_sort.dir/build.make CMakeFiles/8_6_select_sort.dir/build
+.PHONY : 8_6_select_sort/fast
+
+#=============================================================================
+# Target rules for targets named 8_5_quick_sort
+
+# Build rule for target.
+8_5_quick_sort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 8_5_quick_sort
+.PHONY : 8_5_quick_sort
+
+# fast build rule for target.
+8_5_quick_sort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_5_quick_sort.dir/build.make CMakeFiles/8_5_quick_sort.dir/build
+.PHONY : 8_5_quick_sort/fast
+
+#=============================================================================
+# Target rules for targets named 8_4_bubble_sort
+
+# Build rule for target.
+8_4_bubble_sort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 8_4_bubble_sort
+.PHONY : 8_4_bubble_sort
+
+# fast build rule for target.
+8_4_bubble_sort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_4_bubble_sort.dir/build.make CMakeFiles/8_4_bubble_sort.dir/build
+.PHONY : 8_4_bubble_sort/fast
+
+#=============================================================================
+# Target rules for targets named 8_3_shell_sort
+
+# Build rule for target.
+8_3_shell_sort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 8_3_shell_sort
+.PHONY : 8_3_shell_sort
+
+# fast build rule for target.
+8_3_shell_sort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_3_shell_sort.dir/build.make CMakeFiles/8_3_shell_sort.dir/build
+.PHONY : 8_3_shell_sort/fast
+
+#=============================================================================
+# Target rules for targets named 8_2_insert_sort_2
+
+# Build rule for target.
+8_2_insert_sort_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 8_2_insert_sort_2
+.PHONY : 8_2_insert_sort_2
+
+# fast build rule for target.
+8_2_insert_sort_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_2_insert_sort_2.dir/build.make CMakeFiles/8_2_insert_sort_2.dir/build
+.PHONY : 8_2_insert_sort_2/fast
+
+#=============================================================================
 # Target rules for targets named 3_p_0_bracket_match
 
 # Build rule for target.
@@ -156,6 +247,71 @@ depend:
 .PHONY : 3_5_circular_queue/fast
 
 #=============================================================================
+# Target rules for targets named 8_7_heap_sort
+
+# Build rule for target.
+8_7_heap_sort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 8_7_heap_sort
+.PHONY : 8_7_heap_sort
+
+# fast build rule for target.
+8_7_heap_sort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_7_heap_sort.dir/build.make CMakeFiles/8_7_heap_sort.dir/build
+.PHONY : 8_7_heap_sort/fast
+
+#=============================================================================
+# Target rules for targets named 2_p_1_reverse_list
+
+# Build rule for target.
+2_p_1_reverse_list: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2_p_1_reverse_list
+.PHONY : 2_p_1_reverse_list
+
+# fast build rule for target.
+2_p_1_reverse_list/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_p_1_reverse_list.dir/build.make CMakeFiles/2_p_1_reverse_list.dir/build
+.PHONY : 2_p_1_reverse_list/fast
+
+#=============================================================================
+# Target rules for targets named 6_3_BFS
+
+# Build rule for target.
+6_3_BFS: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 6_3_BFS
+.PHONY : 6_3_BFS
+
+# fast build rule for target.
+6_3_BFS/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_3_BFS.dir/build.make CMakeFiles/6_3_BFS.dir/build
+.PHONY : 6_3_BFS/fast
+
+#=============================================================================
+# Target rules for targets named 6_4_DFS
+
+# Build rule for target.
+6_4_DFS: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 6_4_DFS
+.PHONY : 6_4_DFS
+
+# fast build rule for target.
+6_4_DFS/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_4_DFS.dir/build.make CMakeFiles/6_4_DFS.dir/build
+.PHONY : 6_4_DFS/fast
+
+#=============================================================================
+# Target rules for targets named 7_1_BST
+
+# Build rule for target.
+7_1_BST: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 7_1_BST
+.PHONY : 7_1_BST
+
+# fast build rule for target.
+7_1_BST/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_1_BST.dir/build.make CMakeFiles/7_1_BST.dir/build
+.PHONY : 7_1_BST/fast
+
+#=============================================================================
 # Target rules for targets named 3_4_link_queue
 
 # Build rule for target.
@@ -167,6 +323,32 @@ depend:
 3_4_link_queue/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_4_link_queue.dir/build.make CMakeFiles/3_4_link_queue.dir/build
 .PHONY : 3_4_link_queue/fast
+
+#=============================================================================
+# Target rules for targets named 6_7_dijkstra
+
+# Build rule for target.
+6_7_dijkstra: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 6_7_dijkstra
+.PHONY : 6_7_dijkstra
+
+# fast build rule for target.
+6_7_dijkstra/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_7_dijkstra.dir/build.make CMakeFiles/6_7_dijkstra.dir/build
+.PHONY : 6_7_dijkstra/fast
+
+#=============================================================================
+# Target rules for targets named 7_2_AVL
+
+# Build rule for target.
+7_2_AVL: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 7_2_AVL
+.PHONY : 7_2_AVL
+
+# fast build rule for target.
+7_2_AVL/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_2_AVL.dir/build.make CMakeFiles/7_2_AVL.dir/build
+.PHONY : 7_2_AVL/fast
 
 #=============================================================================
 # Target rules for targets named 2_5_static_link_list
@@ -208,6 +390,19 @@ depend:
 .PHONY : 4_3_postorder_traversal/fast
 
 #=============================================================================
+# Target rules for targets named 6_1_adj_matrix
+
+# Build rule for target.
+6_1_adj_matrix: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 6_1_adj_matrix
+.PHONY : 6_1_adj_matrix
+
+# fast build rule for target.
+6_1_adj_matrix/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_1_adj_matrix.dir/build.make CMakeFiles/6_1_adj_matrix.dir/build
+.PHONY : 6_1_adj_matrix/fast
+
+#=============================================================================
 # Target rules for targets named 2_4_cyclic_link_list
 
 # Build rule for target.
@@ -219,6 +414,71 @@ depend:
 2_4_cyclic_link_list/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_4_cyclic_link_list.dir/build.make CMakeFiles/2_4_cyclic_link_list.dir/build
 .PHONY : 2_4_cyclic_link_list/fast
+
+#=============================================================================
+# Target rules for targets named 8_1_insert_sort
+
+# Build rule for target.
+8_1_insert_sort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 8_1_insert_sort
+.PHONY : 8_1_insert_sort
+
+# fast build rule for target.
+8_1_insert_sort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_1_insert_sort.dir/build.make CMakeFiles/8_1_insert_sort.dir/build
+.PHONY : 8_1_insert_sort/fast
+
+#=============================================================================
+# Target rules for targets named 6_9_topological_sort
+
+# Build rule for target.
+6_9_topological_sort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 6_9_topological_sort
+.PHONY : 6_9_topological_sort
+
+# fast build rule for target.
+6_9_topological_sort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_9_topological_sort.dir/build.make CMakeFiles/6_9_topological_sort.dir/build
+.PHONY : 6_9_topological_sort/fast
+
+#=============================================================================
+# Target rules for targets named 8_9_radix_sort
+
+# Build rule for target.
+8_9_radix_sort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 8_9_radix_sort
+.PHONY : 8_9_radix_sort
+
+# fast build rule for target.
+8_9_radix_sort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_9_radix_sort.dir/build.make CMakeFiles/8_9_radix_sort.dir/build
+.PHONY : 8_9_radix_sort/fast
+
+#=============================================================================
+# Target rules for targets named 2_3_double_link_list
+
+# Build rule for target.
+2_3_double_link_list: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2_3_double_link_list
+.PHONY : 2_3_double_link_list
+
+# fast build rule for target.
+2_3_double_link_list/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_3_double_link_list.dir/build.make CMakeFiles/2_3_double_link_list.dir/build
+.PHONY : 2_3_double_link_list/fast
+
+#=============================================================================
+# Target rules for targets named 6_8_floyd
+
+# Build rule for target.
+6_8_floyd: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 6_8_floyd
+.PHONY : 6_8_floyd
+
+# fast build rule for target.
+6_8_floyd/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_8_floyd.dir/build.make CMakeFiles/6_8_floyd.dir/build
+.PHONY : 6_8_floyd/fast
 
 #=============================================================================
 # Target rules for targets named 3_1_seq_stack
@@ -247,19 +507,6 @@ depend:
 .PHONY : 2_2_link_list/fast
 
 #=============================================================================
-# Target rules for targets named test
-
-# Build rule for target.
-test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test
-.PHONY : test
-
-# fast build rule for target.
-test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-.PHONY : test/fast
-
-#=============================================================================
 # Target rules for targets named 2_1_seq_list
 
 # Build rule for target.
@@ -271,6 +518,45 @@ test/fast:
 2_1_seq_list/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_1_seq_list.dir/build.make CMakeFiles/2_1_seq_list.dir/build
 .PHONY : 2_1_seq_list/fast
+
+#=============================================================================
+# Target rules for targets named 3_p_1_infix_expression
+
+# Build rule for target.
+3_p_1_infix_expression: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3_p_1_infix_expression
+.PHONY : 3_p_1_infix_expression
+
+# fast build rule for target.
+3_p_1_infix_expression/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_p_1_infix_expression.dir/build.make CMakeFiles/3_p_1_infix_expression.dir/build
+.PHONY : 3_p_1_infix_expression/fast
+
+#=============================================================================
+# Target rules for targets named 6_5_prim
+
+# Build rule for target.
+6_5_prim: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 6_5_prim
+.PHONY : 6_5_prim
+
+# fast build rule for target.
+6_5_prim/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_5_prim.dir/build.make CMakeFiles/6_5_prim.dir/build
+.PHONY : 6_5_prim/fast
+
+#=============================================================================
+# Target rules for targets named 6_6_kruskal
+
+# Build rule for target.
+6_6_kruskal: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 6_6_kruskal
+.PHONY : 6_6_kruskal
+
+# fast build rule for target.
+6_6_kruskal/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_6_kruskal.dir/build.make CMakeFiles/6_6_kruskal.dir/build
+.PHONY : 6_6_kruskal/fast
 
 #=============================================================================
 # Target rules for targets named 0_test
@@ -312,43 +598,17 @@ test/fast:
 .PHONY : 4_2_inorder_traversal/fast
 
 #=============================================================================
-# Target rules for targets named 3_p_1_Infix_to_postfix
+# Target rules for targets named 3_p_3_postfix_expression
 
 # Build rule for target.
-3_p_1_Infix_to_postfix: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3_p_1_Infix_to_postfix
-.PHONY : 3_p_1_Infix_to_postfix
+3_p_3_postfix_expression: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3_p_3_postfix_expression
+.PHONY : 3_p_3_postfix_expression
 
 # fast build rule for target.
-3_p_1_Infix_to_postfix/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_p_1_Infix_to_postfix.dir/build.make CMakeFiles/3_p_1_Infix_to_postfix.dir/build
-.PHONY : 3_p_1_Infix_to_postfix/fast
-
-#=============================================================================
-# Target rules for targets named 3_p_1_expression
-
-# Build rule for target.
-3_p_1_expression: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3_p_1_expression
-.PHONY : 3_p_1_expression
-
-# fast build rule for target.
-3_p_1_expression/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_p_1_expression.dir/build.make CMakeFiles/3_p_1_expression.dir/build
-.PHONY : 3_p_1_expression/fast
-
-#=============================================================================
-# Target rules for targets named 8_2_insert_sort_2
-
-# Build rule for target.
-8_2_insert_sort_2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 8_2_insert_sort_2
-.PHONY : 8_2_insert_sort_2
-
-# fast build rule for target.
-8_2_insert_sort_2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_2_insert_sort_2.dir/build.make CMakeFiles/8_2_insert_sort_2.dir/build
-.PHONY : 8_2_insert_sort_2/fast
+3_p_3_postfix_expression/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_p_3_postfix_expression.dir/build.make CMakeFiles/3_p_3_postfix_expression.dir/build
+.PHONY : 3_p_3_postfix_expression/fast
 
 #=============================================================================
 # Target rules for targets named 4_1_preorder_traversal
@@ -364,17 +624,17 @@ test/fast:
 .PHONY : 4_1_preorder_traversal/fast
 
 #=============================================================================
-# Target rules for targets named 8_4_bubble_sort
+# Target rules for targets named 3_p_2_infix_to_postfix
 
 # Build rule for target.
-8_4_bubble_sort: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 8_4_bubble_sort
-.PHONY : 8_4_bubble_sort
+3_p_2_infix_to_postfix: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3_p_2_infix_to_postfix
+.PHONY : 3_p_2_infix_to_postfix
 
 # fast build rule for target.
-8_4_bubble_sort/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_4_bubble_sort.dir/build.make CMakeFiles/8_4_bubble_sort.dir/build
-.PHONY : 8_4_bubble_sort/fast
+3_p_2_infix_to_postfix/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_p_2_infix_to_postfix.dir/build.make CMakeFiles/3_p_2_infix_to_postfix.dir/build
+.PHONY : 3_p_2_infix_to_postfix/fast
 
 #=============================================================================
 # Target rules for targets named 4_4_levelorder_traversal
@@ -390,121 +650,17 @@ test/fast:
 .PHONY : 4_4_levelorder_traversal/fast
 
 #=============================================================================
-# Target rules for targets named 8_5_quick_sort
+# Target rules for targets named 6_2_adj_list
 
 # Build rule for target.
-8_5_quick_sort: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 8_5_quick_sort
-.PHONY : 8_5_quick_sort
+6_2_adj_list: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 6_2_adj_list
+.PHONY : 6_2_adj_list
 
 # fast build rule for target.
-8_5_quick_sort/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_5_quick_sort.dir/build.make CMakeFiles/8_5_quick_sort.dir/build
-.PHONY : 8_5_quick_sort/fast
-
-#=============================================================================
-# Target rules for targets named 8_1_insert_sort
-
-# Build rule for target.
-8_1_insert_sort: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 8_1_insert_sort
-.PHONY : 8_1_insert_sort
-
-# fast build rule for target.
-8_1_insert_sort/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_1_insert_sort.dir/build.make CMakeFiles/8_1_insert_sort.dir/build
-.PHONY : 8_1_insert_sort/fast
-
-#=============================================================================
-# Target rules for targets named 8_6_select_sort
-
-# Build rule for target.
-8_6_select_sort: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 8_6_select_sort
-.PHONY : 8_6_select_sort
-
-# fast build rule for target.
-8_6_select_sort/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_6_select_sort.dir/build.make CMakeFiles/8_6_select_sort.dir/build
-.PHONY : 8_6_select_sort/fast
-
-#=============================================================================
-# Target rules for targets named 8_3_shell_sort
-
-# Build rule for target.
-8_3_shell_sort: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 8_3_shell_sort
-.PHONY : 8_3_shell_sort
-
-# fast build rule for target.
-8_3_shell_sort/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_3_shell_sort.dir/build.make CMakeFiles/8_3_shell_sort.dir/build
-.PHONY : 8_3_shell_sort/fast
-
-#=============================================================================
-# Target rules for targets named 2_3_double_link_list
-
-# Build rule for target.
-2_3_double_link_list: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2_3_double_link_list
-.PHONY : 2_3_double_link_list
-
-# fast build rule for target.
-2_3_double_link_list/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_3_double_link_list.dir/build.make CMakeFiles/2_3_double_link_list.dir/build
-.PHONY : 2_3_double_link_list/fast
-
-#=============================================================================
-# Target rules for targets named 8_9_radix_sort
-
-# Build rule for target.
-8_9_radix_sort: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 8_9_radix_sort
-.PHONY : 8_9_radix_sort
-
-# fast build rule for target.
-8_9_radix_sort/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_9_radix_sort.dir/build.make CMakeFiles/8_9_radix_sort.dir/build
-.PHONY : 8_9_radix_sort/fast
-
-#=============================================================================
-# Target rules for targets named CMakeCXXCompilerId
-
-# Build rule for target.
-CMakeCXXCompilerId: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeCXXCompilerId
-.PHONY : CMakeCXXCompilerId
-
-# fast build rule for target.
-CMakeCXXCompilerId/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CMakeCXXCompilerId.dir/build.make CMakeFiles/CMakeCXXCompilerId.dir/build
-.PHONY : CMakeCXXCompilerId/fast
-
-#=============================================================================
-# Target rules for targets named 8_7_heap_sort
-
-# Build rule for target.
-8_7_heap_sort: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 8_7_heap_sort
-.PHONY : 8_7_heap_sort
-
-# fast build rule for target.
-8_7_heap_sort/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_7_heap_sort.dir/build.make CMakeFiles/8_7_heap_sort.dir/build
-.PHONY : 8_7_heap_sort/fast
-
-#=============================================================================
-# Target rules for targets named 8_8_merge_sort
-
-# Build rule for target.
-8_8_merge_sort: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 8_8_merge_sort
-.PHONY : 8_8_merge_sort
-
-# fast build rule for target.
-8_8_merge_sort/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_8_merge_sort.dir/build.make CMakeFiles/8_8_merge_sort.dir/build
-.PHONY : 8_8_merge_sort/fast
+6_2_adj_list/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_2_adj_list.dir/build.make CMakeFiles/6_2_adj_list.dir/build
+.PHONY : 6_2_adj_list/fast
 
 0_test.o: 0_test.cpp.o
 
@@ -668,32 +824,32 @@ CMakeCXXCompilerId/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_5_static_link_list.dir/build.make CMakeFiles/2_5_static_link_list.dir/2_list/2_5_static_link_list.cpp.s
 .PHONY : 2_list/2_5_static_link_list.cpp.s
 
-2_list/problem_set/test.o: 2_list/problem_set/test.cpp.o
+2_list/problem_set/2_p_1_reverse_list.o: 2_list/problem_set/2_p_1_reverse_list.cpp.o
 
-.PHONY : 2_list/problem_set/test.o
+.PHONY : 2_list/problem_set/2_p_1_reverse_list.o
 
 # target to build an object file
-2_list/problem_set/test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/2_list/problem_set/test.cpp.o
-.PHONY : 2_list/problem_set/test.cpp.o
+2_list/problem_set/2_p_1_reverse_list.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_p_1_reverse_list.dir/build.make CMakeFiles/2_p_1_reverse_list.dir/2_list/problem_set/2_p_1_reverse_list.cpp.o
+.PHONY : 2_list/problem_set/2_p_1_reverse_list.cpp.o
 
-2_list/problem_set/test.i: 2_list/problem_set/test.cpp.i
+2_list/problem_set/2_p_1_reverse_list.i: 2_list/problem_set/2_p_1_reverse_list.cpp.i
 
-.PHONY : 2_list/problem_set/test.i
+.PHONY : 2_list/problem_set/2_p_1_reverse_list.i
 
 # target to preprocess a source file
-2_list/problem_set/test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/2_list/problem_set/test.cpp.i
-.PHONY : 2_list/problem_set/test.cpp.i
+2_list/problem_set/2_p_1_reverse_list.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_p_1_reverse_list.dir/build.make CMakeFiles/2_p_1_reverse_list.dir/2_list/problem_set/2_p_1_reverse_list.cpp.i
+.PHONY : 2_list/problem_set/2_p_1_reverse_list.cpp.i
 
-2_list/problem_set/test.s: 2_list/problem_set/test.cpp.s
+2_list/problem_set/2_p_1_reverse_list.s: 2_list/problem_set/2_p_1_reverse_list.cpp.s
 
-.PHONY : 2_list/problem_set/test.s
+.PHONY : 2_list/problem_set/2_p_1_reverse_list.s
 
 # target to generate assembly for a file
-2_list/problem_set/test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/2_list/problem_set/test.cpp.s
-.PHONY : 2_list/problem_set/test.cpp.s
+2_list/problem_set/2_p_1_reverse_list.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_p_1_reverse_list.dir/build.make CMakeFiles/2_p_1_reverse_list.dir/2_list/problem_set/2_p_1_reverse_list.cpp.s
+.PHONY : 2_list/problem_set/2_p_1_reverse_list.cpp.s
 
 3_stack&queue/3_1_seq_stack.o: 3_stack&queue/3_1_seq_stack.cpp.o
 
@@ -857,59 +1013,86 @@ CMakeCXXCompilerId/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_p_0_bracket_match.dir/build.make "CMakeFiles/3_p_0_bracket_match.dir/3_stack&queue/problem_set/3_p_0_bracket_match.cpp.s"
 .PHONY : 3_stack&queue/problem_set/3_p_0_bracket_match.cpp.s
 
-3_stack&queue/problem_set/3_p_1_Infix_to_postfix.o: 3_stack&queue/problem_set/3_p_1_Infix_to_postfix.cpp.o
+3_stack&queue/problem_set/3_p_1_infix_expression.o: 3_stack&queue/problem_set/3_p_1_infix_expression.cpp.o
 
-.PHONY : 3_stack&queue/problem_set/3_p_1_Infix_to_postfix.o
-
-# target to build an object file
-3_stack&queue/problem_set/3_p_1_Infix_to_postfix.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_p_1_Infix_to_postfix.dir/build.make "CMakeFiles/3_p_1_Infix_to_postfix.dir/3_stack&queue/problem_set/3_p_1_Infix_to_postfix.cpp.o"
-.PHONY : 3_stack&queue/problem_set/3_p_1_Infix_to_postfix.cpp.o
-
-3_stack&queue/problem_set/3_p_1_Infix_to_postfix.i: 3_stack&queue/problem_set/3_p_1_Infix_to_postfix.cpp.i
-
-.PHONY : 3_stack&queue/problem_set/3_p_1_Infix_to_postfix.i
-
-# target to preprocess a source file
-3_stack&queue/problem_set/3_p_1_Infix_to_postfix.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_p_1_Infix_to_postfix.dir/build.make "CMakeFiles/3_p_1_Infix_to_postfix.dir/3_stack&queue/problem_set/3_p_1_Infix_to_postfix.cpp.i"
-.PHONY : 3_stack&queue/problem_set/3_p_1_Infix_to_postfix.cpp.i
-
-3_stack&queue/problem_set/3_p_1_Infix_to_postfix.s: 3_stack&queue/problem_set/3_p_1_Infix_to_postfix.cpp.s
-
-.PHONY : 3_stack&queue/problem_set/3_p_1_Infix_to_postfix.s
-
-# target to generate assembly for a file
-3_stack&queue/problem_set/3_p_1_Infix_to_postfix.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_p_1_Infix_to_postfix.dir/build.make "CMakeFiles/3_p_1_Infix_to_postfix.dir/3_stack&queue/problem_set/3_p_1_Infix_to_postfix.cpp.s"
-.PHONY : 3_stack&queue/problem_set/3_p_1_Infix_to_postfix.cpp.s
-
-3_stack&queue/problem_set/3_p_1_expression.o: 3_stack&queue/problem_set/3_p_1_expression.cpp.o
-
-.PHONY : 3_stack&queue/problem_set/3_p_1_expression.o
+.PHONY : 3_stack&queue/problem_set/3_p_1_infix_expression.o
 
 # target to build an object file
-3_stack&queue/problem_set/3_p_1_expression.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_p_1_expression.dir/build.make "CMakeFiles/3_p_1_expression.dir/3_stack&queue/problem_set/3_p_1_expression.cpp.o"
-.PHONY : 3_stack&queue/problem_set/3_p_1_expression.cpp.o
+3_stack&queue/problem_set/3_p_1_infix_expression.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_p_1_infix_expression.dir/build.make "CMakeFiles/3_p_1_infix_expression.dir/3_stack&queue/problem_set/3_p_1_infix_expression.cpp.o"
+.PHONY : 3_stack&queue/problem_set/3_p_1_infix_expression.cpp.o
 
-3_stack&queue/problem_set/3_p_1_expression.i: 3_stack&queue/problem_set/3_p_1_expression.cpp.i
+3_stack&queue/problem_set/3_p_1_infix_expression.i: 3_stack&queue/problem_set/3_p_1_infix_expression.cpp.i
 
-.PHONY : 3_stack&queue/problem_set/3_p_1_expression.i
+.PHONY : 3_stack&queue/problem_set/3_p_1_infix_expression.i
 
 # target to preprocess a source file
-3_stack&queue/problem_set/3_p_1_expression.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_p_1_expression.dir/build.make "CMakeFiles/3_p_1_expression.dir/3_stack&queue/problem_set/3_p_1_expression.cpp.i"
-.PHONY : 3_stack&queue/problem_set/3_p_1_expression.cpp.i
+3_stack&queue/problem_set/3_p_1_infix_expression.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_p_1_infix_expression.dir/build.make "CMakeFiles/3_p_1_infix_expression.dir/3_stack&queue/problem_set/3_p_1_infix_expression.cpp.i"
+.PHONY : 3_stack&queue/problem_set/3_p_1_infix_expression.cpp.i
 
-3_stack&queue/problem_set/3_p_1_expression.s: 3_stack&queue/problem_set/3_p_1_expression.cpp.s
+3_stack&queue/problem_set/3_p_1_infix_expression.s: 3_stack&queue/problem_set/3_p_1_infix_expression.cpp.s
 
-.PHONY : 3_stack&queue/problem_set/3_p_1_expression.s
+.PHONY : 3_stack&queue/problem_set/3_p_1_infix_expression.s
 
 # target to generate assembly for a file
-3_stack&queue/problem_set/3_p_1_expression.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_p_1_expression.dir/build.make "CMakeFiles/3_p_1_expression.dir/3_stack&queue/problem_set/3_p_1_expression.cpp.s"
-.PHONY : 3_stack&queue/problem_set/3_p_1_expression.cpp.s
+3_stack&queue/problem_set/3_p_1_infix_expression.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_p_1_infix_expression.dir/build.make "CMakeFiles/3_p_1_infix_expression.dir/3_stack&queue/problem_set/3_p_1_infix_expression.cpp.s"
+.PHONY : 3_stack&queue/problem_set/3_p_1_infix_expression.cpp.s
+
+3_stack&queue/problem_set/3_p_2_infix_to_postfix.o: 3_stack&queue/problem_set/3_p_2_infix_to_postfix.cpp.o
+
+.PHONY : 3_stack&queue/problem_set/3_p_2_infix_to_postfix.o
+
+# target to build an object file
+3_stack&queue/problem_set/3_p_2_infix_to_postfix.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_p_2_infix_to_postfix.dir/build.make "CMakeFiles/3_p_2_infix_to_postfix.dir/3_stack&queue/problem_set/3_p_2_infix_to_postfix.cpp.o"
+.PHONY : 3_stack&queue/problem_set/3_p_2_infix_to_postfix.cpp.o
+
+3_stack&queue/problem_set/3_p_2_infix_to_postfix.i: 3_stack&queue/problem_set/3_p_2_infix_to_postfix.cpp.i
+
+.PHONY : 3_stack&queue/problem_set/3_p_2_infix_to_postfix.i
+
+# target to preprocess a source file
+3_stack&queue/problem_set/3_p_2_infix_to_postfix.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_p_2_infix_to_postfix.dir/build.make "CMakeFiles/3_p_2_infix_to_postfix.dir/3_stack&queue/problem_set/3_p_2_infix_to_postfix.cpp.i"
+.PHONY : 3_stack&queue/problem_set/3_p_2_infix_to_postfix.cpp.i
+
+3_stack&queue/problem_set/3_p_2_infix_to_postfix.s: 3_stack&queue/problem_set/3_p_2_infix_to_postfix.cpp.s
+
+.PHONY : 3_stack&queue/problem_set/3_p_2_infix_to_postfix.s
+
+# target to generate assembly for a file
+3_stack&queue/problem_set/3_p_2_infix_to_postfix.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_p_2_infix_to_postfix.dir/build.make "CMakeFiles/3_p_2_infix_to_postfix.dir/3_stack&queue/problem_set/3_p_2_infix_to_postfix.cpp.s"
+.PHONY : 3_stack&queue/problem_set/3_p_2_infix_to_postfix.cpp.s
+
+3_stack&queue/problem_set/3_p_3_postfix_expression.o: 3_stack&queue/problem_set/3_p_3_postfix_expression.cpp.o
+
+.PHONY : 3_stack&queue/problem_set/3_p_3_postfix_expression.o
+
+# target to build an object file
+3_stack&queue/problem_set/3_p_3_postfix_expression.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_p_3_postfix_expression.dir/build.make "CMakeFiles/3_p_3_postfix_expression.dir/3_stack&queue/problem_set/3_p_3_postfix_expression.cpp.o"
+.PHONY : 3_stack&queue/problem_set/3_p_3_postfix_expression.cpp.o
+
+3_stack&queue/problem_set/3_p_3_postfix_expression.i: 3_stack&queue/problem_set/3_p_3_postfix_expression.cpp.i
+
+.PHONY : 3_stack&queue/problem_set/3_p_3_postfix_expression.i
+
+# target to preprocess a source file
+3_stack&queue/problem_set/3_p_3_postfix_expression.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_p_3_postfix_expression.dir/build.make "CMakeFiles/3_p_3_postfix_expression.dir/3_stack&queue/problem_set/3_p_3_postfix_expression.cpp.i"
+.PHONY : 3_stack&queue/problem_set/3_p_3_postfix_expression.cpp.i
+
+3_stack&queue/problem_set/3_p_3_postfix_expression.s: 3_stack&queue/problem_set/3_p_3_postfix_expression.cpp.s
+
+.PHONY : 3_stack&queue/problem_set/3_p_3_postfix_expression.s
+
+# target to generate assembly for a file
+3_stack&queue/problem_set/3_p_3_postfix_expression.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_p_3_postfix_expression.dir/build.make "CMakeFiles/3_p_3_postfix_expression.dir/3_stack&queue/problem_set/3_p_3_postfix_expression.cpp.s"
+.PHONY : 3_stack&queue/problem_set/3_p_3_postfix_expression.cpp.s
 
 4_tree/4_1_preorder_traversal.o: 4_tree/4_1_preorder_traversal.cpp.o
 
@@ -1018,6 +1201,303 @@ CMakeCXXCompilerId/fast:
 4_tree/4_4_levelorder_traversal.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4_4_levelorder_traversal.dir/build.make CMakeFiles/4_4_levelorder_traversal.dir/4_tree/4_4_levelorder_traversal.cpp.s
 .PHONY : 4_tree/4_4_levelorder_traversal.cpp.s
+
+6_graph/6_1_adj_matrix.o: 6_graph/6_1_adj_matrix.cpp.o
+
+.PHONY : 6_graph/6_1_adj_matrix.o
+
+# target to build an object file
+6_graph/6_1_adj_matrix.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_1_adj_matrix.dir/build.make CMakeFiles/6_1_adj_matrix.dir/6_graph/6_1_adj_matrix.cpp.o
+.PHONY : 6_graph/6_1_adj_matrix.cpp.o
+
+6_graph/6_1_adj_matrix.i: 6_graph/6_1_adj_matrix.cpp.i
+
+.PHONY : 6_graph/6_1_adj_matrix.i
+
+# target to preprocess a source file
+6_graph/6_1_adj_matrix.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_1_adj_matrix.dir/build.make CMakeFiles/6_1_adj_matrix.dir/6_graph/6_1_adj_matrix.cpp.i
+.PHONY : 6_graph/6_1_adj_matrix.cpp.i
+
+6_graph/6_1_adj_matrix.s: 6_graph/6_1_adj_matrix.cpp.s
+
+.PHONY : 6_graph/6_1_adj_matrix.s
+
+# target to generate assembly for a file
+6_graph/6_1_adj_matrix.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_1_adj_matrix.dir/build.make CMakeFiles/6_1_adj_matrix.dir/6_graph/6_1_adj_matrix.cpp.s
+.PHONY : 6_graph/6_1_adj_matrix.cpp.s
+
+6_graph/6_2_adj_list.o: 6_graph/6_2_adj_list.cpp.o
+
+.PHONY : 6_graph/6_2_adj_list.o
+
+# target to build an object file
+6_graph/6_2_adj_list.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_2_adj_list.dir/build.make CMakeFiles/6_2_adj_list.dir/6_graph/6_2_adj_list.cpp.o
+.PHONY : 6_graph/6_2_adj_list.cpp.o
+
+6_graph/6_2_adj_list.i: 6_graph/6_2_adj_list.cpp.i
+
+.PHONY : 6_graph/6_2_adj_list.i
+
+# target to preprocess a source file
+6_graph/6_2_adj_list.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_2_adj_list.dir/build.make CMakeFiles/6_2_adj_list.dir/6_graph/6_2_adj_list.cpp.i
+.PHONY : 6_graph/6_2_adj_list.cpp.i
+
+6_graph/6_2_adj_list.s: 6_graph/6_2_adj_list.cpp.s
+
+.PHONY : 6_graph/6_2_adj_list.s
+
+# target to generate assembly for a file
+6_graph/6_2_adj_list.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_2_adj_list.dir/build.make CMakeFiles/6_2_adj_list.dir/6_graph/6_2_adj_list.cpp.s
+.PHONY : 6_graph/6_2_adj_list.cpp.s
+
+6_graph/6_3_BFS.o: 6_graph/6_3_BFS.cpp.o
+
+.PHONY : 6_graph/6_3_BFS.o
+
+# target to build an object file
+6_graph/6_3_BFS.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_3_BFS.dir/build.make CMakeFiles/6_3_BFS.dir/6_graph/6_3_BFS.cpp.o
+.PHONY : 6_graph/6_3_BFS.cpp.o
+
+6_graph/6_3_BFS.i: 6_graph/6_3_BFS.cpp.i
+
+.PHONY : 6_graph/6_3_BFS.i
+
+# target to preprocess a source file
+6_graph/6_3_BFS.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_3_BFS.dir/build.make CMakeFiles/6_3_BFS.dir/6_graph/6_3_BFS.cpp.i
+.PHONY : 6_graph/6_3_BFS.cpp.i
+
+6_graph/6_3_BFS.s: 6_graph/6_3_BFS.cpp.s
+
+.PHONY : 6_graph/6_3_BFS.s
+
+# target to generate assembly for a file
+6_graph/6_3_BFS.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_3_BFS.dir/build.make CMakeFiles/6_3_BFS.dir/6_graph/6_3_BFS.cpp.s
+.PHONY : 6_graph/6_3_BFS.cpp.s
+
+6_graph/6_4_DFS.o: 6_graph/6_4_DFS.cpp.o
+
+.PHONY : 6_graph/6_4_DFS.o
+
+# target to build an object file
+6_graph/6_4_DFS.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_4_DFS.dir/build.make CMakeFiles/6_4_DFS.dir/6_graph/6_4_DFS.cpp.o
+.PHONY : 6_graph/6_4_DFS.cpp.o
+
+6_graph/6_4_DFS.i: 6_graph/6_4_DFS.cpp.i
+
+.PHONY : 6_graph/6_4_DFS.i
+
+# target to preprocess a source file
+6_graph/6_4_DFS.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_4_DFS.dir/build.make CMakeFiles/6_4_DFS.dir/6_graph/6_4_DFS.cpp.i
+.PHONY : 6_graph/6_4_DFS.cpp.i
+
+6_graph/6_4_DFS.s: 6_graph/6_4_DFS.cpp.s
+
+.PHONY : 6_graph/6_4_DFS.s
+
+# target to generate assembly for a file
+6_graph/6_4_DFS.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_4_DFS.dir/build.make CMakeFiles/6_4_DFS.dir/6_graph/6_4_DFS.cpp.s
+.PHONY : 6_graph/6_4_DFS.cpp.s
+
+6_graph/6_5_prim.o: 6_graph/6_5_prim.cpp.o
+
+.PHONY : 6_graph/6_5_prim.o
+
+# target to build an object file
+6_graph/6_5_prim.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_5_prim.dir/build.make CMakeFiles/6_5_prim.dir/6_graph/6_5_prim.cpp.o
+.PHONY : 6_graph/6_5_prim.cpp.o
+
+6_graph/6_5_prim.i: 6_graph/6_5_prim.cpp.i
+
+.PHONY : 6_graph/6_5_prim.i
+
+# target to preprocess a source file
+6_graph/6_5_prim.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_5_prim.dir/build.make CMakeFiles/6_5_prim.dir/6_graph/6_5_prim.cpp.i
+.PHONY : 6_graph/6_5_prim.cpp.i
+
+6_graph/6_5_prim.s: 6_graph/6_5_prim.cpp.s
+
+.PHONY : 6_graph/6_5_prim.s
+
+# target to generate assembly for a file
+6_graph/6_5_prim.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_5_prim.dir/build.make CMakeFiles/6_5_prim.dir/6_graph/6_5_prim.cpp.s
+.PHONY : 6_graph/6_5_prim.cpp.s
+
+6_graph/6_6_kruskal.o: 6_graph/6_6_kruskal.cpp.o
+
+.PHONY : 6_graph/6_6_kruskal.o
+
+# target to build an object file
+6_graph/6_6_kruskal.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_6_kruskal.dir/build.make CMakeFiles/6_6_kruskal.dir/6_graph/6_6_kruskal.cpp.o
+.PHONY : 6_graph/6_6_kruskal.cpp.o
+
+6_graph/6_6_kruskal.i: 6_graph/6_6_kruskal.cpp.i
+
+.PHONY : 6_graph/6_6_kruskal.i
+
+# target to preprocess a source file
+6_graph/6_6_kruskal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_6_kruskal.dir/build.make CMakeFiles/6_6_kruskal.dir/6_graph/6_6_kruskal.cpp.i
+.PHONY : 6_graph/6_6_kruskal.cpp.i
+
+6_graph/6_6_kruskal.s: 6_graph/6_6_kruskal.cpp.s
+
+.PHONY : 6_graph/6_6_kruskal.s
+
+# target to generate assembly for a file
+6_graph/6_6_kruskal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_6_kruskal.dir/build.make CMakeFiles/6_6_kruskal.dir/6_graph/6_6_kruskal.cpp.s
+.PHONY : 6_graph/6_6_kruskal.cpp.s
+
+6_graph/6_7_dijkstra.o: 6_graph/6_7_dijkstra.cpp.o
+
+.PHONY : 6_graph/6_7_dijkstra.o
+
+# target to build an object file
+6_graph/6_7_dijkstra.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_7_dijkstra.dir/build.make CMakeFiles/6_7_dijkstra.dir/6_graph/6_7_dijkstra.cpp.o
+.PHONY : 6_graph/6_7_dijkstra.cpp.o
+
+6_graph/6_7_dijkstra.i: 6_graph/6_7_dijkstra.cpp.i
+
+.PHONY : 6_graph/6_7_dijkstra.i
+
+# target to preprocess a source file
+6_graph/6_7_dijkstra.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_7_dijkstra.dir/build.make CMakeFiles/6_7_dijkstra.dir/6_graph/6_7_dijkstra.cpp.i
+.PHONY : 6_graph/6_7_dijkstra.cpp.i
+
+6_graph/6_7_dijkstra.s: 6_graph/6_7_dijkstra.cpp.s
+
+.PHONY : 6_graph/6_7_dijkstra.s
+
+# target to generate assembly for a file
+6_graph/6_7_dijkstra.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_7_dijkstra.dir/build.make CMakeFiles/6_7_dijkstra.dir/6_graph/6_7_dijkstra.cpp.s
+.PHONY : 6_graph/6_7_dijkstra.cpp.s
+
+6_graph/6_8_floyd.o: 6_graph/6_8_floyd.cpp.o
+
+.PHONY : 6_graph/6_8_floyd.o
+
+# target to build an object file
+6_graph/6_8_floyd.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_8_floyd.dir/build.make CMakeFiles/6_8_floyd.dir/6_graph/6_8_floyd.cpp.o
+.PHONY : 6_graph/6_8_floyd.cpp.o
+
+6_graph/6_8_floyd.i: 6_graph/6_8_floyd.cpp.i
+
+.PHONY : 6_graph/6_8_floyd.i
+
+# target to preprocess a source file
+6_graph/6_8_floyd.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_8_floyd.dir/build.make CMakeFiles/6_8_floyd.dir/6_graph/6_8_floyd.cpp.i
+.PHONY : 6_graph/6_8_floyd.cpp.i
+
+6_graph/6_8_floyd.s: 6_graph/6_8_floyd.cpp.s
+
+.PHONY : 6_graph/6_8_floyd.s
+
+# target to generate assembly for a file
+6_graph/6_8_floyd.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_8_floyd.dir/build.make CMakeFiles/6_8_floyd.dir/6_graph/6_8_floyd.cpp.s
+.PHONY : 6_graph/6_8_floyd.cpp.s
+
+6_graph/6_9_topological_sort.o: 6_graph/6_9_topological_sort.cpp.o
+
+.PHONY : 6_graph/6_9_topological_sort.o
+
+# target to build an object file
+6_graph/6_9_topological_sort.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_9_topological_sort.dir/build.make CMakeFiles/6_9_topological_sort.dir/6_graph/6_9_topological_sort.cpp.o
+.PHONY : 6_graph/6_9_topological_sort.cpp.o
+
+6_graph/6_9_topological_sort.i: 6_graph/6_9_topological_sort.cpp.i
+
+.PHONY : 6_graph/6_9_topological_sort.i
+
+# target to preprocess a source file
+6_graph/6_9_topological_sort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_9_topological_sort.dir/build.make CMakeFiles/6_9_topological_sort.dir/6_graph/6_9_topological_sort.cpp.i
+.PHONY : 6_graph/6_9_topological_sort.cpp.i
+
+6_graph/6_9_topological_sort.s: 6_graph/6_9_topological_sort.cpp.s
+
+.PHONY : 6_graph/6_9_topological_sort.s
+
+# target to generate assembly for a file
+6_graph/6_9_topological_sort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_9_topological_sort.dir/build.make CMakeFiles/6_9_topological_sort.dir/6_graph/6_9_topological_sort.cpp.s
+.PHONY : 6_graph/6_9_topological_sort.cpp.s
+
+7_search/7_1_BST.o: 7_search/7_1_BST.cpp.o
+
+.PHONY : 7_search/7_1_BST.o
+
+# target to build an object file
+7_search/7_1_BST.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_1_BST.dir/build.make CMakeFiles/7_1_BST.dir/7_search/7_1_BST.cpp.o
+.PHONY : 7_search/7_1_BST.cpp.o
+
+7_search/7_1_BST.i: 7_search/7_1_BST.cpp.i
+
+.PHONY : 7_search/7_1_BST.i
+
+# target to preprocess a source file
+7_search/7_1_BST.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_1_BST.dir/build.make CMakeFiles/7_1_BST.dir/7_search/7_1_BST.cpp.i
+.PHONY : 7_search/7_1_BST.cpp.i
+
+7_search/7_1_BST.s: 7_search/7_1_BST.cpp.s
+
+.PHONY : 7_search/7_1_BST.s
+
+# target to generate assembly for a file
+7_search/7_1_BST.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_1_BST.dir/build.make CMakeFiles/7_1_BST.dir/7_search/7_1_BST.cpp.s
+.PHONY : 7_search/7_1_BST.cpp.s
+
+7_search/7_2_AVL.o: 7_search/7_2_AVL.cpp.o
+
+.PHONY : 7_search/7_2_AVL.o
+
+# target to build an object file
+7_search/7_2_AVL.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_2_AVL.dir/build.make CMakeFiles/7_2_AVL.dir/7_search/7_2_AVL.cpp.o
+.PHONY : 7_search/7_2_AVL.cpp.o
+
+7_search/7_2_AVL.i: 7_search/7_2_AVL.cpp.i
+
+.PHONY : 7_search/7_2_AVL.i
+
+# target to preprocess a source file
+7_search/7_2_AVL.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_2_AVL.dir/build.make CMakeFiles/7_2_AVL.dir/7_search/7_2_AVL.cpp.i
+.PHONY : 7_search/7_2_AVL.cpp.i
+
+7_search/7_2_AVL.s: 7_search/7_2_AVL.cpp.s
+
+.PHONY : 7_search/7_2_AVL.s
+
+# target to generate assembly for a file
+7_search/7_2_AVL.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_2_AVL.dir/build.make CMakeFiles/7_2_AVL.dir/7_search/7_2_AVL.cpp.s
+.PHONY : 7_search/7_2_AVL.cpp.s
 
 8_sort/8_1_insert_sort.o: 8_sort/8_1_insert_sort.cpp.o
 
@@ -1303,18 +1783,31 @@ help:
 	@echo "... 2_3_double_link_list"
 	@echo "... 2_4_cyclic_link_list"
 	@echo "... 2_5_static_link_list"
+	@echo "... 2_p_1_reverse_list"
 	@echo "... 3_1_seq_stack"
 	@echo "... 3_2_link_stack"
 	@echo "... 3_3_seq_queue"
 	@echo "... 3_4_link_queue"
 	@echo "... 3_5_circular_queue"
 	@echo "... 3_p_0_bracket_match"
-	@echo "... 3_p_1_Infix_to_postfix"
-	@echo "... 3_p_1_expression"
+	@echo "... 3_p_1_infix_expression"
+	@echo "... 3_p_2_infix_to_postfix"
+	@echo "... 3_p_3_postfix_expression"
 	@echo "... 4_1_preorder_traversal"
 	@echo "... 4_2_inorder_traversal"
 	@echo "... 4_3_postorder_traversal"
 	@echo "... 4_4_levelorder_traversal"
+	@echo "... 6_1_adj_matrix"
+	@echo "... 6_2_adj_list"
+	@echo "... 6_3_BFS"
+	@echo "... 6_4_DFS"
+	@echo "... 6_5_prim"
+	@echo "... 6_6_kruskal"
+	@echo "... 6_7_dijkstra"
+	@echo "... 6_8_floyd"
+	@echo "... 6_9_topological_sort"
+	@echo "... 7_1_BST"
+	@echo "... 7_2_AVL"
 	@echo "... 8_1_insert_sort"
 	@echo "... 8_2_insert_sort_2"
 	@echo "... 8_3_shell_sort"
@@ -1325,7 +1818,6 @@ help:
 	@echo "... 8_8_merge_sort"
 	@echo "... 8_9_radix_sort"
 	@echo "... CMakeCXXCompilerId"
-	@echo "... test"
 	@echo "... 0_test.o"
 	@echo "... 0_test.i"
 	@echo "... 0_test.s"
@@ -1344,9 +1836,9 @@ help:
 	@echo "... 2_list/2_5_static_link_list.o"
 	@echo "... 2_list/2_5_static_link_list.i"
 	@echo "... 2_list/2_5_static_link_list.s"
-	@echo "... 2_list/problem_set/test.o"
-	@echo "... 2_list/problem_set/test.i"
-	@echo "... 2_list/problem_set/test.s"
+	@echo "... 2_list/problem_set/2_p_1_reverse_list.o"
+	@echo "... 2_list/problem_set/2_p_1_reverse_list.i"
+	@echo "... 2_list/problem_set/2_p_1_reverse_list.s"
 	@echo "... 3_stack&queue/3_1_seq_stack.o"
 	@echo "... 3_stack&queue/3_1_seq_stack.i"
 	@echo "... 3_stack&queue/3_1_seq_stack.s"
@@ -1365,12 +1857,15 @@ help:
 	@echo "... 3_stack&queue/problem_set/3_p_0_bracket_match.o"
 	@echo "... 3_stack&queue/problem_set/3_p_0_bracket_match.i"
 	@echo "... 3_stack&queue/problem_set/3_p_0_bracket_match.s"
-	@echo "... 3_stack&queue/problem_set/3_p_1_Infix_to_postfix.o"
-	@echo "... 3_stack&queue/problem_set/3_p_1_Infix_to_postfix.i"
-	@echo "... 3_stack&queue/problem_set/3_p_1_Infix_to_postfix.s"
-	@echo "... 3_stack&queue/problem_set/3_p_1_expression.o"
-	@echo "... 3_stack&queue/problem_set/3_p_1_expression.i"
-	@echo "... 3_stack&queue/problem_set/3_p_1_expression.s"
+	@echo "... 3_stack&queue/problem_set/3_p_1_infix_expression.o"
+	@echo "... 3_stack&queue/problem_set/3_p_1_infix_expression.i"
+	@echo "... 3_stack&queue/problem_set/3_p_1_infix_expression.s"
+	@echo "... 3_stack&queue/problem_set/3_p_2_infix_to_postfix.o"
+	@echo "... 3_stack&queue/problem_set/3_p_2_infix_to_postfix.i"
+	@echo "... 3_stack&queue/problem_set/3_p_2_infix_to_postfix.s"
+	@echo "... 3_stack&queue/problem_set/3_p_3_postfix_expression.o"
+	@echo "... 3_stack&queue/problem_set/3_p_3_postfix_expression.i"
+	@echo "... 3_stack&queue/problem_set/3_p_3_postfix_expression.s"
 	@echo "... 4_tree/4_1_preorder_traversal.o"
 	@echo "... 4_tree/4_1_preorder_traversal.i"
 	@echo "... 4_tree/4_1_preorder_traversal.s"
@@ -1383,6 +1878,39 @@ help:
 	@echo "... 4_tree/4_4_levelorder_traversal.o"
 	@echo "... 4_tree/4_4_levelorder_traversal.i"
 	@echo "... 4_tree/4_4_levelorder_traversal.s"
+	@echo "... 6_graph/6_1_adj_matrix.o"
+	@echo "... 6_graph/6_1_adj_matrix.i"
+	@echo "... 6_graph/6_1_adj_matrix.s"
+	@echo "... 6_graph/6_2_adj_list.o"
+	@echo "... 6_graph/6_2_adj_list.i"
+	@echo "... 6_graph/6_2_adj_list.s"
+	@echo "... 6_graph/6_3_BFS.o"
+	@echo "... 6_graph/6_3_BFS.i"
+	@echo "... 6_graph/6_3_BFS.s"
+	@echo "... 6_graph/6_4_DFS.o"
+	@echo "... 6_graph/6_4_DFS.i"
+	@echo "... 6_graph/6_4_DFS.s"
+	@echo "... 6_graph/6_5_prim.o"
+	@echo "... 6_graph/6_5_prim.i"
+	@echo "... 6_graph/6_5_prim.s"
+	@echo "... 6_graph/6_6_kruskal.o"
+	@echo "... 6_graph/6_6_kruskal.i"
+	@echo "... 6_graph/6_6_kruskal.s"
+	@echo "... 6_graph/6_7_dijkstra.o"
+	@echo "... 6_graph/6_7_dijkstra.i"
+	@echo "... 6_graph/6_7_dijkstra.s"
+	@echo "... 6_graph/6_8_floyd.o"
+	@echo "... 6_graph/6_8_floyd.i"
+	@echo "... 6_graph/6_8_floyd.s"
+	@echo "... 6_graph/6_9_topological_sort.o"
+	@echo "... 6_graph/6_9_topological_sort.i"
+	@echo "... 6_graph/6_9_topological_sort.s"
+	@echo "... 7_search/7_1_BST.o"
+	@echo "... 7_search/7_1_BST.i"
+	@echo "... 7_search/7_1_BST.s"
+	@echo "... 7_search/7_2_AVL.o"
+	@echo "... 7_search/7_2_AVL.i"
+	@echo "... 7_search/7_2_AVL.s"
 	@echo "... 8_sort/8_1_insert_sort.o"
 	@echo "... 8_sort/8_1_insert_sort.i"
 	@echo "... 8_sort/8_1_insert_sort.s"

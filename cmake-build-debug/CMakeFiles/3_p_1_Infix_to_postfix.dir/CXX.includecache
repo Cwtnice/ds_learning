@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/admin/CLionProjects/ds_learning/3_stack&queue/problem_set/3_p_1_Infix_to_postfix.cpp
+iostream
+-
+cstring
+-
+

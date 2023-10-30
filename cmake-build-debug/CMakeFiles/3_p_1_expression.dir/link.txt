@@ -1,0 +1,1 @@
+/usr/bin/g++.exe -g -Wl,--enable-auto-import "CMakeFiles/3_p_1_expression.dir/3_stack&queue/problem_set/3_p_1_expression.cpp.o" -o 3_p_1_expression.exe -Wl,--out-implib,lib3_p_1_expression.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

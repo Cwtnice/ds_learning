@@ -1,0 +1,1 @@
+/usr/bin/g++.exe -g -Wl,--enable-auto-import CMakeFiles/6_6_kruskal.dir/6_graph/6_6_kruskal.cpp.o -o 6_6_kruskal.exe -Wl,--out-implib,lib6_6_kruskal.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

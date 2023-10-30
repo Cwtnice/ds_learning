@@ -1,0 +1,1 @@
+/usr/bin/g++.exe -g -Wl,--enable-auto-import "CMakeFiles/3_p_bracket_match.dir/3_stack&queue/problem_set/3_p_bracket_match.cpp.o" -o 3_p_bracket_match.exe -Wl,--out-implib,lib3_p_bracket_match.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
