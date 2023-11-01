@@ -28,8 +28,9 @@ void shell_sort(int a[], int n) {
             if (a[i] < a[i - dk]) {
                 a[0] = a[i];
 
+                // 找到插入的位置
                 for (j = i - dk; j > 0 && a[0] < a[j]; j -= dk) {
-                    a[j + dk] = a[j];
+                    a[j + dk] = a[j];   // 依次右移
                 }
 
                 // 插入

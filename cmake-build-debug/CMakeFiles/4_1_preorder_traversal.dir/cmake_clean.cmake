@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "4_1_preorder_traversal.exe"
   "4_1_preorder_traversal.pdb"
-  "CMakeFiles/4_1_preorder_traversal.dir/4_tree/4_1_preorder_traversal.cpp.o"
+  "CMakeFiles/4_1_preorder_traversal.dir/5_tree/4_1_preorder_traversal.cpp.o"
   "lib4_1_preorder_traversal.dll.a"
 )
 

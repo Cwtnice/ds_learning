@@ -1,1 +1,1 @@
-/usr/bin/g++.exe -g -Wl,--enable-auto-import CMakeFiles/6_7_dijkstra.dir/6_graph/6_7_dijkstra.cpp.o -o 6_7_dijkstra.exe -Wl,--out-implib,lib6_7_dijkstra.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+/usr/bin/g++.exe -g -Wl,--enable-auto-import CMakeFiles/6_7_Dijkstra.dir/6_graph/6_7_Dijkstra.cpp.o -o 6_7_Dijkstra.exe -Wl,--out-implib,lib6_7_Dijkstra.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

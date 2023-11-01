@@ -1,1 +1,1 @@
-/usr/bin/g++.exe -g -Wl,--enable-auto-import CMakeFiles/6_5_prim.dir/6_graph/6_5_prim.cpp.o -o 6_5_prim.exe -Wl,--out-implib,lib6_5_prim.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+/usr/bin/g++.exe -g -Wl,--enable-auto-import CMakeFiles/6_5_Prim.dir/6_graph/6_5_Prim.cpp.o -o 6_5_Prim.exe -Wl,--out-implib,lib6_5_Prim.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

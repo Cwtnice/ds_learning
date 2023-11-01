@@ -6,16 +6,16 @@
 #include<iostream>
 using namespace std;
 
-#define Max_Size 100
+#define MaxSize 100
 
 typedef char VerTexType;  // 假设顶点为字符型
 typedef int ArcType;    // 假设边的权值为整型
 
-bool visited[Max_Size];//定义标志数组
+bool visited[MaxSize];//定义标志数组
 
 typedef struct {
-    VerTexType vex_s[Max_Size];//顶点表
-    ArcType edge_s[Max_Size][Max_Size];//邻接矩阵
+    VerTexType vex_s[MaxSize];//顶点表
+    ArcType edge_s[MaxSize][MaxSize];//邻接矩阵
     int v_num, e_num;//图的当前点数和边数
 }AMGraph;
 

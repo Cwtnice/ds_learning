@@ -1,5 +1,6 @@
 /*
  * 快速排序
+ *
  * 属于交换类的排序
  * 基于分治, 关键在于划分, 一趟划分能确定pivot的位置(比它小的都在左边, 比它大的都在右边)
  * TODO 要多看看手动模拟便于理解
@@ -12,8 +13,10 @@ using namespace std;
 // 打印数组
 void print_array(int a[], int n) {
     for (int i = 1; i <= n; i++) {
-        if(i == 1) cout << a[i];
-        else cout << " " << a[i];
+        if(i == 1)
+            cout << a[i];
+        else
+            cout << " " << a[i];
     }
     cout << endl;
 }
@@ -37,7 +40,7 @@ int Partition(int a[], int low, int high) {
 }
 
 // 快速排序
-void quick_sort(int a[], int low, int high) {
+void quick_sort(int a[], int low, int high) {   /* NOLINT */
     if (low < high) {   // 递归出口
         // 枢轴的位置
         int pivot_pos = Partition(a, low, high);

@@ -76,27 +76,27 @@ include CMakeFiles/4_3_postorder_traversal.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/4_3_postorder_traversal.dir/flags.make
 
-CMakeFiles/4_3_postorder_traversal.dir/4_tree/4_3_postorder_traversal.cpp.o: CMakeFiles/4_3_postorder_traversal.dir/flags.make
-CMakeFiles/4_3_postorder_traversal.dir/4_tree/4_3_postorder_traversal.cpp.o: ../4_tree/4_3_postorder_traversal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/4_3_postorder_traversal.dir/4_tree/4_3_postorder_traversal.cpp.o"
-	/usr/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/4_3_postorder_traversal.dir/4_tree/4_3_postorder_traversal.cpp.o -c /cygdrive/c/Users/admin/CLionProjects/ds_learning/4_tree/4_3_postorder_traversal.cpp
+CMakeFiles/4_3_postorder_traversal.dir/5_tree/4_3_postorder_traversal.cpp.o: CMakeFiles/4_3_postorder_traversal.dir/flags.make
+CMakeFiles/4_3_postorder_traversal.dir/5_tree/4_3_postorder_traversal.cpp.o: ../5_tree/4_3_postorder_traversal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/4_3_postorder_traversal.dir/5_tree/4_3_postorder_traversal.cpp.o"
+	/usr/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/4_3_postorder_traversal.dir/5_tree/4_3_postorder_traversal.cpp.o -c /cygdrive/c/Users/admin/CLionProjects/ds_learning/5_tree/4_3_postorder_traversal.cpp
 
-CMakeFiles/4_3_postorder_traversal.dir/4_tree/4_3_postorder_traversal.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/4_3_postorder_traversal.dir/4_tree/4_3_postorder_traversal.cpp.i"
-	/usr/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/admin/CLionProjects/ds_learning/4_tree/4_3_postorder_traversal.cpp > CMakeFiles/4_3_postorder_traversal.dir/4_tree/4_3_postorder_traversal.cpp.i
+CMakeFiles/4_3_postorder_traversal.dir/5_tree/4_3_postorder_traversal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/4_3_postorder_traversal.dir/5_tree/4_3_postorder_traversal.cpp.i"
+	/usr/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/admin/CLionProjects/ds_learning/5_tree/4_3_postorder_traversal.cpp > CMakeFiles/4_3_postorder_traversal.dir/5_tree/4_3_postorder_traversal.cpp.i
 
-CMakeFiles/4_3_postorder_traversal.dir/4_tree/4_3_postorder_traversal.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4_3_postorder_traversal.dir/4_tree/4_3_postorder_traversal.cpp.s"
-	/usr/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/admin/CLionProjects/ds_learning/4_tree/4_3_postorder_traversal.cpp -o CMakeFiles/4_3_postorder_traversal.dir/4_tree/4_3_postorder_traversal.cpp.s
+CMakeFiles/4_3_postorder_traversal.dir/5_tree/4_3_postorder_traversal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4_3_postorder_traversal.dir/5_tree/4_3_postorder_traversal.cpp.s"
+	/usr/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/admin/CLionProjects/ds_learning/5_tree/4_3_postorder_traversal.cpp -o CMakeFiles/4_3_postorder_traversal.dir/5_tree/4_3_postorder_traversal.cpp.s
 
 # Object files for target 4_3_postorder_traversal
 4_3_postorder_traversal_OBJECTS = \
-"CMakeFiles/4_3_postorder_traversal.dir/4_tree/4_3_postorder_traversal.cpp.o"
+"CMakeFiles/4_3_postorder_traversal.dir/5_tree/4_3_postorder_traversal.cpp.o"
 
 # External object files for target 4_3_postorder_traversal
 4_3_postorder_traversal_EXTERNAL_OBJECTS =
 
-4_3_postorder_traversal.exe: CMakeFiles/4_3_postorder_traversal.dir/4_tree/4_3_postorder_traversal.cpp.o
+4_3_postorder_traversal.exe: CMakeFiles/4_3_postorder_traversal.dir/5_tree/4_3_postorder_traversal.cpp.o
 4_3_postorder_traversal.exe: CMakeFiles/4_3_postorder_traversal.dir/build.make
 4_3_postorder_traversal.exe: CMakeFiles/4_3_postorder_traversal.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 4_3_postorder_traversal.exe"

@@ -1,5 +1,6 @@
 /*
  * 冒泡排序
+ *
  * 属于交换类的排序
  * 一趟冒泡：从前往后（或从后往前）两两比价相邻元素, 如果是逆序就进行交换
  * 一趟冒泡效果：将未排序序列中最大的元素放到它的正确位置（加入已排序序列）, 已完成排序的元素不参与下一趟冒泡
@@ -9,12 +10,13 @@
 #include <iostream>
 using namespace std;
 
-
 // 打印数组
 void print_array(int a[], int n) {
     for (int i = 1; i <= n; i++) {
-        if(i == 1) cout << a[i];
-        else cout << " " << a[i];
+        if(i == 1)
+            cout << a[i];
+        else
+            cout << " " << a[i];
     }
     cout << endl;
 }
@@ -42,7 +44,6 @@ void bobble_sort(int a[], int n){
         }
     }
 }
-
 
 int main(){
     int a[11] = {0, 73, 22, 93, 43, 55, 14, 28, 65, 39, 81};

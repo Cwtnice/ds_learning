@@ -21,14 +21,14 @@ typedef struct ENode{
 }ENode;
 
 // 顶点表结点
-typedef struct VNode {
+typedef struct VNode{
     char data;
     ENode* first;
 }VNode;
 
 // 图
 typedef struct {
-    VNode AdjList[MAX]; // 定点表
+    VNode AdjList[MAX]; // 顶点表
     int v_num;
     int e_num;
 }ALGraph;
@@ -73,7 +73,6 @@ void adj_list_print(ALGraph G){
             if(p->next)
                 cout << "->";
         }
-
         cout << endl;
     }
 }

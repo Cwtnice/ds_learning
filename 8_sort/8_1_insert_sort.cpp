@@ -8,12 +8,13 @@
 #include <iostream>
 using namespace std;
 
-
 // 打印数组
 void print_array(int a[], int n) {
     for (int i = 1; i <= n; i++) {
-        if(i == 1) cout << a[i];
-        else cout << " " << a[i];
+        if(i == 1)
+            cout << a[i];
+        else
+            cout << " " << a[i];
     }
     cout << endl;
 }
@@ -40,7 +41,6 @@ void insert_sort(int a[], int n) {
 
 int main(){
     int a[11] = {0, 73, 22, 93, 43, 55, 14, 28, 65, 39, 81};
-
 
     puts("原始序列为：");
     print_array(a, 10);

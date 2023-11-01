@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/c/Users/admin/CLionProjects/ds_learning/6_graph/6_7_dijkstra.cpp" "/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles/6_7_dijkstra.dir/6_graph/6_7_dijkstra.cpp.o"
+  "/cygdrive/c/Users/admin/CLionProjects/ds_learning/6_graph/6_7_Dijkstra.cpp" "/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles/6_7_Dijkstra.dir/6_graph/6_7_Dijkstra.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -17,16 +17,6 @@
 					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="CMakeCXXCompilerId">
 				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeCXXCompilerId.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
@@ -64,6 +54,90 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 CMakeCXXCompilerId/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_p_2_quick_sort">
+				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/8_p_2_quick_sort.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_p_2_quick_sort"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_p_2_quick_sort/fast">
+				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/8_p_2_quick_sort.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_p_2_quick_sort/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_p_1_double_bubble_sort">
+				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/8_p_1_double_bubble_sort.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_p_1_double_bubble_sort"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_p_1_double_bubble_sort/fast">
+				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/8_p_1_double_bubble_sort.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_p_1_double_bubble_sort/fast"/>
 					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -148,6 +222,48 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_6_select_sort/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_p_0_quick_sort_2">
+				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/8_p_0_quick_sort_2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_p_0_quick_sort_2"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_p_0_quick_sort_2/fast">
+				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/8_p_0_quick_sort_2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_p_0_quick_sort_2/fast"/>
 					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -321,6 +437,100 @@
 					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_1_insert_sort">
+				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/8_1_insert_sort.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_1_insert_sort"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_1_insert_sort/fast">
+				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/8_1_insert_sort.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_1_insert_sort/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="6_9_topological_sort">
+				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/6_9_topological_sort.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 6_9_topological_sort"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="6_9_topological_sort/fast">
+				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/6_9_topological_sort.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 6_9_topological_sort/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="3_p_0_bracket_match">
 				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/3_p_0_bracket_match.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
@@ -405,90 +615,6 @@
 					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="8_7_heap_sort">
-				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/8_7_heap_sort.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_7_heap_sort"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="8_7_heap_sort/fast">
-				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/8_7_heap_sort.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_7_heap_sort/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="2_p_1_reverse_list">
-				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/2_p_1_reverse_list.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 2_p_1_reverse_list"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="2_p_1_reverse_list/fast">
-				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/2_p_1_reverse_list.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 2_p_1_reverse_list/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="6_3_BFS">
 				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/6_3_BFS.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
@@ -526,48 +652,6 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 6_3_BFS/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="6_4_DFS">
-				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/6_4_DFS.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 6_4_DFS"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="6_4_DFS/fast">
-				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/6_4_DFS.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 6_4_DFS/fast"/>
 					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -657,8 +741,8 @@
 					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="6_7_dijkstra">
-				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/6_7_dijkstra.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="8_7_heap_sort">
+				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/8_7_heap_sort.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -672,14 +756,14 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 6_7_dijkstra"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_7_heap_sort"/>
 					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="6_7_dijkstra/fast">
-				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/6_7_dijkstra.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="8_7_heap_sort/fast">
+				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/8_7_heap_sort.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -693,7 +777,133 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 6_7_dijkstra/fast"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_7_heap_sort/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2_p_1_reverse_list">
+				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/2_p_1_reverse_list.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 2_p_1_reverse_list"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2_p_1_reverse_list/fast">
+				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/2_p_1_reverse_list.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 2_p_1_reverse_list/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="6_8_Floyd">
+				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/6_8_Floyd.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 6_8_Floyd"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="6_8_Floyd/fast">
+				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/6_8_Floyd.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 6_8_Floyd/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="6_7_Dijkstra">
+				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/6_7_Dijkstra.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 6_7_Dijkstra"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="6_7_Dijkstra/fast">
+				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/6_7_Dijkstra.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 6_7_Dijkstra/fast"/>
 					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -825,6 +1035,48 @@
 					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="6_5_Prim">
+				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/6_5_Prim.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 6_5_Prim"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="6_5_Prim/fast">
+				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/6_5_Prim.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 6_5_Prim/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="4_3_postorder_traversal">
 				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/4_3_postorder_traversal.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
@@ -951,100 +1203,6 @@
 					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="8_1_insert_sort">
-				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/8_1_insert_sort.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_1_insert_sort"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="8_1_insert_sort/fast">
-				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/8_1_insert_sort.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_1_insert_sort/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="6_9_topological_sort">
-				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/6_9_topological_sort.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 6_9_topological_sort"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="6_9_topological_sort/fast">
-				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/6_9_topological_sort.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 6_9_topological_sort/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="8_9_radix_sort">
 				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/8_9_radix_sort.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
@@ -1124,48 +1282,6 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 2_3_double_link_list/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="6_8_floyd">
-				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/6_8_floyd.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 6_8_floyd"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="6_8_floyd/fast">
-				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/6_8_floyd.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 6_8_floyd/fast"/>
 					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1255,6 +1371,58 @@
 					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="4_5_heap">
+				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/4_5_heap.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 4_5_heap"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="4_5_heap/fast">
+				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/4_5_heap.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 4_5_heap/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="2_1_seq_list">
 				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/2_1_seq_list.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
@@ -1334,90 +1502,6 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 3_p_1_infix_expression/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="6_5_prim">
-				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/6_5_prim.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 6_5_prim"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="6_5_prim/fast">
-				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/6_5_prim.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 6_5_prim/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="6_6_kruskal">
-				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/6_6_kruskal.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 6_6_kruskal"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="6_6_kruskal/fast">
-				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/6_6_kruskal.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 6_6_kruskal/fast"/>
 					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1759,6 +1843,90 @@
 					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="6_4_DFS">
+				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/6_4_DFS.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 6_4_DFS"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="6_4_DFS/fast">
+				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/6_4_DFS.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 6_4_DFS/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="6_6_Kruskal">
+				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/6_6_Kruskal.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 6_6_Kruskal"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="6_6_Kruskal/fast">
+				<Option output="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/6_6_Kruskal.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 6_6_Kruskal/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/cygdrive/c/Users/admin/CLionProjects/ds_learning/0_test.cpp">
 			<Option target="0_test"/>
@@ -1808,17 +1976,20 @@
 		<Unit filename="/cygdrive/c/Users/admin/CLionProjects/ds_learning/3_stack&amp;queue/problem_set/3_p_3_postfix_expression.cpp">
 			<Option target="3_p_3_postfix_expression"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/admin/CLionProjects/ds_learning/4_tree/4_1_preorder_traversal.cpp">
+		<Unit filename="/cygdrive/c/Users/admin/CLionProjects/ds_learning/5_tree/4_1_preorder_traversal.cpp">
 			<Option target="4_1_preorder_traversal"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/admin/CLionProjects/ds_learning/4_tree/4_2_inorder_traversal.cpp">
+		<Unit filename="/cygdrive/c/Users/admin/CLionProjects/ds_learning/5_tree/4_2_inorder_traversal.cpp">
 			<Option target="4_2_inorder_traversal"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/admin/CLionProjects/ds_learning/4_tree/4_3_postorder_traversal.cpp">
+		<Unit filename="/cygdrive/c/Users/admin/CLionProjects/ds_learning/5_tree/4_3_postorder_traversal.cpp">
 			<Option target="4_3_postorder_traversal"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/admin/CLionProjects/ds_learning/4_tree/4_4_levelorder_traversal.cpp">
+		<Unit filename="/cygdrive/c/Users/admin/CLionProjects/ds_learning/5_tree/4_4_levelorder_traversal.cpp">
 			<Option target="4_4_levelorder_traversal"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/admin/CLionProjects/ds_learning/5_tree/4_5_heap.cpp">
+			<Option target="4_5_heap"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/admin/CLionProjects/ds_learning/6_graph/6_1_adj_matrix.cpp">
 			<Option target="6_1_adj_matrix"/>
@@ -1832,17 +2003,17 @@
 		<Unit filename="/cygdrive/c/Users/admin/CLionProjects/ds_learning/6_graph/6_4_DFS.cpp">
 			<Option target="6_4_DFS"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/admin/CLionProjects/ds_learning/6_graph/6_5_prim.cpp">
-			<Option target="6_5_prim"/>
+		<Unit filename="/cygdrive/c/Users/admin/CLionProjects/ds_learning/6_graph/6_5_Prim.cpp">
+			<Option target="6_5_Prim"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/admin/CLionProjects/ds_learning/6_graph/6_6_kruskal.cpp">
-			<Option target="6_6_kruskal"/>
+		<Unit filename="/cygdrive/c/Users/admin/CLionProjects/ds_learning/6_graph/6_6_Kruskal.cpp">
+			<Option target="6_6_Kruskal"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/admin/CLionProjects/ds_learning/6_graph/6_7_dijkstra.cpp">
-			<Option target="6_7_dijkstra"/>
+		<Unit filename="/cygdrive/c/Users/admin/CLionProjects/ds_learning/6_graph/6_7_Dijkstra.cpp">
+			<Option target="6_7_Dijkstra"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/admin/CLionProjects/ds_learning/6_graph/6_8_floyd.cpp">
-			<Option target="6_8_floyd"/>
+		<Unit filename="/cygdrive/c/Users/admin/CLionProjects/ds_learning/6_graph/6_8_Floyd.cpp">
+			<Option target="6_8_Floyd"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/admin/CLionProjects/ds_learning/6_graph/6_9_topological_sort.cpp">
 			<Option target="6_9_topological_sort"/>
@@ -1879,6 +2050,15 @@
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/admin/CLionProjects/ds_learning/8_sort/8_9_radix_sort.cpp">
 			<Option target="8_9_radix_sort"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/admin/CLionProjects/ds_learning/8_sort/problem_set/8_p_0_quick_sort_2.cpp">
+			<Option target="8_p_0_quick_sort_2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/admin/CLionProjects/ds_learning/8_sort/problem_set/8_p_1_double_bubble_sort.cpp">
+			<Option target="8_p_1_double_bubble_sort"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/admin/CLionProjects/ds_learning/8_sort/problem_set/8_p_2_quick_sort.cpp">
+			<Option target="8_p_2_quick_sort"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp">
 			<Option target="CMakeCXXCompilerId"/>

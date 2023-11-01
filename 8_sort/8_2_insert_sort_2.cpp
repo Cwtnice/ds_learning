@@ -1,5 +1,6 @@
 /*
  * 二分插入排序
+ *
  * 和直接插的区别就是在找位置这一步, 从顺序查找变为二分查找
  *
  *
@@ -8,7 +9,6 @@
 
 #include <iostream>
 using namespace std;
-
 
 // 打印数组
 void print_array(int a[], int n) {
@@ -21,6 +21,7 @@ void print_array(int a[], int n) {
 
 // 折半插入排序
 void insert_sort_2(int a[], int n) {
+    // 从第二位开始
     for (int i = 2, j; i <= n; i++) {
         if (a[i] < a[i - 1]) {
             a[0] = a[i];    // 暂存a[i]
@@ -36,10 +37,12 @@ void insert_sort_2(int a[], int n) {
                 }
             }
 
+            // 依次右移
             for (j = i - 1; j >= high + 1; --j) {
                 a[j + 1] = a[j];
             }
 
+            // 插入
             a[high + 1] = a[0];
         }
     }

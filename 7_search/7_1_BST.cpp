@@ -19,7 +19,7 @@ typedef struct BSTNode{
 }BSTNode, *BSTree;
 
 // BST插入
-BSTree BST_insert(BSTree &t, int k){
+BSTree BST_insert(BSTree &t, int k){    /* NOLINT */
     // 原树为空 k将新建结点并作为根
     if(t == nullptr){
         t = (BSTree)malloc(sizeof(BSTNode));
@@ -46,7 +46,7 @@ void BST_create(BSTree &t, int a[], int n){
 }
 
 // BST查找 递归
-BSTree BST_search(BSTree t, int key){
+BSTree BST_search(BSTree t, int key){   /* NOLINT */
     if(t == nullptr)
         return nullptr;
 

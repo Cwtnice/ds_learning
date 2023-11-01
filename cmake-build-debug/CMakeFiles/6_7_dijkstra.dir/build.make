@@ -68,50 +68,50 @@ CMAKE_SOURCE_DIR = /cygdrive/c/Users/admin/CLionProjects/ds_learning
 CMAKE_BINARY_DIR = /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include CMakeFiles/6_7_dijkstra.dir/depend.make
+include CMakeFiles/6_7_Dijkstra.dir/depend.make
 
 # Include the progress variables for this target.
-include CMakeFiles/6_7_dijkstra.dir/progress.make
+include CMakeFiles/6_7_Dijkstra.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include CMakeFiles/6_7_dijkstra.dir/flags.make
+include CMakeFiles/6_7_Dijkstra.dir/flags.make
 
-CMakeFiles/6_7_dijkstra.dir/6_graph/6_7_dijkstra.cpp.o: CMakeFiles/6_7_dijkstra.dir/flags.make
-CMakeFiles/6_7_dijkstra.dir/6_graph/6_7_dijkstra.cpp.o: ../6_graph/6_7_dijkstra.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/6_7_dijkstra.dir/6_graph/6_7_dijkstra.cpp.o"
-	/usr/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/6_7_dijkstra.dir/6_graph/6_7_dijkstra.cpp.o -c /cygdrive/c/Users/admin/CLionProjects/ds_learning/6_graph/6_7_dijkstra.cpp
+CMakeFiles/6_7_Dijkstra.dir/6_graph/6_7_Dijkstra.cpp.o: CMakeFiles/6_7_Dijkstra.dir/flags.make
+CMakeFiles/6_7_Dijkstra.dir/6_graph/6_7_Dijkstra.cpp.o: ../6_graph/6_7_Dijkstra.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/6_7_Dijkstra.dir/6_graph/6_7_Dijkstra.cpp.o"
+	/usr/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/6_7_Dijkstra.dir/6_graph/6_7_Dijkstra.cpp.o -c /cygdrive/c/Users/admin/CLionProjects/ds_learning/6_graph/6_7_Dijkstra.cpp
 
-CMakeFiles/6_7_dijkstra.dir/6_graph/6_7_dijkstra.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/6_7_dijkstra.dir/6_graph/6_7_dijkstra.cpp.i"
-	/usr/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/admin/CLionProjects/ds_learning/6_graph/6_7_dijkstra.cpp > CMakeFiles/6_7_dijkstra.dir/6_graph/6_7_dijkstra.cpp.i
+CMakeFiles/6_7_Dijkstra.dir/6_graph/6_7_Dijkstra.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/6_7_Dijkstra.dir/6_graph/6_7_Dijkstra.cpp.i"
+	/usr/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/admin/CLionProjects/ds_learning/6_graph/6_7_Dijkstra.cpp > CMakeFiles/6_7_Dijkstra.dir/6_graph/6_7_Dijkstra.cpp.i
 
-CMakeFiles/6_7_dijkstra.dir/6_graph/6_7_dijkstra.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/6_7_dijkstra.dir/6_graph/6_7_dijkstra.cpp.s"
-	/usr/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/admin/CLionProjects/ds_learning/6_graph/6_7_dijkstra.cpp -o CMakeFiles/6_7_dijkstra.dir/6_graph/6_7_dijkstra.cpp.s
+CMakeFiles/6_7_Dijkstra.dir/6_graph/6_7_Dijkstra.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/6_7_Dijkstra.dir/6_graph/6_7_Dijkstra.cpp.s"
+	/usr/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/admin/CLionProjects/ds_learning/6_graph/6_7_Dijkstra.cpp -o CMakeFiles/6_7_Dijkstra.dir/6_graph/6_7_Dijkstra.cpp.s
 
-# Object files for target 6_7_dijkstra
-6_7_dijkstra_OBJECTS = \
-"CMakeFiles/6_7_dijkstra.dir/6_graph/6_7_dijkstra.cpp.o"
+# Object files for target 6_7_Dijkstra
+6_7_Dijkstra_OBJECTS = \
+"CMakeFiles/6_7_Dijkstra.dir/6_graph/6_7_Dijkstra.cpp.o"
 
-# External object files for target 6_7_dijkstra
-6_7_dijkstra_EXTERNAL_OBJECTS =
+# External object files for target 6_7_Dijkstra
+6_7_Dijkstra_EXTERNAL_OBJECTS =
 
-6_7_dijkstra.exe: CMakeFiles/6_7_dijkstra.dir/6_graph/6_7_dijkstra.cpp.o
-6_7_dijkstra.exe: CMakeFiles/6_7_dijkstra.dir/build.make
-6_7_dijkstra.exe: CMakeFiles/6_7_dijkstra.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 6_7_dijkstra.exe"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/6_7_dijkstra.dir/link.txt --verbose=$(VERBOSE)
+6_7_Dijkstra.exe: CMakeFiles/6_7_Dijkstra.dir/6_graph/6_7_Dijkstra.cpp.o
+6_7_Dijkstra.exe: CMakeFiles/6_7_Dijkstra.dir/build.make
+6_7_Dijkstra.exe: CMakeFiles/6_7_Dijkstra.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 6_7_Dijkstra.exe"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/6_7_Dijkstra.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/6_7_dijkstra.dir/build: 6_7_dijkstra.exe
+CMakeFiles/6_7_Dijkstra.dir/build: 6_7_Dijkstra.exe
 
-.PHONY : CMakeFiles/6_7_dijkstra.dir/build
+.PHONY : CMakeFiles/6_7_Dijkstra.dir/build
 
-CMakeFiles/6_7_dijkstra.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles/6_7_dijkstra.dir/cmake_clean.cmake
-.PHONY : CMakeFiles/6_7_dijkstra.dir/clean
+CMakeFiles/6_7_Dijkstra.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles/6_7_Dijkstra.dir/cmake_clean.cmake
+.PHONY : CMakeFiles/6_7_Dijkstra.dir/clean
 
-CMakeFiles/6_7_dijkstra.dir/depend:
-	cd /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/admin/CLionProjects/ds_learning /cygdrive/c/Users/admin/CLionProjects/ds_learning /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles/6_7_dijkstra.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/6_7_dijkstra.dir/depend
+CMakeFiles/6_7_Dijkstra.dir/depend:
+	cd /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/admin/CLionProjects/ds_learning /cygdrive/c/Users/admin/CLionProjects/ds_learning /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles/6_7_Dijkstra.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : CMakeFiles/6_7_Dijkstra.dir/depend
 

@@ -68,50 +68,50 @@ CMAKE_SOURCE_DIR = /cygdrive/c/Users/admin/CLionProjects/ds_learning
 CMAKE_BINARY_DIR = /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include CMakeFiles/6_6_kruskal.dir/depend.make
+include CMakeFiles/6_6_Kruskal.dir/depend.make
 
 # Include the progress variables for this target.
-include CMakeFiles/6_6_kruskal.dir/progress.make
+include CMakeFiles/6_6_Kruskal.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include CMakeFiles/6_6_kruskal.dir/flags.make
+include CMakeFiles/6_6_Kruskal.dir/flags.make
 
-CMakeFiles/6_6_kruskal.dir/6_graph/6_6_kruskal.cpp.o: CMakeFiles/6_6_kruskal.dir/flags.make
-CMakeFiles/6_6_kruskal.dir/6_graph/6_6_kruskal.cpp.o: ../6_graph/6_6_kruskal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/6_6_kruskal.dir/6_graph/6_6_kruskal.cpp.o"
-	/usr/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/6_6_kruskal.dir/6_graph/6_6_kruskal.cpp.o -c /cygdrive/c/Users/admin/CLionProjects/ds_learning/6_graph/6_6_kruskal.cpp
+CMakeFiles/6_6_Kruskal.dir/6_graph/6_6_Kruskal.cpp.o: CMakeFiles/6_6_Kruskal.dir/flags.make
+CMakeFiles/6_6_Kruskal.dir/6_graph/6_6_Kruskal.cpp.o: ../6_graph/6_6_Kruskal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/6_6_Kruskal.dir/6_graph/6_6_Kruskal.cpp.o"
+	/usr/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/6_6_Kruskal.dir/6_graph/6_6_Kruskal.cpp.o -c /cygdrive/c/Users/admin/CLionProjects/ds_learning/6_graph/6_6_Kruskal.cpp
 
-CMakeFiles/6_6_kruskal.dir/6_graph/6_6_kruskal.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/6_6_kruskal.dir/6_graph/6_6_kruskal.cpp.i"
-	/usr/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/admin/CLionProjects/ds_learning/6_graph/6_6_kruskal.cpp > CMakeFiles/6_6_kruskal.dir/6_graph/6_6_kruskal.cpp.i
+CMakeFiles/6_6_Kruskal.dir/6_graph/6_6_Kruskal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/6_6_Kruskal.dir/6_graph/6_6_Kruskal.cpp.i"
+	/usr/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/admin/CLionProjects/ds_learning/6_graph/6_6_Kruskal.cpp > CMakeFiles/6_6_Kruskal.dir/6_graph/6_6_Kruskal.cpp.i
 
-CMakeFiles/6_6_kruskal.dir/6_graph/6_6_kruskal.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/6_6_kruskal.dir/6_graph/6_6_kruskal.cpp.s"
-	/usr/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/admin/CLionProjects/ds_learning/6_graph/6_6_kruskal.cpp -o CMakeFiles/6_6_kruskal.dir/6_graph/6_6_kruskal.cpp.s
+CMakeFiles/6_6_Kruskal.dir/6_graph/6_6_Kruskal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/6_6_Kruskal.dir/6_graph/6_6_Kruskal.cpp.s"
+	/usr/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/admin/CLionProjects/ds_learning/6_graph/6_6_Kruskal.cpp -o CMakeFiles/6_6_Kruskal.dir/6_graph/6_6_Kruskal.cpp.s
 
-# Object files for target 6_6_kruskal
-6_6_kruskal_OBJECTS = \
-"CMakeFiles/6_6_kruskal.dir/6_graph/6_6_kruskal.cpp.o"
+# Object files for target 6_6_Kruskal
+6_6_Kruskal_OBJECTS = \
+"CMakeFiles/6_6_Kruskal.dir/6_graph/6_6_Kruskal.cpp.o"
 
-# External object files for target 6_6_kruskal
-6_6_kruskal_EXTERNAL_OBJECTS =
+# External object files for target 6_6_Kruskal
+6_6_Kruskal_EXTERNAL_OBJECTS =
 
-6_6_kruskal.exe: CMakeFiles/6_6_kruskal.dir/6_graph/6_6_kruskal.cpp.o
-6_6_kruskal.exe: CMakeFiles/6_6_kruskal.dir/build.make
-6_6_kruskal.exe: CMakeFiles/6_6_kruskal.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 6_6_kruskal.exe"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/6_6_kruskal.dir/link.txt --verbose=$(VERBOSE)
+6_6_Kruskal.exe: CMakeFiles/6_6_Kruskal.dir/6_graph/6_6_Kruskal.cpp.o
+6_6_Kruskal.exe: CMakeFiles/6_6_Kruskal.dir/build.make
+6_6_Kruskal.exe: CMakeFiles/6_6_Kruskal.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 6_6_Kruskal.exe"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/6_6_Kruskal.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/6_6_kruskal.dir/build: 6_6_kruskal.exe
+CMakeFiles/6_6_Kruskal.dir/build: 6_6_Kruskal.exe
 
-.PHONY : CMakeFiles/6_6_kruskal.dir/build
+.PHONY : CMakeFiles/6_6_Kruskal.dir/build
 
-CMakeFiles/6_6_kruskal.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles/6_6_kruskal.dir/cmake_clean.cmake
-.PHONY : CMakeFiles/6_6_kruskal.dir/clean
+CMakeFiles/6_6_Kruskal.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles/6_6_Kruskal.dir/cmake_clean.cmake
+.PHONY : CMakeFiles/6_6_Kruskal.dir/clean
 
-CMakeFiles/6_6_kruskal.dir/depend:
-	cd /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/admin/CLionProjects/ds_learning /cygdrive/c/Users/admin/CLionProjects/ds_learning /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles/6_6_kruskal.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/6_6_kruskal.dir/depend
+CMakeFiles/6_6_Kruskal.dir/depend:
+	cd /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/admin/CLionProjects/ds_learning /cygdrive/c/Users/admin/CLionProjects/ds_learning /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles/6_6_Kruskal.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : CMakeFiles/6_6_Kruskal.dir/depend
 

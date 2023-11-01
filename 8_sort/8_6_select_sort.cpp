@@ -1,5 +1,6 @@
 /*
  * 简单选择排序
+ *
  * 属于选择类的排序
  * 描述：每次从未排序序列中选择最小的元素和未排序序列的第一个元素交换
  * 每趟排序使得一个元素确定其最终位置, 进行n-1趟后完成排序
@@ -9,12 +10,13 @@
 #include <iostream>
 using namespace std;
 
-
 // 打印数组
 void print_array(int a[], int n) {
     for (int i = 1; i <= n; i++) {
-        if(i == 1) cout << a[i];
-        else cout << " " << a[i];
+        if(i == 1)
+            cout << a[i];
+        else
+            cout << " " << a[i];
     }
     cout << endl;
 }

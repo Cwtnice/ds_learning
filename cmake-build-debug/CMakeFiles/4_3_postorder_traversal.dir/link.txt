@@ -1,1 +1,1 @@
-/usr/bin/g++.exe -g -Wl,--enable-auto-import CMakeFiles/4_3_postorder_traversal.dir/4_tree/4_3_postorder_traversal.cpp.o -o 4_3_postorder_traversal.exe -Wl,--out-implib,lib4_3_postorder_traversal.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+/usr/bin/g++.exe -g -Wl,--enable-auto-import CMakeFiles/4_3_postorder_traversal.dir/5_tree/4_3_postorder_traversal.cpp.o -o 4_3_postorder_traversal.exe -Wl,--out-implib,lib4_3_postorder_traversal.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

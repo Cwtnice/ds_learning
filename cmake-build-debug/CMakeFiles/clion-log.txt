@@ -19,14 +19,15 @@ C:\Users\admin\AppData\Local\JetBrains\CLion2021.1\cygwin_cmake\bin\cmake.exe -D
     -- src/4_2_inorder_traversal.cpp will be compiled to bin/4_2_inorder_traversal
     -- src/4_3_postorder_traversal.cpp will be compiled to bin/4_3_postorder_traversal
     -- src/4_4_levelorder_traversal.cpp will be compiled to bin/4_4_levelorder_traversal
+    -- src/4_5_heap.cpp will be compiled to bin/4_5_heap
     -- src/6_1_adj_matrix.cpp will be compiled to bin/6_1_adj_matrix
     -- src/6_2_adj_list.cpp will be compiled to bin/6_2_adj_list
     -- src/6_3_BFS.cpp will be compiled to bin/6_3_BFS
     -- src/6_4_DFS.cpp will be compiled to bin/6_4_DFS
-    -- src/6_5_prim.cpp will be compiled to bin/6_5_prim
-    -- src/6_6_kruskal.cpp will be compiled to bin/6_6_kruskal
-    -- src/6_7_dijkstra.cpp will be compiled to bin/6_7_dijkstra
-    -- src/6_8_floyd.cpp will be compiled to bin/6_8_floyd
+    -- src/6_5_Prim.cpp will be compiled to bin/6_5_Prim
+    -- src/6_6_Kruskal.cpp will be compiled to bin/6_6_Kruskal
+    -- src/6_7_Dijkstra.cpp will be compiled to bin/6_7_Dijkstra
+    -- src/6_8_Floyd.cpp will be compiled to bin/6_8_Floyd
     -- src/6_9_topological_sort.cpp will be compiled to bin/6_9_topological_sort
     -- src/7_1_BST.cpp will be compiled to bin/7_1_BST
     -- src/7_2_AVL.cpp will be compiled to bin/7_2_AVL
@@ -39,6 +40,9 @@ C:\Users\admin\AppData\Local\JetBrains\CLion2021.1\cygwin_cmake\bin\cmake.exe -D
     -- src/8_7_heap_sort.cpp will be compiled to bin/8_7_heap_sort
     -- src/8_8_merge_sort.cpp will be compiled to bin/8_8_merge_sort
     -- src/8_9_radix_sort.cpp will be compiled to bin/8_9_radix_sort
+    -- src/8_p_0_quick_sort_2.cpp will be compiled to bin/8_p_0_quick_sort_2
+    -- src/8_p_1_double_bubble_sort.cpp will be compiled to bin/8_p_1_double_bubble_sort
+    -- src/8_p_2_quick_sort.cpp will be compiled to bin/8_p_2_quick_sort
     -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
 -- Configuring done
 -- Generating done
