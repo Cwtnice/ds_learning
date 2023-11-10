@@ -1,0 +1,1 @@
+/usr/bin/g++.exe -g -Wl,--enable-auto-import CMakeFiles/8_p_2_quick_select.dir/8_sort/problem_set/8_p_2_quick_select.cpp.o -o 8_p_2_quick_select.exe -Wl,--out-implib,lib8_p_2_quick_select.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

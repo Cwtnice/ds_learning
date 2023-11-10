@@ -1,0 +1,1 @@
+/usr/bin/g++.exe -g -Wl,--enable-auto-import CMakeFiles/2_p_2_merge_two_sorted_list.dir/2_list/problem_set/2_p_2_merge_two_sorted_list.cpp.o -o 2_p_2_merge_two_sorted_list.exe -Wl,--out-implib,lib2_p_2_merge_two_sorted_list.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

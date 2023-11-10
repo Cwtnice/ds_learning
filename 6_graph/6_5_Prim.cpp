@@ -14,12 +14,11 @@ using namespace std;
 #define MaxSize 100
 const int INF = 0x3f3f3f;
 
-
 int dist[MaxSize];  // 记录顶点到集合的最短距离
 int pre[MaxSize];   // 记录顶点的前驱结点
 bool st[MaxSize];   // 记录顶点是否在集合中
 
-// 图的结构体
+// 图 采用邻接矩阵
 typedef struct {
     char vex_s[MaxSize]; // 顶点表
     int edge_s[MaxSize][MaxSize];   // 邻接矩阵
@@ -66,8 +65,11 @@ void adj_matrix_create(AMGraph& G) {
 }
 
 // 最小生成树 prim算法 以u为起点
-void prim(AMGraph &G, int u){
+void Prim(AMGraph &G, int u){
+    st[0] = true;   // 从u开始查找
+    for(int i = 0; i <= G.v_num; i++){
 
+    }
 
 }
 
@@ -78,7 +80,7 @@ int main(){
 
     puts("");
     puts("采用prim算法求最小生成树:");
-    prim(G, 0);
+    Prim(G, 0);
 
     return 0;
 }

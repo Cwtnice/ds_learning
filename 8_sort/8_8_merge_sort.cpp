@@ -1,5 +1,6 @@
 /*
  * 二路归并排序
+ *
  * 是基于比较的排序
  * 将2个有序表组合成一个新的有序表，也是基于分治的
  *
@@ -9,12 +10,13 @@
 #include <iostream>
 using namespace std;
 
-
 // 打印数组
 void print_array(int a[], int n) {
     for (int i = 1; i <= n; i++) {
-        if(i == 1) cout << a[i];
-        else cout << " " << a[i];
+        if(i == 1)
+            cout << a[i];
+        else
+            cout << " " << a[i];
     }
     cout << endl;
 }
@@ -23,7 +25,7 @@ void print_array(int a[], int n) {
 int tmp[11];
 
 // 二路归并排序
-void merge_sort(int a[], int l, int r) {
+void merge_sort(int a[], int l, int r) {    /* NOLINT */
     // 递归出口
     if (l >= r) return;
 

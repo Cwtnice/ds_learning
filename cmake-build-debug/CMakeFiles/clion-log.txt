@@ -6,6 +6,7 @@ C:\Users\admin\AppData\Local\JetBrains\CLion2021.1\cygwin_cmake\bin\cmake.exe -D
     -- src/2_4_cyclic_link_list.cpp will be compiled to bin/2_4_cyclic_link_list
     -- src/2_5_static_link_list.cpp will be compiled to bin/2_5_static_link_list
     -- src/2_p_1_reverse_list.cpp will be compiled to bin/2_p_1_reverse_list
+    -- src/2_p_2_merge_two_sorted_list.cpp will be compiled to bin/2_p_2_merge_two_sorted_list
     -- src/3_1_seq_stack.cpp will be compiled to bin/3_1_seq_stack
     -- src/3_2_link_stack.cpp will be compiled to bin/3_2_link_stack
     -- src/3_3_seq_queue.cpp will be compiled to bin/3_3_seq_queue
@@ -20,6 +21,7 @@ C:\Users\admin\AppData\Local\JetBrains\CLion2021.1\cygwin_cmake\bin\cmake.exe -D
     -- src/4_3_postorder_traversal.cpp will be compiled to bin/4_3_postorder_traversal
     -- src/4_4_levelorder_traversal.cpp will be compiled to bin/4_4_levelorder_traversal
     -- src/4_5_heap.cpp will be compiled to bin/4_5_heap
+    -- src/4_p_1_LCA.cpp will be compiled to bin/4_p_1_LCA
     -- src/6_1_adj_matrix.cpp will be compiled to bin/6_1_adj_matrix
     -- src/6_2_adj_list.cpp will be compiled to bin/6_2_adj_list
     -- src/6_3_BFS.cpp will be compiled to bin/6_3_BFS
@@ -42,7 +44,8 @@ C:\Users\admin\AppData\Local\JetBrains\CLion2021.1\cygwin_cmake\bin\cmake.exe -D
     -- src/8_9_radix_sort.cpp will be compiled to bin/8_9_radix_sort
     -- src/8_p_0_quick_sort_2.cpp will be compiled to bin/8_p_0_quick_sort_2
     -- src/8_p_1_double_bubble_sort.cpp will be compiled to bin/8_p_1_double_bubble_sort
-    -- src/8_p_2_quick_sort.cpp will be compiled to bin/8_p_2_quick_sort
+    -- src/8_p_2_quick_select.cpp will be compiled to bin/8_p_2_quick_select
+    -- src/8_p_3_count_sort.cpp will be compiled to bin/8_p_3_count_sort
     -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
 -- Configuring done
 -- Generating done
