@@ -9,6 +9,7 @@
  */
 
 #include <iostream>
+#include <queue>
 using namespace std;
 
 // BST结点
@@ -17,6 +18,8 @@ typedef struct BSTNode{
     BSTNode *l; // 左孩子
     BSTNode *r;
 }BSTNode, *BSTree;
+
+vector<int> ans;
 
 // BST插入
 BSTree BST_insert(BSTree &t, int k){    /* NOLINT */
@@ -70,15 +73,72 @@ BSTree BST_search_2(BSTree t, int key) {
     return t;
 }
 
-// BST删除结点 采用右子树中最小元素代替策略
-BSTree BST_delete(BSTree t, int key){
+// 层序遍历 用队列
+void level_order_traversal(BSTNode* root){
+    queue<BSTNode*> q;
+    q.push(root);
 
+    // 只要队不为空
+    while(!q.empty()){
+        auto p = q.front();
+        q.pop();
+        ans.push_back(p->val);
+
+        // 如果左右孩子不为空 按顺序入队
+        if(p->l) q.push(p->l);
+        if(p->r) q.push(p->r);
+    }
 }
+
+int calDepth(BSTNode* root) {
+    int h = 0;
+    if (root->l) {
+        h = max(h, calDepth(root->l) + 1);
+    }
+    if (root->r) {
+        h = max(h, calDepth(root->r) + 1);
+    }
+    return h;
+}
+
+void dfs(vector<vector<string>>& res, BSTNode* root, int r, int c, const int& height) {
+    res[r][c] = to_string(root->val);
+    if (root->l) {
+        dfs(res, root->l, r + 1, c - (1 << (height - r - 1)), height);
+    }
+    if (root->r) {
+        dfs(res, root->r, r + 1, c + (1 << (height - r - 1)), height);
+    }
+}
+
+// 打印二叉树
+vector<vector<string>> printTree(BSTNode* root) {
+    int height = calDepth(root);
+    int m = height + 1;
+    int n = (1 << (height + 1)) - 1;
+    vector<vector<string>> res(m, vector<string>(n, ""));
+    dfs(res, root, 0, (n - 1) / 2, height);
+    return res;
+}
+
+
 
 int main(){
     int a[] = {10, 5, 2, 3, 8, 4, 6, 1, 7, 9};
     BSTree t;
     BST_create(t, a, 10);
+
+    auto tree = printTree(t);
+    for(auto i : tree){
+        for(auto j : i){
+            if(j == "") cout << "-";
+            else cout << j;
+        }
+        cout << endl;
+    }
+
+
+
 
 
     return 0;

@@ -43,18 +43,21 @@ void link_list_create_tail(LinkList &L, int x){
 }
 
 // 反转链表 递归
-LinkList reverse_list(LinkList head){
+LinkList reverse_list(LinkList head){   /* NOLINT */
     if(!head || !head->next)
         return head;
 
+    // 返回的是后面部分新的头结点（原先链表的最后结点）
     auto tail = reverse_list(head->next);
+
+    // 看做head之后的结点都已实现反转
     head->next->next = head;
     head->next = nullptr;
 
     return tail;
 }
 
-// 反转链表 非递归
+// 反转链表 非递归(迭代思想, 循环实现)
 LinkList reverse_list_2(LinkList head){
     if(!head || !head->next)
         return head;
@@ -87,7 +90,8 @@ int main(){
     link_list_print(head);
 
     printf("非递归反转链表：");
-    link_list_print(reverse_list_2(head));
+    auto new_head = reverse_list_2(head);
+    link_list_print(new_head);
 
     return 0;
 }

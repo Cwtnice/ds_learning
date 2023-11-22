@@ -112,8 +112,8 @@ void topological_sort(ALGraph &G){
         ans += G.AdjList[t].data;
         counts++;
 
+        // 去掉该结点后, 更新该结点到达的其余结点的入度
         auto p = G.AdjList[t].first;  //让p指向入度为0的第一个节点
-
         while(p){
             int v = p->adjvex;
             if(--in[v] == 0 )
@@ -122,6 +122,7 @@ void topological_sort(ALGraph &G){
         }
     }
 
+    // 特判 是否有环
     if(counts < G.v_num)
         ans = "图中有环, 不存在拓扑排序序列！";
 

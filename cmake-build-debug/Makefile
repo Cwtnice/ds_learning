@@ -130,6 +130,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 8_p_4_double_select_sort
+
+# Build rule for target.
+8_p_4_double_select_sort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 8_p_4_double_select_sort
+.PHONY : 8_p_4_double_select_sort
+
+# fast build rule for target.
+8_p_4_double_select_sort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_p_4_double_select_sort.dir/build.make CMakeFiles/8_p_4_double_select_sort.dir/build
+.PHONY : 8_p_4_double_select_sort/fast
+
+#=============================================================================
 # Target rules for targets named CMakeCXXCompilerId
 
 # Build rule for target.
@@ -193,19 +206,6 @@ CMakeCXXCompilerId/fast:
 8_8_merge_sort/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_8_merge_sort.dir/build.make CMakeFiles/8_8_merge_sort.dir/build
 .PHONY : 8_8_merge_sort/fast
-
-#=============================================================================
-# Target rules for targets named 8_6_select_sort
-
-# Build rule for target.
-8_6_select_sort: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 8_6_select_sort
-.PHONY : 8_6_select_sort
-
-# fast build rule for target.
-8_6_select_sort/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_6_select_sort.dir/build.make CMakeFiles/8_6_select_sort.dir/build
-.PHONY : 8_6_select_sort/fast
 
 #=============================================================================
 # Target rules for targets named 8_p_0_quick_sort_2
@@ -273,6 +273,19 @@ CMakeCXXCompilerId/fast:
 .PHONY : 8_2_insert_sort_2/fast
 
 #=============================================================================
+# Target rules for targets named 7_p_2_find_large_than_x_from_BST
+
+# Build rule for target.
+7_p_2_find_large_than_x_from_BST: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 7_p_2_find_large_than_x_from_BST
+.PHONY : 7_p_2_find_large_than_x_from_BST
+
+# fast build rule for target.
+7_p_2_find_large_than_x_from_BST/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_p_2_find_large_than_x_from_BST.dir/build.make CMakeFiles/7_p_2_find_large_than_x_from_BST.dir/build
+.PHONY : 7_p_2_find_large_than_x_from_BST/fast
+
+#=============================================================================
 # Target rules for targets named 8_1_insert_sort
 
 # Build rule for target.
@@ -312,17 +325,30 @@ CMakeCXXCompilerId/fast:
 .PHONY : 6_7_Dijkstra/fast
 
 #=============================================================================
-# Target rules for targets named 3_5_circular_queue
+# Target rules for targets named 7_1_BST
 
 # Build rule for target.
-3_5_circular_queue: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3_5_circular_queue
-.PHONY : 3_5_circular_queue
+7_1_BST: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 7_1_BST
+.PHONY : 7_1_BST
 
 # fast build rule for target.
-3_5_circular_queue/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_5_circular_queue.dir/build.make CMakeFiles/3_5_circular_queue.dir/build
-.PHONY : 3_5_circular_queue/fast
+7_1_BST/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_1_BST.dir/build.make CMakeFiles/7_1_BST.dir/build
+.PHONY : 7_1_BST/fast
+
+#=============================================================================
+# Target rules for targets named 3_4_link_queue
+
+# Build rule for target.
+3_4_link_queue: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3_4_link_queue
+.PHONY : 3_4_link_queue
+
+# fast build rule for target.
+3_4_link_queue/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_4_link_queue.dir/build.make CMakeFiles/3_4_link_queue.dir/build
+.PHONY : 3_4_link_queue/fast
 
 #=============================================================================
 # Target rules for targets named 8_7_heap_sort
@@ -364,6 +390,19 @@ CMakeCXXCompilerId/fast:
 .PHONY : 2_p_1_reverse_list/fast
 
 #=============================================================================
+# Target rules for targets named 3_5_circular_queue
+
+# Build rule for target.
+3_5_circular_queue: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3_5_circular_queue
+.PHONY : 3_5_circular_queue
+
+# fast build rule for target.
+3_5_circular_queue/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_5_circular_queue.dir/build.make CMakeFiles/3_5_circular_queue.dir/build
+.PHONY : 3_5_circular_queue/fast
+
+#=============================================================================
 # Target rules for targets named 6_3_BFS
 
 # Build rule for target.
@@ -377,30 +416,30 @@ CMakeCXXCompilerId/fast:
 .PHONY : 6_3_BFS/fast
 
 #=============================================================================
-# Target rules for targets named 7_1_BST
+# Target rules for targets named 6_6_Kruskal
 
 # Build rule for target.
-7_1_BST: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 7_1_BST
-.PHONY : 7_1_BST
+6_6_Kruskal: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 6_6_Kruskal
+.PHONY : 6_6_Kruskal
 
 # fast build rule for target.
-7_1_BST/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_1_BST.dir/build.make CMakeFiles/7_1_BST.dir/build
-.PHONY : 7_1_BST/fast
+6_6_Kruskal/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_6_Kruskal.dir/build.make CMakeFiles/6_6_Kruskal.dir/build
+.PHONY : 6_6_Kruskal/fast
 
 #=============================================================================
-# Target rules for targets named 3_4_link_queue
+# Target rules for targets named 6_4_DFS
 
 # Build rule for target.
-3_4_link_queue: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3_4_link_queue
-.PHONY : 3_4_link_queue
+6_4_DFS: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 6_4_DFS
+.PHONY : 6_4_DFS
 
 # fast build rule for target.
-3_4_link_queue/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_4_link_queue.dir/build.make CMakeFiles/3_4_link_queue.dir/build
-.PHONY : 3_4_link_queue/fast
+6_4_DFS/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_4_DFS.dir/build.make CMakeFiles/6_4_DFS.dir/build
+.PHONY : 6_4_DFS/fast
 
 #=============================================================================
 # Target rules for targets named 7_2_AVL
@@ -429,19 +468,6 @@ CMakeCXXCompilerId/fast:
 .PHONY : 2_5_static_link_list/fast
 
 #=============================================================================
-# Target rules for targets named 3_3_seq_queue
-
-# Build rule for target.
-3_3_seq_queue: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3_3_seq_queue
-.PHONY : 3_3_seq_queue
-
-# fast build rule for target.
-3_3_seq_queue/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_3_seq_queue.dir/build.make CMakeFiles/3_3_seq_queue.dir/build
-.PHONY : 3_3_seq_queue/fast
-
-#=============================================================================
 # Target rules for targets named 6_5_Prim
 
 # Build rule for target.
@@ -453,6 +479,19 @@ CMakeCXXCompilerId/fast:
 6_5_Prim/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_5_Prim.dir/build.make CMakeFiles/6_5_Prim.dir/build
 .PHONY : 6_5_Prim/fast
+
+#=============================================================================
+# Target rules for targets named 3_3_seq_queue
+
+# Build rule for target.
+3_3_seq_queue: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3_3_seq_queue
+.PHONY : 3_3_seq_queue
+
+# fast build rule for target.
+3_3_seq_queue/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_3_seq_queue.dir/build.make CMakeFiles/3_3_seq_queue.dir/build
+.PHONY : 3_3_seq_queue/fast
 
 #=============================================================================
 # Target rules for targets named 4_3_postorder_traversal
@@ -492,6 +531,32 @@ CMakeCXXCompilerId/fast:
 2_4_cyclic_link_list/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_4_cyclic_link_list.dir/build.make CMakeFiles/2_4_cyclic_link_list.dir/build
 .PHONY : 2_4_cyclic_link_list/fast
+
+#=============================================================================
+# Target rules for targets named 8_6_select_sort
+
+# Build rule for target.
+8_6_select_sort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 8_6_select_sort
+.PHONY : 8_6_select_sort
+
+# fast build rule for target.
+8_6_select_sort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_6_select_sort.dir/build.make CMakeFiles/8_6_select_sort.dir/build
+.PHONY : 8_6_select_sort/fast
+
+#=============================================================================
+# Target rules for targets named 4_p_2_pre_and_in
+
+# Build rule for target.
+4_p_2_pre_and_in: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 4_p_2_pre_and_in
+.PHONY : 4_p_2_pre_and_in
+
+# fast build rule for target.
+4_p_2_pre_and_in/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4_p_2_pre_and_in.dir/build.make CMakeFiles/4_p_2_pre_and_in.dir/build
+.PHONY : 4_p_2_pre_and_in/fast
 
 #=============================================================================
 # Target rules for targets named 8_9_radix_sort
@@ -676,6 +741,19 @@ CMakeCXXCompilerId/fast:
 .PHONY : 3_p_3_postfix_expression/fast
 
 #=============================================================================
+# Target rules for targets named 7_p_1_delete_x_from_BST
+
+# Build rule for target.
+7_p_1_delete_x_from_BST: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 7_p_1_delete_x_from_BST
+.PHONY : 7_p_1_delete_x_from_BST
+
+# fast build rule for target.
+7_p_1_delete_x_from_BST/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_p_1_delete_x_from_BST.dir/build.make CMakeFiles/7_p_1_delete_x_from_BST.dir/build
+.PHONY : 7_p_1_delete_x_from_BST/fast
+
+#=============================================================================
 # Target rules for targets named 4_1_preorder_traversal
 
 # Build rule for target.
@@ -687,6 +765,19 @@ CMakeCXXCompilerId/fast:
 4_1_preorder_traversal/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4_1_preorder_traversal.dir/build.make CMakeFiles/4_1_preorder_traversal.dir/build
 .PHONY : 4_1_preorder_traversal/fast
+
+#=============================================================================
+# Target rules for targets named 2_p_3_merge_and_deduplication
+
+# Build rule for target.
+2_p_3_merge_and_deduplication: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2_p_3_merge_and_deduplication
+.PHONY : 2_p_3_merge_and_deduplication
+
+# fast build rule for target.
+2_p_3_merge_and_deduplication/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_p_3_merge_and_deduplication.dir/build.make CMakeFiles/2_p_3_merge_and_deduplication.dir/build
+.PHONY : 2_p_3_merge_and_deduplication/fast
 
 #=============================================================================
 # Target rules for targets named 2_p_2_merge_two_sorted_list
@@ -726,32 +817,6 @@ CMakeCXXCompilerId/fast:
 6_2_adj_list/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_2_adj_list.dir/build.make CMakeFiles/6_2_adj_list.dir/build
 .PHONY : 6_2_adj_list/fast
-
-#=============================================================================
-# Target rules for targets named 6_4_DFS
-
-# Build rule for target.
-6_4_DFS: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 6_4_DFS
-.PHONY : 6_4_DFS
-
-# fast build rule for target.
-6_4_DFS/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_4_DFS.dir/build.make CMakeFiles/6_4_DFS.dir/build
-.PHONY : 6_4_DFS/fast
-
-#=============================================================================
-# Target rules for targets named 6_6_Kruskal
-
-# Build rule for target.
-6_6_Kruskal: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 6_6_Kruskal
-.PHONY : 6_6_Kruskal
-
-# fast build rule for target.
-6_6_Kruskal/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_6_Kruskal.dir/build.make CMakeFiles/6_6_Kruskal.dir/build
-.PHONY : 6_6_Kruskal/fast
 
 0_test.o: 0_test.cpp.o
 
@@ -968,6 +1033,33 @@ CMakeCXXCompilerId/fast:
 2_list/problem_set/2_p_2_merge_two_sorted_list.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_p_2_merge_two_sorted_list.dir/build.make CMakeFiles/2_p_2_merge_two_sorted_list.dir/2_list/problem_set/2_p_2_merge_two_sorted_list.cpp.s
 .PHONY : 2_list/problem_set/2_p_2_merge_two_sorted_list.cpp.s
+
+2_list/problem_set/2_p_3_merge_and_deduplication.o: 2_list/problem_set/2_p_3_merge_and_deduplication.cpp.o
+
+.PHONY : 2_list/problem_set/2_p_3_merge_and_deduplication.o
+
+# target to build an object file
+2_list/problem_set/2_p_3_merge_and_deduplication.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_p_3_merge_and_deduplication.dir/build.make CMakeFiles/2_p_3_merge_and_deduplication.dir/2_list/problem_set/2_p_3_merge_and_deduplication.cpp.o
+.PHONY : 2_list/problem_set/2_p_3_merge_and_deduplication.cpp.o
+
+2_list/problem_set/2_p_3_merge_and_deduplication.i: 2_list/problem_set/2_p_3_merge_and_deduplication.cpp.i
+
+.PHONY : 2_list/problem_set/2_p_3_merge_and_deduplication.i
+
+# target to preprocess a source file
+2_list/problem_set/2_p_3_merge_and_deduplication.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_p_3_merge_and_deduplication.dir/build.make CMakeFiles/2_p_3_merge_and_deduplication.dir/2_list/problem_set/2_p_3_merge_and_deduplication.cpp.i
+.PHONY : 2_list/problem_set/2_p_3_merge_and_deduplication.cpp.i
+
+2_list/problem_set/2_p_3_merge_and_deduplication.s: 2_list/problem_set/2_p_3_merge_and_deduplication.cpp.s
+
+.PHONY : 2_list/problem_set/2_p_3_merge_and_deduplication.s
+
+# target to generate assembly for a file
+2_list/problem_set/2_p_3_merge_and_deduplication.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_p_3_merge_and_deduplication.dir/build.make CMakeFiles/2_p_3_merge_and_deduplication.dir/2_list/problem_set/2_p_3_merge_and_deduplication.cpp.s
+.PHONY : 2_list/problem_set/2_p_3_merge_and_deduplication.cpp.s
 
 3_stack&queue/3_1_seq_stack.o: 3_stack&queue/3_1_seq_stack.cpp.o
 
@@ -1374,6 +1466,33 @@ CMakeCXXCompilerId/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4_p_1_LCA.dir/build.make CMakeFiles/4_p_1_LCA.dir/5_tree/problem_set/4_p_1_LCA.cpp.s
 .PHONY : 5_tree/problem_set/4_p_1_LCA.cpp.s
 
+5_tree/problem_set/4_p_2_pre_and_in.o: 5_tree/problem_set/4_p_2_pre_and_in.cpp.o
+
+.PHONY : 5_tree/problem_set/4_p_2_pre_and_in.o
+
+# target to build an object file
+5_tree/problem_set/4_p_2_pre_and_in.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4_p_2_pre_and_in.dir/build.make CMakeFiles/4_p_2_pre_and_in.dir/5_tree/problem_set/4_p_2_pre_and_in.cpp.o
+.PHONY : 5_tree/problem_set/4_p_2_pre_and_in.cpp.o
+
+5_tree/problem_set/4_p_2_pre_and_in.i: 5_tree/problem_set/4_p_2_pre_and_in.cpp.i
+
+.PHONY : 5_tree/problem_set/4_p_2_pre_and_in.i
+
+# target to preprocess a source file
+5_tree/problem_set/4_p_2_pre_and_in.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4_p_2_pre_and_in.dir/build.make CMakeFiles/4_p_2_pre_and_in.dir/5_tree/problem_set/4_p_2_pre_and_in.cpp.i
+.PHONY : 5_tree/problem_set/4_p_2_pre_and_in.cpp.i
+
+5_tree/problem_set/4_p_2_pre_and_in.s: 5_tree/problem_set/4_p_2_pre_and_in.cpp.s
+
+.PHONY : 5_tree/problem_set/4_p_2_pre_and_in.s
+
+# target to generate assembly for a file
+5_tree/problem_set/4_p_2_pre_and_in.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4_p_2_pre_and_in.dir/build.make CMakeFiles/4_p_2_pre_and_in.dir/5_tree/problem_set/4_p_2_pre_and_in.cpp.s
+.PHONY : 5_tree/problem_set/4_p_2_pre_and_in.cpp.s
+
 6_graph/6_1_adj_matrix.o: 6_graph/6_1_adj_matrix.cpp.o
 
 .PHONY : 6_graph/6_1_adj_matrix.o
@@ -1670,6 +1789,60 @@ CMakeCXXCompilerId/fast:
 7_search/7_2_AVL.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_2_AVL.dir/build.make CMakeFiles/7_2_AVL.dir/7_search/7_2_AVL.cpp.s
 .PHONY : 7_search/7_2_AVL.cpp.s
+
+7_search/problem_set/7_p_1_delete_x_from_BST.o: 7_search/problem_set/7_p_1_delete_x_from_BST.cpp.o
+
+.PHONY : 7_search/problem_set/7_p_1_delete_x_from_BST.o
+
+# target to build an object file
+7_search/problem_set/7_p_1_delete_x_from_BST.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_p_1_delete_x_from_BST.dir/build.make CMakeFiles/7_p_1_delete_x_from_BST.dir/7_search/problem_set/7_p_1_delete_x_from_BST.cpp.o
+.PHONY : 7_search/problem_set/7_p_1_delete_x_from_BST.cpp.o
+
+7_search/problem_set/7_p_1_delete_x_from_BST.i: 7_search/problem_set/7_p_1_delete_x_from_BST.cpp.i
+
+.PHONY : 7_search/problem_set/7_p_1_delete_x_from_BST.i
+
+# target to preprocess a source file
+7_search/problem_set/7_p_1_delete_x_from_BST.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_p_1_delete_x_from_BST.dir/build.make CMakeFiles/7_p_1_delete_x_from_BST.dir/7_search/problem_set/7_p_1_delete_x_from_BST.cpp.i
+.PHONY : 7_search/problem_set/7_p_1_delete_x_from_BST.cpp.i
+
+7_search/problem_set/7_p_1_delete_x_from_BST.s: 7_search/problem_set/7_p_1_delete_x_from_BST.cpp.s
+
+.PHONY : 7_search/problem_set/7_p_1_delete_x_from_BST.s
+
+# target to generate assembly for a file
+7_search/problem_set/7_p_1_delete_x_from_BST.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_p_1_delete_x_from_BST.dir/build.make CMakeFiles/7_p_1_delete_x_from_BST.dir/7_search/problem_set/7_p_1_delete_x_from_BST.cpp.s
+.PHONY : 7_search/problem_set/7_p_1_delete_x_from_BST.cpp.s
+
+7_search/problem_set/7_p_2_find_large_than_x_from_BST.o: 7_search/problem_set/7_p_2_find_large_than_x_from_BST.cpp.o
+
+.PHONY : 7_search/problem_set/7_p_2_find_large_than_x_from_BST.o
+
+# target to build an object file
+7_search/problem_set/7_p_2_find_large_than_x_from_BST.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_p_2_find_large_than_x_from_BST.dir/build.make CMakeFiles/7_p_2_find_large_than_x_from_BST.dir/7_search/problem_set/7_p_2_find_large_than_x_from_BST.cpp.o
+.PHONY : 7_search/problem_set/7_p_2_find_large_than_x_from_BST.cpp.o
+
+7_search/problem_set/7_p_2_find_large_than_x_from_BST.i: 7_search/problem_set/7_p_2_find_large_than_x_from_BST.cpp.i
+
+.PHONY : 7_search/problem_set/7_p_2_find_large_than_x_from_BST.i
+
+# target to preprocess a source file
+7_search/problem_set/7_p_2_find_large_than_x_from_BST.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_p_2_find_large_than_x_from_BST.dir/build.make CMakeFiles/7_p_2_find_large_than_x_from_BST.dir/7_search/problem_set/7_p_2_find_large_than_x_from_BST.cpp.i
+.PHONY : 7_search/problem_set/7_p_2_find_large_than_x_from_BST.cpp.i
+
+7_search/problem_set/7_p_2_find_large_than_x_from_BST.s: 7_search/problem_set/7_p_2_find_large_than_x_from_BST.cpp.s
+
+.PHONY : 7_search/problem_set/7_p_2_find_large_than_x_from_BST.s
+
+# target to generate assembly for a file
+7_search/problem_set/7_p_2_find_large_than_x_from_BST.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_p_2_find_large_than_x_from_BST.dir/build.make CMakeFiles/7_p_2_find_large_than_x_from_BST.dir/7_search/problem_set/7_p_2_find_large_than_x_from_BST.cpp.s
+.PHONY : 7_search/problem_set/7_p_2_find_large_than_x_from_BST.cpp.s
 
 8_sort/8_1_insert_sort.o: 8_sort/8_1_insert_sort.cpp.o
 
@@ -2022,6 +2195,33 @@ CMakeCXXCompilerId/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_p_3_count_sort.dir/build.make CMakeFiles/8_p_3_count_sort.dir/8_sort/problem_set/8_p_3_count_sort.cpp.s
 .PHONY : 8_sort/problem_set/8_p_3_count_sort.cpp.s
 
+8_sort/problem_set/8_p_4_double_select_sort.o: 8_sort/problem_set/8_p_4_double_select_sort.cpp.o
+
+.PHONY : 8_sort/problem_set/8_p_4_double_select_sort.o
+
+# target to build an object file
+8_sort/problem_set/8_p_4_double_select_sort.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_p_4_double_select_sort.dir/build.make CMakeFiles/8_p_4_double_select_sort.dir/8_sort/problem_set/8_p_4_double_select_sort.cpp.o
+.PHONY : 8_sort/problem_set/8_p_4_double_select_sort.cpp.o
+
+8_sort/problem_set/8_p_4_double_select_sort.i: 8_sort/problem_set/8_p_4_double_select_sort.cpp.i
+
+.PHONY : 8_sort/problem_set/8_p_4_double_select_sort.i
+
+# target to preprocess a source file
+8_sort/problem_set/8_p_4_double_select_sort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_p_4_double_select_sort.dir/build.make CMakeFiles/8_p_4_double_select_sort.dir/8_sort/problem_set/8_p_4_double_select_sort.cpp.i
+.PHONY : 8_sort/problem_set/8_p_4_double_select_sort.cpp.i
+
+8_sort/problem_set/8_p_4_double_select_sort.s: 8_sort/problem_set/8_p_4_double_select_sort.cpp.s
+
+.PHONY : 8_sort/problem_set/8_p_4_double_select_sort.s
+
+# target to generate assembly for a file
+8_sort/problem_set/8_p_4_double_select_sort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_p_4_double_select_sort.dir/build.make CMakeFiles/8_p_4_double_select_sort.dir/8_sort/problem_set/8_p_4_double_select_sort.cpp.s
+.PHONY : 8_sort/problem_set/8_p_4_double_select_sort.cpp.s
+
 CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.o: CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
 
 .PHONY : CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.o
@@ -2065,6 +2265,7 @@ help:
 	@echo "... 2_5_static_link_list"
 	@echo "... 2_p_1_reverse_list"
 	@echo "... 2_p_2_merge_two_sorted_list"
+	@echo "... 2_p_3_merge_and_deduplication"
 	@echo "... 3_1_seq_stack"
 	@echo "... 3_2_link_stack"
 	@echo "... 3_3_seq_queue"
@@ -2080,6 +2281,7 @@ help:
 	@echo "... 4_4_levelorder_traversal"
 	@echo "... 4_5_heap"
 	@echo "... 4_p_1_LCA"
+	@echo "... 4_p_2_pre_and_in"
 	@echo "... 6_1_adj_matrix"
 	@echo "... 6_2_adj_list"
 	@echo "... 6_3_BFS"
@@ -2091,6 +2293,8 @@ help:
 	@echo "... 6_9_topological_sort"
 	@echo "... 7_1_BST"
 	@echo "... 7_2_AVL"
+	@echo "... 7_p_1_delete_x_from_BST"
+	@echo "... 7_p_2_find_large_than_x_from_BST"
 	@echo "... 8_1_insert_sort"
 	@echo "... 8_2_insert_sort_2"
 	@echo "... 8_3_shell_sort"
@@ -2104,6 +2308,7 @@ help:
 	@echo "... 8_p_1_double_bubble_sort"
 	@echo "... 8_p_2_quick_select"
 	@echo "... 8_p_3_count_sort"
+	@echo "... 8_p_4_double_select_sort"
 	@echo "... CMakeCXXCompilerId"
 	@echo "... 0_test.o"
 	@echo "... 0_test.i"
@@ -2129,6 +2334,9 @@ help:
 	@echo "... 2_list/problem_set/2_p_2_merge_two_sorted_list.o"
 	@echo "... 2_list/problem_set/2_p_2_merge_two_sorted_list.i"
 	@echo "... 2_list/problem_set/2_p_2_merge_two_sorted_list.s"
+	@echo "... 2_list/problem_set/2_p_3_merge_and_deduplication.o"
+	@echo "... 2_list/problem_set/2_p_3_merge_and_deduplication.i"
+	@echo "... 2_list/problem_set/2_p_3_merge_and_deduplication.s"
 	@echo "... 3_stack&queue/3_1_seq_stack.o"
 	@echo "... 3_stack&queue/3_1_seq_stack.i"
 	@echo "... 3_stack&queue/3_1_seq_stack.s"
@@ -2174,6 +2382,9 @@ help:
 	@echo "... 5_tree/problem_set/4_p_1_LCA.o"
 	@echo "... 5_tree/problem_set/4_p_1_LCA.i"
 	@echo "... 5_tree/problem_set/4_p_1_LCA.s"
+	@echo "... 5_tree/problem_set/4_p_2_pre_and_in.o"
+	@echo "... 5_tree/problem_set/4_p_2_pre_and_in.i"
+	@echo "... 5_tree/problem_set/4_p_2_pre_and_in.s"
 	@echo "... 6_graph/6_1_adj_matrix.o"
 	@echo "... 6_graph/6_1_adj_matrix.i"
 	@echo "... 6_graph/6_1_adj_matrix.s"
@@ -2207,6 +2418,12 @@ help:
 	@echo "... 7_search/7_2_AVL.o"
 	@echo "... 7_search/7_2_AVL.i"
 	@echo "... 7_search/7_2_AVL.s"
+	@echo "... 7_search/problem_set/7_p_1_delete_x_from_BST.o"
+	@echo "... 7_search/problem_set/7_p_1_delete_x_from_BST.i"
+	@echo "... 7_search/problem_set/7_p_1_delete_x_from_BST.s"
+	@echo "... 7_search/problem_set/7_p_2_find_large_than_x_from_BST.o"
+	@echo "... 7_search/problem_set/7_p_2_find_large_than_x_from_BST.i"
+	@echo "... 7_search/problem_set/7_p_2_find_large_than_x_from_BST.s"
 	@echo "... 8_sort/8_1_insert_sort.o"
 	@echo "... 8_sort/8_1_insert_sort.i"
 	@echo "... 8_sort/8_1_insert_sort.s"
@@ -2246,6 +2463,9 @@ help:
 	@echo "... 8_sort/problem_set/8_p_3_count_sort.o"
 	@echo "... 8_sort/problem_set/8_p_3_count_sort.i"
 	@echo "... 8_sort/problem_set/8_p_3_count_sort.s"
+	@echo "... 8_sort/problem_set/8_p_4_double_select_sort.o"
+	@echo "... 8_sort/problem_set/8_p_4_double_select_sort.i"
+	@echo "... 8_sort/problem_set/8_p_4_double_select_sort.s"
 	@echo "... CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.o"
 	@echo "... CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.i"
 	@echo "... CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.s"

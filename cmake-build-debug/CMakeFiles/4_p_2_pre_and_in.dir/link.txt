@@ -1,0 +1,1 @@
+/usr/bin/g++.exe -g -Wl,--enable-auto-import CMakeFiles/4_p_2_pre_and_in.dir/5_tree/problem_set/4_p_2_pre_and_in.cpp.o -o 4_p_2_pre_and_in.exe -Wl,--out-implib,lib4_p_2_pre_and_in.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

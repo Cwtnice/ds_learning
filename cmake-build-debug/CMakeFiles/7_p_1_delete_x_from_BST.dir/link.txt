@@ -1,0 +1,1 @@
+/usr/bin/g++.exe -g -Wl,--enable-auto-import CMakeFiles/7_p_1_delete_x_from_BST.dir/7_search/problem_set/7_p_1_delete_x_from_BST.cpp.o -o 7_p_1_delete_x_from_BST.exe -Wl,--out-implib,lib7_p_1_delete_x_from_BST.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
