@@ -92,7 +92,7 @@ void BFS(ALGraph G, int v) {
         v = Q.front();
         Q.pop();
 
-        // 访问v的所有临界点w
+        // 遍历v的所有临界点w
         ENode* p = G.AdjList[v].first;
         while(p){
             auto w = p->adjvex;

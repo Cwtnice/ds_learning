@@ -208,32 +208,6 @@ CMakeCXXCompilerId/fast:
 .PHONY : 8_8_merge_sort/fast
 
 #=============================================================================
-# Target rules for targets named 8_p_0_quick_sort_2
-
-# Build rule for target.
-8_p_0_quick_sort_2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 8_p_0_quick_sort_2
-.PHONY : 8_p_0_quick_sort_2
-
-# fast build rule for target.
-8_p_0_quick_sort_2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_p_0_quick_sort_2.dir/build.make CMakeFiles/8_p_0_quick_sort_2.dir/build
-.PHONY : 8_p_0_quick_sort_2/fast
-
-#=============================================================================
-# Target rules for targets named 8_5_quick_sort
-
-# Build rule for target.
-8_5_quick_sort: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 8_5_quick_sort
-.PHONY : 8_5_quick_sort
-
-# fast build rule for target.
-8_5_quick_sort/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_5_quick_sort.dir/build.make CMakeFiles/8_5_quick_sort.dir/build
-.PHONY : 8_5_quick_sort/fast
-
-#=============================================================================
 # Target rules for targets named 8_4_bubble_sort
 
 # Build rule for target.
@@ -245,19 +219,6 @@ CMakeCXXCompilerId/fast:
 8_4_bubble_sort/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_4_bubble_sort.dir/build.make CMakeFiles/8_4_bubble_sort.dir/build
 .PHONY : 8_4_bubble_sort/fast
-
-#=============================================================================
-# Target rules for targets named 8_3_shell_sort
-
-# Build rule for target.
-8_3_shell_sort: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 8_3_shell_sort
-.PHONY : 8_3_shell_sort
-
-# fast build rule for target.
-8_3_shell_sort/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_3_shell_sort.dir/build.make CMakeFiles/8_3_shell_sort.dir/build
-.PHONY : 8_3_shell_sort/fast
 
 #=============================================================================
 # Target rules for targets named 8_2_insert_sort_2
@@ -325,30 +286,82 @@ CMakeCXXCompilerId/fast:
 .PHONY : 6_7_Dijkstra/fast
 
 #=============================================================================
-# Target rules for targets named 7_1_BST
+# Target rules for targets named 6_6_Kruskal
 
 # Build rule for target.
-7_1_BST: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 7_1_BST
-.PHONY : 7_1_BST
+6_6_Kruskal: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 6_6_Kruskal
+.PHONY : 6_6_Kruskal
 
 # fast build rule for target.
-7_1_BST/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_1_BST.dir/build.make CMakeFiles/7_1_BST.dir/build
-.PHONY : 7_1_BST/fast
+6_6_Kruskal/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_6_Kruskal.dir/build.make CMakeFiles/6_6_Kruskal.dir/build
+.PHONY : 6_6_Kruskal/fast
 
 #=============================================================================
-# Target rules for targets named 3_4_link_queue
+# Target rules for targets named 6_4_DFS
 
 # Build rule for target.
-3_4_link_queue: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3_4_link_queue
-.PHONY : 3_4_link_queue
+6_4_DFS: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 6_4_DFS
+.PHONY : 6_4_DFS
 
 # fast build rule for target.
-3_4_link_queue/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_4_link_queue.dir/build.make CMakeFiles/3_4_link_queue.dir/build
-.PHONY : 3_4_link_queue/fast
+6_4_DFS/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_4_DFS.dir/build.make CMakeFiles/6_4_DFS.dir/build
+.PHONY : 6_4_DFS/fast
+
+#=============================================================================
+# Target rules for targets named 6_3_BFS
+
+# Build rule for target.
+6_3_BFS: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 6_3_BFS
+.PHONY : 6_3_BFS
+
+# fast build rule for target.
+6_3_BFS/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_3_BFS.dir/build.make CMakeFiles/6_3_BFS.dir/build
+.PHONY : 6_3_BFS/fast
+
+#=============================================================================
+# Target rules for targets named 8_3_shell_sort
+
+# Build rule for target.
+8_3_shell_sort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 8_3_shell_sort
+.PHONY : 8_3_shell_sort
+
+# fast build rule for target.
+8_3_shell_sort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_3_shell_sort.dir/build.make CMakeFiles/8_3_shell_sort.dir/build
+.PHONY : 8_3_shell_sort/fast
+
+#=============================================================================
+# Target rules for targets named 2_p_2_merge_two_list
+
+# Build rule for target.
+2_p_2_merge_two_list: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2_p_2_merge_two_list
+.PHONY : 2_p_2_merge_two_list
+
+# fast build rule for target.
+2_p_2_merge_two_list/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_p_2_merge_two_list.dir/build.make CMakeFiles/2_p_2_merge_two_list.dir/build
+.PHONY : 2_p_2_merge_two_list/fast
+
+#=============================================================================
+# Target rules for targets named 2_p_4_rearrange
+
+# Build rule for target.
+2_p_4_rearrange: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2_p_4_rearrange
+.PHONY : 2_p_4_rearrange
+
+# fast build rule for target.
+2_p_4_rearrange/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_p_4_rearrange.dir/build.make CMakeFiles/2_p_4_rearrange.dir/build
+.PHONY : 2_p_4_rearrange/fast
 
 #=============================================================================
 # Target rules for targets named 8_7_heap_sort
@@ -403,45 +416,6 @@ CMakeCXXCompilerId/fast:
 .PHONY : 3_5_circular_queue/fast
 
 #=============================================================================
-# Target rules for targets named 6_3_BFS
-
-# Build rule for target.
-6_3_BFS: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 6_3_BFS
-.PHONY : 6_3_BFS
-
-# fast build rule for target.
-6_3_BFS/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_3_BFS.dir/build.make CMakeFiles/6_3_BFS.dir/build
-.PHONY : 6_3_BFS/fast
-
-#=============================================================================
-# Target rules for targets named 6_6_Kruskal
-
-# Build rule for target.
-6_6_Kruskal: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 6_6_Kruskal
-.PHONY : 6_6_Kruskal
-
-# fast build rule for target.
-6_6_Kruskal/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_6_Kruskal.dir/build.make CMakeFiles/6_6_Kruskal.dir/build
-.PHONY : 6_6_Kruskal/fast
-
-#=============================================================================
-# Target rules for targets named 6_4_DFS
-
-# Build rule for target.
-6_4_DFS: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 6_4_DFS
-.PHONY : 6_4_DFS
-
-# fast build rule for target.
-6_4_DFS/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_4_DFS.dir/build.make CMakeFiles/6_4_DFS.dir/build
-.PHONY : 6_4_DFS/fast
-
-#=============================================================================
 # Target rules for targets named 7_2_AVL
 
 # Build rule for target.
@@ -466,45 +440,6 @@ CMakeCXXCompilerId/fast:
 2_5_static_link_list/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_5_static_link_list.dir/build.make CMakeFiles/2_5_static_link_list.dir/build
 .PHONY : 2_5_static_link_list/fast
-
-#=============================================================================
-# Target rules for targets named 6_5_Prim
-
-# Build rule for target.
-6_5_Prim: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 6_5_Prim
-.PHONY : 6_5_Prim
-
-# fast build rule for target.
-6_5_Prim/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_5_Prim.dir/build.make CMakeFiles/6_5_Prim.dir/build
-.PHONY : 6_5_Prim/fast
-
-#=============================================================================
-# Target rules for targets named 3_3_seq_queue
-
-# Build rule for target.
-3_3_seq_queue: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3_3_seq_queue
-.PHONY : 3_3_seq_queue
-
-# fast build rule for target.
-3_3_seq_queue/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_3_seq_queue.dir/build.make CMakeFiles/3_3_seq_queue.dir/build
-.PHONY : 3_3_seq_queue/fast
-
-#=============================================================================
-# Target rules for targets named 4_3_postorder_traversal
-
-# Build rule for target.
-4_3_postorder_traversal: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 4_3_postorder_traversal
-.PHONY : 4_3_postorder_traversal
-
-# fast build rule for target.
-4_3_postorder_traversal/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4_3_postorder_traversal.dir/build.make CMakeFiles/4_3_postorder_traversal.dir/build
-.PHONY : 4_3_postorder_traversal/fast
 
 #=============================================================================
 # Target rules for targets named 6_1_adj_matrix
@@ -650,32 +585,6 @@ CMakeCXXCompilerId/fast:
 .PHONY : 3_p_1_infix_expression/fast
 
 #=============================================================================
-# Target rules for targets named 4_4_levelorder_traversal
-
-# Build rule for target.
-4_4_levelorder_traversal: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 4_4_levelorder_traversal
-.PHONY : 4_4_levelorder_traversal
-
-# fast build rule for target.
-4_4_levelorder_traversal/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4_4_levelorder_traversal.dir/build.make CMakeFiles/4_4_levelorder_traversal.dir/build
-.PHONY : 4_4_levelorder_traversal/fast
-
-#=============================================================================
-# Target rules for targets named 3_p_2_infix_to_postfix
-
-# Build rule for target.
-3_p_2_infix_to_postfix: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3_p_2_infix_to_postfix
-.PHONY : 3_p_2_infix_to_postfix
-
-# fast build rule for target.
-3_p_2_infix_to_postfix/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_p_2_infix_to_postfix.dir/build.make CMakeFiles/3_p_2_infix_to_postfix.dir/build
-.PHONY : 3_p_2_infix_to_postfix/fast
-
-#=============================================================================
 # Target rules for targets named 0_test
 
 # Build rule for target.
@@ -713,6 +622,110 @@ CMakeCXXCompilerId/fast:
 4_2_inorder_traversal/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4_2_inorder_traversal.dir/build.make CMakeFiles/4_2_inorder_traversal.dir/build
 .PHONY : 4_2_inorder_traversal/fast
+
+#=============================================================================
+# Target rules for targets named 8_p_0_quick_sort_2
+
+# Build rule for target.
+8_p_0_quick_sort_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 8_p_0_quick_sort_2
+.PHONY : 8_p_0_quick_sort_2
+
+# fast build rule for target.
+8_p_0_quick_sort_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_p_0_quick_sort_2.dir/build.make CMakeFiles/8_p_0_quick_sort_2.dir/build
+.PHONY : 8_p_0_quick_sort_2/fast
+
+#=============================================================================
+# Target rules for targets named 8_5_quick_sort
+
+# Build rule for target.
+8_5_quick_sort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 8_5_quick_sort
+.PHONY : 8_5_quick_sort
+
+# fast build rule for target.
+8_5_quick_sort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_5_quick_sort.dir/build.make CMakeFiles/8_5_quick_sort.dir/build
+.PHONY : 8_5_quick_sort/fast
+
+#=============================================================================
+# Target rules for targets named 0_print_type
+
+# Build rule for target.
+0_print_type: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 0_print_type
+.PHONY : 0_print_type
+
+# fast build rule for target.
+0_print_type/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/0_print_type.dir/build.make CMakeFiles/0_print_type.dir/build
+.PHONY : 0_print_type/fast
+
+#=============================================================================
+# Target rules for targets named 7_1_BST
+
+# Build rule for target.
+7_1_BST: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 7_1_BST
+.PHONY : 7_1_BST
+
+# fast build rule for target.
+7_1_BST/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_1_BST.dir/build.make CMakeFiles/7_1_BST.dir/build
+.PHONY : 7_1_BST/fast
+
+#=============================================================================
+# Target rules for targets named 3_4_link_queue
+
+# Build rule for target.
+3_4_link_queue: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3_4_link_queue
+.PHONY : 3_4_link_queue
+
+# fast build rule for target.
+3_4_link_queue/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_4_link_queue.dir/build.make CMakeFiles/3_4_link_queue.dir/build
+.PHONY : 3_4_link_queue/fast
+
+#=============================================================================
+# Target rules for targets named 6_5_Prim
+
+# Build rule for target.
+6_5_Prim: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 6_5_Prim
+.PHONY : 6_5_Prim
+
+# fast build rule for target.
+6_5_Prim/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_5_Prim.dir/build.make CMakeFiles/6_5_Prim.dir/build
+.PHONY : 6_5_Prim/fast
+
+#=============================================================================
+# Target rules for targets named 4_3_postorder_traversal
+
+# Build rule for target.
+4_3_postorder_traversal: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 4_3_postorder_traversal
+.PHONY : 4_3_postorder_traversal
+
+# fast build rule for target.
+4_3_postorder_traversal/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4_3_postorder_traversal.dir/build.make CMakeFiles/4_3_postorder_traversal.dir/build
+.PHONY : 4_3_postorder_traversal/fast
+
+#=============================================================================
+# Target rules for targets named 3_3_seq_queue
+
+# Build rule for target.
+3_3_seq_queue: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3_3_seq_queue
+.PHONY : 3_3_seq_queue
+
+# fast build rule for target.
+3_3_seq_queue/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_3_seq_queue.dir/build.make CMakeFiles/3_3_seq_queue.dir/build
+.PHONY : 3_3_seq_queue/fast
 
 #=============================================================================
 # Target rules for targets named 3_p_0_bracket_match
@@ -767,6 +780,32 @@ CMakeCXXCompilerId/fast:
 .PHONY : 4_1_preorder_traversal/fast
 
 #=============================================================================
+# Target rules for targets named 3_p_2_infix_to_postfix
+
+# Build rule for target.
+3_p_2_infix_to_postfix: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3_p_2_infix_to_postfix
+.PHONY : 3_p_2_infix_to_postfix
+
+# fast build rule for target.
+3_p_2_infix_to_postfix/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_p_2_infix_to_postfix.dir/build.make CMakeFiles/3_p_2_infix_to_postfix.dir/build
+.PHONY : 3_p_2_infix_to_postfix/fast
+
+#=============================================================================
+# Target rules for targets named 4_4_levelorder_traversal
+
+# Build rule for target.
+4_4_levelorder_traversal: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 4_4_levelorder_traversal
+.PHONY : 4_4_levelorder_traversal
+
+# fast build rule for target.
+4_4_levelorder_traversal/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4_4_levelorder_traversal.dir/build.make CMakeFiles/4_4_levelorder_traversal.dir/build
+.PHONY : 4_4_levelorder_traversal/fast
+
+#=============================================================================
 # Target rules for targets named 2_p_3_merge_and_deduplication
 
 # Build rule for target.
@@ -778,19 +817,6 @@ CMakeCXXCompilerId/fast:
 2_p_3_merge_and_deduplication/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_p_3_merge_and_deduplication.dir/build.make CMakeFiles/2_p_3_merge_and_deduplication.dir/build
 .PHONY : 2_p_3_merge_and_deduplication/fast
-
-#=============================================================================
-# Target rules for targets named 2_p_2_merge_two_sorted_list
-
-# Build rule for target.
-2_p_2_merge_two_sorted_list: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2_p_2_merge_two_sorted_list
-.PHONY : 2_p_2_merge_two_sorted_list
-
-# fast build rule for target.
-2_p_2_merge_two_sorted_list/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_p_2_merge_two_sorted_list.dir/build.make CMakeFiles/2_p_2_merge_two_sorted_list.dir/build
-.PHONY : 2_p_2_merge_two_sorted_list/fast
 
 #=============================================================================
 # Target rules for targets named 4_p_1_LCA
@@ -817,6 +843,33 @@ CMakeCXXCompilerId/fast:
 6_2_adj_list/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_2_adj_list.dir/build.make CMakeFiles/6_2_adj_list.dir/build
 .PHONY : 6_2_adj_list/fast
+
+0_C/0_print_type.o: 0_C/0_print_type.cpp.o
+
+.PHONY : 0_C/0_print_type.o
+
+# target to build an object file
+0_C/0_print_type.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/0_print_type.dir/build.make CMakeFiles/0_print_type.dir/0_C/0_print_type.cpp.o
+.PHONY : 0_C/0_print_type.cpp.o
+
+0_C/0_print_type.i: 0_C/0_print_type.cpp.i
+
+.PHONY : 0_C/0_print_type.i
+
+# target to preprocess a source file
+0_C/0_print_type.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/0_print_type.dir/build.make CMakeFiles/0_print_type.dir/0_C/0_print_type.cpp.i
+.PHONY : 0_C/0_print_type.cpp.i
+
+0_C/0_print_type.s: 0_C/0_print_type.cpp.s
+
+.PHONY : 0_C/0_print_type.s
+
+# target to generate assembly for a file
+0_C/0_print_type.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/0_print_type.dir/build.make CMakeFiles/0_print_type.dir/0_C/0_print_type.cpp.s
+.PHONY : 0_C/0_print_type.cpp.s
 
 0_test.o: 0_test.cpp.o
 
@@ -1007,32 +1060,32 @@ CMakeCXXCompilerId/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_p_1_reverse_list.dir/build.make CMakeFiles/2_p_1_reverse_list.dir/2_list/problem_set/2_p_1_reverse_list.cpp.s
 .PHONY : 2_list/problem_set/2_p_1_reverse_list.cpp.s
 
-2_list/problem_set/2_p_2_merge_two_sorted_list.o: 2_list/problem_set/2_p_2_merge_two_sorted_list.cpp.o
+2_list/problem_set/2_p_2_merge_two_list.o: 2_list/problem_set/2_p_2_merge_two_list.cpp.o
 
-.PHONY : 2_list/problem_set/2_p_2_merge_two_sorted_list.o
+.PHONY : 2_list/problem_set/2_p_2_merge_two_list.o
 
 # target to build an object file
-2_list/problem_set/2_p_2_merge_two_sorted_list.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_p_2_merge_two_sorted_list.dir/build.make CMakeFiles/2_p_2_merge_two_sorted_list.dir/2_list/problem_set/2_p_2_merge_two_sorted_list.cpp.o
-.PHONY : 2_list/problem_set/2_p_2_merge_two_sorted_list.cpp.o
+2_list/problem_set/2_p_2_merge_two_list.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_p_2_merge_two_list.dir/build.make CMakeFiles/2_p_2_merge_two_list.dir/2_list/problem_set/2_p_2_merge_two_list.cpp.o
+.PHONY : 2_list/problem_set/2_p_2_merge_two_list.cpp.o
 
-2_list/problem_set/2_p_2_merge_two_sorted_list.i: 2_list/problem_set/2_p_2_merge_two_sorted_list.cpp.i
+2_list/problem_set/2_p_2_merge_two_list.i: 2_list/problem_set/2_p_2_merge_two_list.cpp.i
 
-.PHONY : 2_list/problem_set/2_p_2_merge_two_sorted_list.i
+.PHONY : 2_list/problem_set/2_p_2_merge_two_list.i
 
 # target to preprocess a source file
-2_list/problem_set/2_p_2_merge_two_sorted_list.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_p_2_merge_two_sorted_list.dir/build.make CMakeFiles/2_p_2_merge_two_sorted_list.dir/2_list/problem_set/2_p_2_merge_two_sorted_list.cpp.i
-.PHONY : 2_list/problem_set/2_p_2_merge_two_sorted_list.cpp.i
+2_list/problem_set/2_p_2_merge_two_list.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_p_2_merge_two_list.dir/build.make CMakeFiles/2_p_2_merge_two_list.dir/2_list/problem_set/2_p_2_merge_two_list.cpp.i
+.PHONY : 2_list/problem_set/2_p_2_merge_two_list.cpp.i
 
-2_list/problem_set/2_p_2_merge_two_sorted_list.s: 2_list/problem_set/2_p_2_merge_two_sorted_list.cpp.s
+2_list/problem_set/2_p_2_merge_two_list.s: 2_list/problem_set/2_p_2_merge_two_list.cpp.s
 
-.PHONY : 2_list/problem_set/2_p_2_merge_two_sorted_list.s
+.PHONY : 2_list/problem_set/2_p_2_merge_two_list.s
 
 # target to generate assembly for a file
-2_list/problem_set/2_p_2_merge_two_sorted_list.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_p_2_merge_two_sorted_list.dir/build.make CMakeFiles/2_p_2_merge_two_sorted_list.dir/2_list/problem_set/2_p_2_merge_two_sorted_list.cpp.s
-.PHONY : 2_list/problem_set/2_p_2_merge_two_sorted_list.cpp.s
+2_list/problem_set/2_p_2_merge_two_list.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_p_2_merge_two_list.dir/build.make CMakeFiles/2_p_2_merge_two_list.dir/2_list/problem_set/2_p_2_merge_two_list.cpp.s
+.PHONY : 2_list/problem_set/2_p_2_merge_two_list.cpp.s
 
 2_list/problem_set/2_p_3_merge_and_deduplication.o: 2_list/problem_set/2_p_3_merge_and_deduplication.cpp.o
 
@@ -1060,6 +1113,33 @@ CMakeCXXCompilerId/fast:
 2_list/problem_set/2_p_3_merge_and_deduplication.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_p_3_merge_and_deduplication.dir/build.make CMakeFiles/2_p_3_merge_and_deduplication.dir/2_list/problem_set/2_p_3_merge_and_deduplication.cpp.s
 .PHONY : 2_list/problem_set/2_p_3_merge_and_deduplication.cpp.s
+
+2_list/problem_set/2_p_4_rearrange.o: 2_list/problem_set/2_p_4_rearrange.cpp.o
+
+.PHONY : 2_list/problem_set/2_p_4_rearrange.o
+
+# target to build an object file
+2_list/problem_set/2_p_4_rearrange.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_p_4_rearrange.dir/build.make CMakeFiles/2_p_4_rearrange.dir/2_list/problem_set/2_p_4_rearrange.cpp.o
+.PHONY : 2_list/problem_set/2_p_4_rearrange.cpp.o
+
+2_list/problem_set/2_p_4_rearrange.i: 2_list/problem_set/2_p_4_rearrange.cpp.i
+
+.PHONY : 2_list/problem_set/2_p_4_rearrange.i
+
+# target to preprocess a source file
+2_list/problem_set/2_p_4_rearrange.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_p_4_rearrange.dir/build.make CMakeFiles/2_p_4_rearrange.dir/2_list/problem_set/2_p_4_rearrange.cpp.i
+.PHONY : 2_list/problem_set/2_p_4_rearrange.cpp.i
+
+2_list/problem_set/2_p_4_rearrange.s: 2_list/problem_set/2_p_4_rearrange.cpp.s
+
+.PHONY : 2_list/problem_set/2_p_4_rearrange.s
+
+# target to generate assembly for a file
+2_list/problem_set/2_p_4_rearrange.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_p_4_rearrange.dir/build.make CMakeFiles/2_p_4_rearrange.dir/2_list/problem_set/2_p_4_rearrange.cpp.s
+.PHONY : 2_list/problem_set/2_p_4_rearrange.cpp.s
 
 3_stack&queue/3_1_seq_stack.o: 3_stack&queue/3_1_seq_stack.cpp.o
 
@@ -2257,6 +2337,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... 0_print_type"
 	@echo "... 0_test"
 	@echo "... 2_1_seq_list"
 	@echo "... 2_2_link_list"
@@ -2264,8 +2345,9 @@ help:
 	@echo "... 2_4_cyclic_link_list"
 	@echo "... 2_5_static_link_list"
 	@echo "... 2_p_1_reverse_list"
-	@echo "... 2_p_2_merge_two_sorted_list"
+	@echo "... 2_p_2_merge_two_list"
 	@echo "... 2_p_3_merge_and_deduplication"
+	@echo "... 2_p_4_rearrange"
 	@echo "... 3_1_seq_stack"
 	@echo "... 3_2_link_stack"
 	@echo "... 3_3_seq_queue"
@@ -2310,6 +2392,9 @@ help:
 	@echo "... 8_p_3_count_sort"
 	@echo "... 8_p_4_double_select_sort"
 	@echo "... CMakeCXXCompilerId"
+	@echo "... 0_C/0_print_type.o"
+	@echo "... 0_C/0_print_type.i"
+	@echo "... 0_C/0_print_type.s"
 	@echo "... 0_test.o"
 	@echo "... 0_test.i"
 	@echo "... 0_test.s"
@@ -2331,12 +2416,15 @@ help:
 	@echo "... 2_list/problem_set/2_p_1_reverse_list.o"
 	@echo "... 2_list/problem_set/2_p_1_reverse_list.i"
 	@echo "... 2_list/problem_set/2_p_1_reverse_list.s"
-	@echo "... 2_list/problem_set/2_p_2_merge_two_sorted_list.o"
-	@echo "... 2_list/problem_set/2_p_2_merge_two_sorted_list.i"
-	@echo "... 2_list/problem_set/2_p_2_merge_two_sorted_list.s"
+	@echo "... 2_list/problem_set/2_p_2_merge_two_list.o"
+	@echo "... 2_list/problem_set/2_p_2_merge_two_list.i"
+	@echo "... 2_list/problem_set/2_p_2_merge_two_list.s"
 	@echo "... 2_list/problem_set/2_p_3_merge_and_deduplication.o"
 	@echo "... 2_list/problem_set/2_p_3_merge_and_deduplication.i"
 	@echo "... 2_list/problem_set/2_p_3_merge_and_deduplication.s"
+	@echo "... 2_list/problem_set/2_p_4_rearrange.o"
+	@echo "... 2_list/problem_set/2_p_4_rearrange.i"
+	@echo "... 2_list/problem_set/2_p_4_rearrange.s"
 	@echo "... 3_stack&queue/3_1_seq_stack.o"
 	@echo "... 3_stack&queue/3_1_seq_stack.i"
 	@echo "... 3_stack&queue/3_1_seq_stack.s"

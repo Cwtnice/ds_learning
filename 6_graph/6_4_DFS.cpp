@@ -101,7 +101,7 @@ void DFS(ALGraph G, int v){
 void DFS_2(ALGraph G, int v){
     stack<int> st;
 
-    // 顶点入栈并访问
+    // 顶点入栈
     st.push(v);
 
     while(!st.empty()){

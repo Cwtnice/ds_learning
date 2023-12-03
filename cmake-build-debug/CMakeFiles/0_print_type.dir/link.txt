@@ -1,0 +1,1 @@
+/usr/bin/g++.exe -g -Wl,--enable-auto-import CMakeFiles/0_print_type.dir/0_C/0_print_type.cpp.o -o 0_print_type.exe -Wl,--out-implib,lib0_print_type.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

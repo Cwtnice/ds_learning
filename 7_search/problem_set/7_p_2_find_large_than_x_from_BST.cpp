@@ -2,6 +2,8 @@
  * 878 2017
  * 在BST中找到比X大的数 并以非递增的方式打印出来
  *
+ * 通过中序遍历，实现BST从小到大的遍历，加一个判断，大于x的数才打印即可
+ *
  */
 
 #include <iostream>
@@ -47,9 +49,12 @@ void BST_create(BSTree &t, int a[], int n){
 // 以非递减顺序打印BST中大于x的元素
 // 在中序遍历（递归）的基础上多一个判断
 void find_large_than_x(BSTree t, int x){    /* NOLINT */
-    if(t->l != nullptr) find_large_than_x(t->l, x);
-    if(t->val > x) cout << t->val << " ";
-    if(t->r != nullptr) find_large_than_x(t->r, x);
+    if(t == nullptr) return;
+
+    find_large_than_x(t->l, x);
+    if(t->val > x)
+        cout << t->val << " ";
+    find_large_than_x(t->r, x);
 }
 
 int main(){

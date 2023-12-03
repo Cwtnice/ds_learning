@@ -82,20 +82,27 @@ TreeNode* find_node(TreeNode* root, int val){
 
 // 最近公共祖先LCA
 TreeNode* LCA(TreeNode* root, TreeNode* p, TreeNode* q) {
-    if(root ==  nullptr)
-        return nullptr;
-    if(root == p || root == q)
+    // 穿过叶结点 或者找到p、q时就向上返回
+    if(root ==  nullptr || root == p || root == q)
         return root;
 
-    // 递归左右孩子
+    // 递归左右孩子 先默认他实现了找p、q的功能
     auto left = LCA(root->left, p, q);
     auto right = LCA(root->right, p, q);
 
-    if(left && right) return root;
-    if(left) return left;
-    if(right) return right;
+    // 说明p和q分别位于root的两侧 此时root就是LCA
+    if(left && right)
+        return root;
 
-    return nullptr;
+    // 只有左左孩子不为空 可能性1.pq中的一个在左子树中 可能性2.pq都在左子树中 都返回左孩子即可
+    if(left)
+        return left;
+
+    // 同理
+    if(right)
+        return right;
+
+    // return nullptr;
 }
 
 

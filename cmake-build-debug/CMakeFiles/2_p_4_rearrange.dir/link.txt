@@ -1,0 +1,1 @@
+/usr/bin/g++.exe -g -Wl,--enable-auto-import CMakeFiles/2_p_4_rearrange.dir/2_list/problem_set/2_p_4_rearrange.cpp.o -o 2_p_4_rearrange.exe -Wl,--out-implib,lib2_p_4_rearrange.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

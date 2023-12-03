@@ -1,4 +1,5 @@
 C:\Users\admin\AppData\Local\JetBrains\CLion2021.1\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make.exe -DCMAKE_C_COMPILER=/usr/bin/gcc.exe -DCMAKE_CXX_COMPILER=/usr/bin/g++.exe -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/admin/CLionProjects/ds_learning
+    -- src/0_print_type.cpp will be compiled to bin/0_print_type
     -- src/0_test.cpp will be compiled to bin/0_test
     -- src/2_1_seq_list.cpp will be compiled to bin/2_1_seq_list
     -- src/2_2_link_list.cpp will be compiled to bin/2_2_link_list
@@ -6,8 +7,9 @@ C:\Users\admin\AppData\Local\JetBrains\CLion2021.1\cygwin_cmake\bin\cmake.exe -D
     -- src/2_4_cyclic_link_list.cpp will be compiled to bin/2_4_cyclic_link_list
     -- src/2_5_static_link_list.cpp will be compiled to bin/2_5_static_link_list
     -- src/2_p_1_reverse_list.cpp will be compiled to bin/2_p_1_reverse_list
-    -- src/2_p_2_merge_two_sorted_list.cpp will be compiled to bin/2_p_2_merge_two_sorted_list
+    -- src/2_p_2_merge_two_list.cpp will be compiled to bin/2_p_2_merge_two_list
     -- src/2_p_3_merge_and_deduplication.cpp will be compiled to bin/2_p_3_merge_and_deduplication
+    -- src/2_p_4_rearrange.cpp will be compiled to bin/2_p_4_rearrange
     -- src/3_1_seq_stack.cpp will be compiled to bin/3_1_seq_stack
     -- src/3_2_link_stack.cpp will be compiled to bin/3_2_link_stack
     -- src/3_3_seq_queue.cpp will be compiled to bin/3_3_seq_queue
