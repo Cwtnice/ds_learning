@@ -78,6 +78,8 @@ all: CMakeFiles/8_p_3_count_sort.dir/all
 all: CMakeFiles/8_p_2_quick_select.dir/all
 all: CMakeFiles/8_p_1_double_bubble_sort.dir/all
 all: CMakeFiles/8_8_merge_sort.dir/all
+all: CMakeFiles/8_p_0_quick_sort_2.dir/all
+all: CMakeFiles/8_5_quick_sort.dir/all
 all: CMakeFiles/8_4_bubble_sort.dir/all
 all: CMakeFiles/8_2_insert_sort_2.dir/all
 all: CMakeFiles/7_p_2_find_large_than_x_from_BST.dir/all
@@ -93,6 +95,7 @@ all: CMakeFiles/2_p_4_rearrange.dir/all
 all: CMakeFiles/8_7_heap_sort.dir/all
 all: CMakeFiles/6_8_Floyd.dir/all
 all: CMakeFiles/2_p_1_reverse_list.dir/all
+all: CMakeFiles/CMakeCCompilerId.dir/all
 all: CMakeFiles/3_5_circular_queue.dir/all
 all: CMakeFiles/7_2_AVL.dir/all
 all: CMakeFiles/2_5_static_link_list.dir/all
@@ -110,14 +113,12 @@ all: CMakeFiles/3_p_1_infix_expression.dir/all
 all: CMakeFiles/0_test.dir/all
 all: CMakeFiles/3_2_link_stack.dir/all
 all: CMakeFiles/4_2_inorder_traversal.dir/all
-all: CMakeFiles/8_p_0_quick_sort_2.dir/all
-all: CMakeFiles/8_5_quick_sort.dir/all
-all: CMakeFiles/0_print_type.dir/all
-all: CMakeFiles/7_1_BST.dir/all
-all: CMakeFiles/3_4_link_queue.dir/all
+all: CMakeFiles/0_1_file1_to_file2.dir/all
 all: CMakeFiles/6_5_Prim.dir/all
 all: CMakeFiles/4_3_postorder_traversal.dir/all
 all: CMakeFiles/3_3_seq_queue.dir/all
+all: CMakeFiles/7_1_BST.dir/all
+all: CMakeFiles/3_4_link_queue.dir/all
 all: CMakeFiles/3_p_0_bracket_match.dir/all
 all: CMakeFiles/3_p_3_postfix_expression.dir/all
 all: CMakeFiles/7_p_1_delete_x_from_BST.dir/all
@@ -142,6 +143,8 @@ clean: CMakeFiles/8_p_3_count_sort.dir/clean
 clean: CMakeFiles/8_p_2_quick_select.dir/clean
 clean: CMakeFiles/8_p_1_double_bubble_sort.dir/clean
 clean: CMakeFiles/8_8_merge_sort.dir/clean
+clean: CMakeFiles/8_p_0_quick_sort_2.dir/clean
+clean: CMakeFiles/8_5_quick_sort.dir/clean
 clean: CMakeFiles/8_4_bubble_sort.dir/clean
 clean: CMakeFiles/8_2_insert_sort_2.dir/clean
 clean: CMakeFiles/7_p_2_find_large_than_x_from_BST.dir/clean
@@ -157,6 +160,7 @@ clean: CMakeFiles/2_p_4_rearrange.dir/clean
 clean: CMakeFiles/8_7_heap_sort.dir/clean
 clean: CMakeFiles/6_8_Floyd.dir/clean
 clean: CMakeFiles/2_p_1_reverse_list.dir/clean
+clean: CMakeFiles/CMakeCCompilerId.dir/clean
 clean: CMakeFiles/3_5_circular_queue.dir/clean
 clean: CMakeFiles/7_2_AVL.dir/clean
 clean: CMakeFiles/2_5_static_link_list.dir/clean
@@ -174,14 +178,12 @@ clean: CMakeFiles/3_p_1_infix_expression.dir/clean
 clean: CMakeFiles/0_test.dir/clean
 clean: CMakeFiles/3_2_link_stack.dir/clean
 clean: CMakeFiles/4_2_inorder_traversal.dir/clean
-clean: CMakeFiles/8_p_0_quick_sort_2.dir/clean
-clean: CMakeFiles/8_5_quick_sort.dir/clean
-clean: CMakeFiles/0_print_type.dir/clean
-clean: CMakeFiles/7_1_BST.dir/clean
-clean: CMakeFiles/3_4_link_queue.dir/clean
+clean: CMakeFiles/0_1_file1_to_file2.dir/clean
 clean: CMakeFiles/6_5_Prim.dir/clean
 clean: CMakeFiles/4_3_postorder_traversal.dir/clean
 clean: CMakeFiles/3_3_seq_queue.dir/clean
+clean: CMakeFiles/7_1_BST.dir/clean
+clean: CMakeFiles/3_4_link_queue.dir/clean
 clean: CMakeFiles/3_p_0_bracket_match.dir/clean
 clean: CMakeFiles/3_p_3_postfix_expression.dir/clean
 clean: CMakeFiles/7_p_1_delete_x_from_BST.dir/clean
@@ -201,7 +203,7 @@ clean: CMakeFiles/6_2_adj_list.dir/clean
 CMakeFiles/8_p_4_double_select_sort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_p_4_double_select_sort.dir/build.make CMakeFiles/8_p_4_double_select_sort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_p_4_double_select_sort.dir/build.make CMakeFiles/8_p_4_double_select_sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=97,98 "Built target 8_p_4_double_select_sort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=95,96 "Built target 8_p_4_double_select_sort"
 .PHONY : CMakeFiles/8_p_4_double_select_sort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -255,7 +257,7 @@ CMakeFiles/CMakeCXXCompilerId.dir/clean:
 CMakeFiles/8_p_3_count_sort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_p_3_count_sort.dir/build.make CMakeFiles/8_p_3_count_sort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_p_3_count_sort.dir/build.make CMakeFiles/8_p_3_count_sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=95,96 "Built target 8_p_3_count_sort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=93,94 "Built target 8_p_3_count_sort"
 .PHONY : CMakeFiles/8_p_3_count_sort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -282,12 +284,12 @@ CMakeFiles/8_p_3_count_sort.dir/clean:
 CMakeFiles/8_p_2_quick_select.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_p_2_quick_select.dir/build.make CMakeFiles/8_p_2_quick_select.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_p_2_quick_select.dir/build.make CMakeFiles/8_p_2_quick_select.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=93,94 "Built target 8_p_2_quick_select"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=92 "Built target 8_p_2_quick_select"
 .PHONY : CMakeFiles/8_p_2_quick_select.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/8_p_2_quick_select.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/8_p_2_quick_select.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/8_p_2_quick_select.dir/rule
@@ -309,7 +311,7 @@ CMakeFiles/8_p_2_quick_select.dir/clean:
 CMakeFiles/8_p_1_double_bubble_sort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_p_1_double_bubble_sort.dir/build.make CMakeFiles/8_p_1_double_bubble_sort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_p_1_double_bubble_sort.dir/build.make CMakeFiles/8_p_1_double_bubble_sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=91,92 "Built target 8_p_1_double_bubble_sort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=90,91 "Built target 8_p_1_double_bubble_sort"
 .PHONY : CMakeFiles/8_p_1_double_bubble_sort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -336,7 +338,7 @@ CMakeFiles/8_p_1_double_bubble_sort.dir/clean:
 CMakeFiles/8_8_merge_sort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_8_merge_sort.dir/build.make CMakeFiles/8_8_merge_sort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_8_merge_sort.dir/build.make CMakeFiles/8_8_merge_sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=86,87 "Built target 8_8_merge_sort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=84,85 "Built target 8_8_merge_sort"
 .PHONY : CMakeFiles/8_8_merge_sort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -357,13 +359,67 @@ CMakeFiles/8_8_merge_sort.dir/clean:
 .PHONY : CMakeFiles/8_8_merge_sort.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/8_p_0_quick_sort_2.dir
+
+# All Build rule for target.
+CMakeFiles/8_p_0_quick_sort_2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_p_0_quick_sort_2.dir/build.make CMakeFiles/8_p_0_quick_sort_2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_p_0_quick_sort_2.dir/build.make CMakeFiles/8_p_0_quick_sort_2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=88,89 "Built target 8_p_0_quick_sort_2"
+.PHONY : CMakeFiles/8_p_0_quick_sort_2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/8_p_0_quick_sort_2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/8_p_0_quick_sort_2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/8_p_0_quick_sort_2.dir/rule
+
+# Convenience name for target.
+8_p_0_quick_sort_2: CMakeFiles/8_p_0_quick_sort_2.dir/rule
+
+.PHONY : 8_p_0_quick_sort_2
+
+# clean rule for target.
+CMakeFiles/8_p_0_quick_sort_2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_p_0_quick_sort_2.dir/build.make CMakeFiles/8_p_0_quick_sort_2.dir/clean
+.PHONY : CMakeFiles/8_p_0_quick_sort_2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/8_5_quick_sort.dir
+
+# All Build rule for target.
+CMakeFiles/8_5_quick_sort.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_5_quick_sort.dir/build.make CMakeFiles/8_5_quick_sort.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_5_quick_sort.dir/build.make CMakeFiles/8_5_quick_sort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=79,80 "Built target 8_5_quick_sort"
+.PHONY : CMakeFiles/8_5_quick_sort.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/8_5_quick_sort.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/8_5_quick_sort.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/8_5_quick_sort.dir/rule
+
+# Convenience name for target.
+8_5_quick_sort: CMakeFiles/8_5_quick_sort.dir/rule
+
+.PHONY : 8_5_quick_sort
+
+# clean rule for target.
+CMakeFiles/8_5_quick_sort.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_5_quick_sort.dir/build.make CMakeFiles/8_5_quick_sort.dir/clean
+.PHONY : CMakeFiles/8_5_quick_sort.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/8_4_bubble_sort.dir
 
 # All Build rule for target.
 CMakeFiles/8_4_bubble_sort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_4_bubble_sort.dir/build.make CMakeFiles/8_4_bubble_sort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_4_bubble_sort.dir/build.make CMakeFiles/8_4_bubble_sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=79,80 "Built target 8_4_bubble_sort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=77,78 "Built target 8_4_bubble_sort"
 .PHONY : CMakeFiles/8_4_bubble_sort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -390,7 +446,7 @@ CMakeFiles/8_4_bubble_sort.dir/clean:
 CMakeFiles/8_2_insert_sort_2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_2_insert_sort_2.dir/build.make CMakeFiles/8_2_insert_sort_2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_2_insert_sort_2.dir/build.make CMakeFiles/8_2_insert_sort_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=75,76 "Built target 8_2_insert_sort_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=74,75 "Built target 8_2_insert_sort_2"
 .PHONY : CMakeFiles/8_2_insert_sort_2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -417,7 +473,7 @@ CMakeFiles/8_2_insert_sort_2.dir/clean:
 CMakeFiles/7_p_2_find_large_than_x_from_BST.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_p_2_find_large_than_x_from_BST.dir/build.make CMakeFiles/7_p_2_find_large_than_x_from_BST.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_p_2_find_large_than_x_from_BST.dir/build.make CMakeFiles/7_p_2_find_large_than_x_from_BST.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=71,72 "Built target 7_p_2_find_large_than_x_from_BST"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=70,71 "Built target 7_p_2_find_large_than_x_from_BST"
 .PHONY : CMakeFiles/7_p_2_find_large_than_x_from_BST.dir/all
 
 # Build rule for subdir invocation for target.
@@ -444,7 +500,7 @@ CMakeFiles/7_p_2_find_large_than_x_from_BST.dir/clean:
 CMakeFiles/8_1_insert_sort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_1_insert_sort.dir/build.make CMakeFiles/8_1_insert_sort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_1_insert_sort.dir/build.make CMakeFiles/8_1_insert_sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=73,74 "Built target 8_1_insert_sort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=72,73 "Built target 8_1_insert_sort"
 .PHONY : CMakeFiles/8_1_insert_sort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -471,7 +527,7 @@ CMakeFiles/8_1_insert_sort.dir/clean:
 CMakeFiles/6_9_topological_sort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_9_topological_sort.dir/build.make CMakeFiles/6_9_topological_sort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_9_topological_sort.dir/build.make CMakeFiles/6_9_topological_sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=64,65 "Built target 6_9_topological_sort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=63,64 "Built target 6_9_topological_sort"
 .PHONY : CMakeFiles/6_9_topological_sort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -498,12 +554,12 @@ CMakeFiles/6_9_topological_sort.dir/clean:
 CMakeFiles/6_7_Dijkstra.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_7_Dijkstra.dir/build.make CMakeFiles/6_7_Dijkstra.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_7_Dijkstra.dir/build.make CMakeFiles/6_7_Dijkstra.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=61 "Built target 6_7_Dijkstra"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=59,60 "Built target 6_7_Dijkstra"
 .PHONY : CMakeFiles/6_7_Dijkstra.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/6_7_Dijkstra.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/6_7_Dijkstra.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/6_7_Dijkstra.dir/rule
@@ -525,12 +581,12 @@ CMakeFiles/6_7_Dijkstra.dir/clean:
 CMakeFiles/6_6_Kruskal.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_6_Kruskal.dir/build.make CMakeFiles/6_6_Kruskal.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_6_Kruskal.dir/build.make CMakeFiles/6_6_Kruskal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=59,60 "Built target 6_6_Kruskal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=58 "Built target 6_6_Kruskal"
 .PHONY : CMakeFiles/6_6_Kruskal.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/6_6_Kruskal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/6_6_Kruskal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/6_6_Kruskal.dir/rule
@@ -552,7 +608,7 @@ CMakeFiles/6_6_Kruskal.dir/clean:
 CMakeFiles/6_4_DFS.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_4_DFS.dir/build.make CMakeFiles/6_4_DFS.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_4_DFS.dir/build.make CMakeFiles/6_4_DFS.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=55,56 "Built target 6_4_DFS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=54,55 "Built target 6_4_DFS"
 .PHONY : CMakeFiles/6_4_DFS.dir/all
 
 # Build rule for subdir invocation for target.
@@ -579,7 +635,7 @@ CMakeFiles/6_4_DFS.dir/clean:
 CMakeFiles/6_3_BFS.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_3_BFS.dir/build.make CMakeFiles/6_3_BFS.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_3_BFS.dir/build.make CMakeFiles/6_3_BFS.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=53,54 "Built target 6_3_BFS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=52,53 "Built target 6_3_BFS"
 .PHONY : CMakeFiles/6_3_BFS.dir/all
 
 # Build rule for subdir invocation for target.
@@ -606,12 +662,12 @@ CMakeFiles/6_3_BFS.dir/clean:
 CMakeFiles/8_3_shell_sort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_3_shell_sort.dir/build.make CMakeFiles/8_3_shell_sort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_3_shell_sort.dir/build.make CMakeFiles/8_3_shell_sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=77,78 "Built target 8_3_shell_sort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=76 "Built target 8_3_shell_sort"
 .PHONY : CMakeFiles/8_3_shell_sort.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/8_3_shell_sort.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/8_3_shell_sort.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/8_3_shell_sort.dir/rule
@@ -660,7 +716,7 @@ CMakeFiles/2_p_2_merge_two_list.dir/clean:
 CMakeFiles/2_p_4_rearrange.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_p_4_rearrange.dir/build.make CMakeFiles/2_p_4_rearrange.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_p_4_rearrange.dir/build.make CMakeFiles/2_p_4_rearrange.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target 2_p_4_rearrange"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target 2_p_4_rearrange"
 .PHONY : CMakeFiles/2_p_4_rearrange.dir/all
 
 # Build rule for subdir invocation for target.
@@ -687,12 +743,12 @@ CMakeFiles/2_p_4_rearrange.dir/clean:
 CMakeFiles/8_7_heap_sort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_7_heap_sort.dir/build.make CMakeFiles/8_7_heap_sort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_7_heap_sort.dir/build.make CMakeFiles/8_7_heap_sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=84,85 "Built target 8_7_heap_sort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=83 "Built target 8_7_heap_sort"
 .PHONY : CMakeFiles/8_7_heap_sort.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/8_7_heap_sort.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/8_7_heap_sort.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/8_7_heap_sort.dir/rule
@@ -714,7 +770,7 @@ CMakeFiles/8_7_heap_sort.dir/clean:
 CMakeFiles/6_8_Floyd.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_8_Floyd.dir/build.make CMakeFiles/6_8_Floyd.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_8_Floyd.dir/build.make CMakeFiles/6_8_Floyd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=62,63 "Built target 6_8_Floyd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=61,62 "Built target 6_8_Floyd"
 .PHONY : CMakeFiles/6_8_Floyd.dir/all
 
 # Build rule for subdir invocation for target.
@@ -762,13 +818,40 @@ CMakeFiles/2_p_1_reverse_list.dir/clean:
 .PHONY : CMakeFiles/2_p_1_reverse_list.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/CMakeCCompilerId.dir
+
+# All Build rule for target.
+CMakeFiles/CMakeCCompilerId.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CMakeCCompilerId.dir/build.make CMakeFiles/CMakeCCompilerId.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CMakeCCompilerId.dir/build.make CMakeFiles/CMakeCCompilerId.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=97,98 "Built target CMakeCCompilerId"
+.PHONY : CMakeFiles/CMakeCCompilerId.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/CMakeCCompilerId.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CMakeCCompilerId.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/CMakeCCompilerId.dir/rule
+
+# Convenience name for target.
+CMakeCCompilerId: CMakeFiles/CMakeCCompilerId.dir/rule
+
+.PHONY : CMakeCCompilerId
+
+# clean rule for target.
+CMakeFiles/CMakeCCompilerId.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CMakeCCompilerId.dir/build.make CMakeFiles/CMakeCCompilerId.dir/clean
+.PHONY : CMakeFiles/CMakeCCompilerId.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/3_5_circular_queue.dir
 
 # All Build rule for target.
 CMakeFiles/3_5_circular_queue.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_5_circular_queue.dir/build.make CMakeFiles/3_5_circular_queue.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_5_circular_queue.dir/build.make CMakeFiles/3_5_circular_queue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=28,29 "Built target 3_5_circular_queue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target 3_5_circular_queue"
 .PHONY : CMakeFiles/3_5_circular_queue.dir/all
 
 # Build rule for subdir invocation for target.
@@ -795,12 +878,12 @@ CMakeFiles/3_5_circular_queue.dir/clean:
 CMakeFiles/7_2_AVL.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_2_AVL.dir/build.make CMakeFiles/7_2_AVL.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_2_AVL.dir/build.make CMakeFiles/7_2_AVL.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=68,69 "Built target 7_2_AVL"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=67 "Built target 7_2_AVL"
 .PHONY : CMakeFiles/7_2_AVL.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/7_2_AVL.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/7_2_AVL.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/7_2_AVL.dir/rule
@@ -849,12 +932,12 @@ CMakeFiles/2_5_static_link_list.dir/clean:
 CMakeFiles/6_1_adj_matrix.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_1_adj_matrix.dir/build.make CMakeFiles/6_1_adj_matrix.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_1_adj_matrix.dir/build.make CMakeFiles/6_1_adj_matrix.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=50 "Built target 6_1_adj_matrix"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=49,50 "Built target 6_1_adj_matrix"
 .PHONY : CMakeFiles/6_1_adj_matrix.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/6_1_adj_matrix.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/6_1_adj_matrix.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/6_1_adj_matrix.dir/rule
@@ -876,12 +959,12 @@ CMakeFiles/6_1_adj_matrix.dir/clean:
 CMakeFiles/2_4_cyclic_link_list.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_4_cyclic_link_list.dir/build.make CMakeFiles/2_4_cyclic_link_list.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_4_cyclic_link_list.dir/build.make CMakeFiles/2_4_cyclic_link_list.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=10 "Built target 2_4_cyclic_link_list"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target 2_4_cyclic_link_list"
 .PHONY : CMakeFiles/2_4_cyclic_link_list.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/2_4_cyclic_link_list.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/2_4_cyclic_link_list.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/2_4_cyclic_link_list.dir/rule
@@ -903,7 +986,7 @@ CMakeFiles/2_4_cyclic_link_list.dir/clean:
 CMakeFiles/8_6_select_sort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_6_select_sort.dir/build.make CMakeFiles/8_6_select_sort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_6_select_sort.dir/build.make CMakeFiles/8_6_select_sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=82,83 "Built target 8_6_select_sort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=81,82 "Built target 8_6_select_sort"
 .PHONY : CMakeFiles/8_6_select_sort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -930,7 +1013,7 @@ CMakeFiles/8_6_select_sort.dir/clean:
 CMakeFiles/4_p_2_pre_and_in.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4_p_2_pre_and_in.dir/build.make CMakeFiles/4_p_2_pre_and_in.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4_p_2_pre_and_in.dir/build.make CMakeFiles/4_p_2_pre_and_in.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=48,49 "Built target 4_p_2_pre_and_in"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=47,48 "Built target 4_p_2_pre_and_in"
 .PHONY : CMakeFiles/4_p_2_pre_and_in.dir/all
 
 # Build rule for subdir invocation for target.
@@ -957,7 +1040,7 @@ CMakeFiles/4_p_2_pre_and_in.dir/clean:
 CMakeFiles/8_9_radix_sort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_9_radix_sort.dir/build.make CMakeFiles/8_9_radix_sort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_9_radix_sort.dir/build.make CMakeFiles/8_9_radix_sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=88,89 "Built target 8_9_radix_sort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=86,87 "Built target 8_9_radix_sort"
 .PHONY : CMakeFiles/8_9_radix_sort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -984,12 +1067,12 @@ CMakeFiles/8_9_radix_sort.dir/clean:
 CMakeFiles/2_3_double_link_list.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_3_double_link_list.dir/build.make CMakeFiles/2_3_double_link_list.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_3_double_link_list.dir/build.make CMakeFiles/2_3_double_link_list.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target 2_3_double_link_list"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=8 "Built target 2_3_double_link_list"
 .PHONY : CMakeFiles/2_3_double_link_list.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/2_3_double_link_list.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/2_3_double_link_list.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/2_3_double_link_list.dir/rule
@@ -1011,12 +1094,12 @@ CMakeFiles/2_3_double_link_list.dir/clean:
 CMakeFiles/3_1_seq_stack.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_1_seq_stack.dir/build.make CMakeFiles/3_1_seq_stack.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_1_seq_stack.dir/build.make CMakeFiles/3_1_seq_stack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=21 "Built target 3_1_seq_stack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=20,21 "Built target 3_1_seq_stack"
 .PHONY : CMakeFiles/3_1_seq_stack.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/3_1_seq_stack.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/3_1_seq_stack.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/3_1_seq_stack.dir/rule
@@ -1065,7 +1148,7 @@ CMakeFiles/2_2_link_list.dir/clean:
 CMakeFiles/4_5_heap.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4_5_heap.dir/build.make CMakeFiles/4_5_heap.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4_5_heap.dir/build.make CMakeFiles/4_5_heap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=44,45 "Built target 4_5_heap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target 4_5_heap"
 .PHONY : CMakeFiles/4_5_heap.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1200,7 +1283,7 @@ CMakeFiles/3_2_link_stack.dir/clean:
 CMakeFiles/4_2_inorder_traversal.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4_2_inorder_traversal.dir/build.make CMakeFiles/4_2_inorder_traversal.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4_2_inorder_traversal.dir/build.make CMakeFiles/4_2_inorder_traversal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target 4_2_inorder_traversal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=38,39 "Built target 4_2_inorder_traversal"
 .PHONY : CMakeFiles/4_2_inorder_traversal.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1221,139 +1304,31 @@ CMakeFiles/4_2_inorder_traversal.dir/clean:
 .PHONY : CMakeFiles/4_2_inorder_traversal.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/8_p_0_quick_sort_2.dir
+# Target rules for target CMakeFiles/0_1_file1_to_file2.dir
 
 # All Build rule for target.
-CMakeFiles/8_p_0_quick_sort_2.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_p_0_quick_sort_2.dir/build.make CMakeFiles/8_p_0_quick_sort_2.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_p_0_quick_sort_2.dir/build.make CMakeFiles/8_p_0_quick_sort_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=90 "Built target 8_p_0_quick_sort_2"
-.PHONY : CMakeFiles/8_p_0_quick_sort_2.dir/all
+CMakeFiles/0_1_file1_to_file2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/0_1_file1_to_file2.dir/build.make CMakeFiles/0_1_file1_to_file2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/0_1_file1_to_file2.dir/build.make CMakeFiles/0_1_file1_to_file2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=1 "Built target 0_1_file1_to_file2"
+.PHONY : CMakeFiles/0_1_file1_to_file2.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/8_p_0_quick_sort_2.dir/rule: cmake_check_build_system
+CMakeFiles/0_1_file1_to_file2.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/8_p_0_quick_sort_2.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/0_1_file1_to_file2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/8_p_0_quick_sort_2.dir/rule
+.PHONY : CMakeFiles/0_1_file1_to_file2.dir/rule
 
 # Convenience name for target.
-8_p_0_quick_sort_2: CMakeFiles/8_p_0_quick_sort_2.dir/rule
+0_1_file1_to_file2: CMakeFiles/0_1_file1_to_file2.dir/rule
 
-.PHONY : 8_p_0_quick_sort_2
-
-# clean rule for target.
-CMakeFiles/8_p_0_quick_sort_2.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_p_0_quick_sort_2.dir/build.make CMakeFiles/8_p_0_quick_sort_2.dir/clean
-.PHONY : CMakeFiles/8_p_0_quick_sort_2.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/8_5_quick_sort.dir
-
-# All Build rule for target.
-CMakeFiles/8_5_quick_sort.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_5_quick_sort.dir/build.make CMakeFiles/8_5_quick_sort.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_5_quick_sort.dir/build.make CMakeFiles/8_5_quick_sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=81 "Built target 8_5_quick_sort"
-.PHONY : CMakeFiles/8_5_quick_sort.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/8_5_quick_sort.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/8_5_quick_sort.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/8_5_quick_sort.dir/rule
-
-# Convenience name for target.
-8_5_quick_sort: CMakeFiles/8_5_quick_sort.dir/rule
-
-.PHONY : 8_5_quick_sort
+.PHONY : 0_1_file1_to_file2
 
 # clean rule for target.
-CMakeFiles/8_5_quick_sort.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_5_quick_sort.dir/build.make CMakeFiles/8_5_quick_sort.dir/clean
-.PHONY : CMakeFiles/8_5_quick_sort.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/0_print_type.dir
-
-# All Build rule for target.
-CMakeFiles/0_print_type.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/0_print_type.dir/build.make CMakeFiles/0_print_type.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/0_print_type.dir/build.make CMakeFiles/0_print_type.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=1 "Built target 0_print_type"
-.PHONY : CMakeFiles/0_print_type.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/0_print_type.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/0_print_type.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/0_print_type.dir/rule
-
-# Convenience name for target.
-0_print_type: CMakeFiles/0_print_type.dir/rule
-
-.PHONY : 0_print_type
-
-# clean rule for target.
-CMakeFiles/0_print_type.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/0_print_type.dir/build.make CMakeFiles/0_print_type.dir/clean
-.PHONY : CMakeFiles/0_print_type.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/7_1_BST.dir
-
-# All Build rule for target.
-CMakeFiles/7_1_BST.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_1_BST.dir/build.make CMakeFiles/7_1_BST.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_1_BST.dir/build.make CMakeFiles/7_1_BST.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=66,67 "Built target 7_1_BST"
-.PHONY : CMakeFiles/7_1_BST.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/7_1_BST.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/7_1_BST.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/7_1_BST.dir/rule
-
-# Convenience name for target.
-7_1_BST: CMakeFiles/7_1_BST.dir/rule
-
-.PHONY : 7_1_BST
-
-# clean rule for target.
-CMakeFiles/7_1_BST.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_1_BST.dir/build.make CMakeFiles/7_1_BST.dir/clean
-.PHONY : CMakeFiles/7_1_BST.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/3_4_link_queue.dir
-
-# All Build rule for target.
-CMakeFiles/3_4_link_queue.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_4_link_queue.dir/build.make CMakeFiles/3_4_link_queue.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_4_link_queue.dir/build.make CMakeFiles/3_4_link_queue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=26,27 "Built target 3_4_link_queue"
-.PHONY : CMakeFiles/3_4_link_queue.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/3_4_link_queue.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/3_4_link_queue.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/3_4_link_queue.dir/rule
-
-# Convenience name for target.
-3_4_link_queue: CMakeFiles/3_4_link_queue.dir/rule
-
-.PHONY : 3_4_link_queue
-
-# clean rule for target.
-CMakeFiles/3_4_link_queue.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_4_link_queue.dir/build.make CMakeFiles/3_4_link_queue.dir/clean
-.PHONY : CMakeFiles/3_4_link_queue.dir/clean
+CMakeFiles/0_1_file1_to_file2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/0_1_file1_to_file2.dir/build.make CMakeFiles/0_1_file1_to_file2.dir/clean
+.PHONY : CMakeFiles/0_1_file1_to_file2.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/6_5_Prim.dir
@@ -1362,7 +1337,7 @@ CMakeFiles/3_4_link_queue.dir/clean:
 CMakeFiles/6_5_Prim.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_5_Prim.dir/build.make CMakeFiles/6_5_Prim.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_5_Prim.dir/build.make CMakeFiles/6_5_Prim.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=57,58 "Built target 6_5_Prim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=56,57 "Built target 6_5_Prim"
 .PHONY : CMakeFiles/6_5_Prim.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1389,12 +1364,12 @@ CMakeFiles/6_5_Prim.dir/clean:
 CMakeFiles/4_3_postorder_traversal.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4_3_postorder_traversal.dir/build.make CMakeFiles/4_3_postorder_traversal.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4_3_postorder_traversal.dir/build.make CMakeFiles/4_3_postorder_traversal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=41 "Built target 4_3_postorder_traversal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=40,41 "Built target 4_3_postorder_traversal"
 .PHONY : CMakeFiles/4_3_postorder_traversal.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/4_3_postorder_traversal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/4_3_postorder_traversal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/4_3_postorder_traversal.dir/rule
@@ -1437,18 +1412,72 @@ CMakeFiles/3_3_seq_queue.dir/clean:
 .PHONY : CMakeFiles/3_3_seq_queue.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/7_1_BST.dir
+
+# All Build rule for target.
+CMakeFiles/7_1_BST.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_1_BST.dir/build.make CMakeFiles/7_1_BST.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_1_BST.dir/build.make CMakeFiles/7_1_BST.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=65,66 "Built target 7_1_BST"
+.PHONY : CMakeFiles/7_1_BST.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/7_1_BST.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/7_1_BST.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/7_1_BST.dir/rule
+
+# Convenience name for target.
+7_1_BST: CMakeFiles/7_1_BST.dir/rule
+
+.PHONY : 7_1_BST
+
+# clean rule for target.
+CMakeFiles/7_1_BST.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_1_BST.dir/build.make CMakeFiles/7_1_BST.dir/clean
+.PHONY : CMakeFiles/7_1_BST.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/3_4_link_queue.dir
+
+# All Build rule for target.
+CMakeFiles/3_4_link_queue.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_4_link_queue.dir/build.make CMakeFiles/3_4_link_queue.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_4_link_queue.dir/build.make CMakeFiles/3_4_link_queue.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=26 "Built target 3_4_link_queue"
+.PHONY : CMakeFiles/3_4_link_queue.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/3_4_link_queue.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/3_4_link_queue.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/3_4_link_queue.dir/rule
+
+# Convenience name for target.
+3_4_link_queue: CMakeFiles/3_4_link_queue.dir/rule
+
+.PHONY : 3_4_link_queue
+
+# clean rule for target.
+CMakeFiles/3_4_link_queue.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_4_link_queue.dir/build.make CMakeFiles/3_4_link_queue.dir/clean
+.PHONY : CMakeFiles/3_4_link_queue.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/3_p_0_bracket_match.dir
 
 # All Build rule for target.
 CMakeFiles/3_p_0_bracket_match.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_p_0_bracket_match.dir/build.make CMakeFiles/3_p_0_bracket_match.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_p_0_bracket_match.dir/build.make CMakeFiles/3_p_0_bracket_match.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=30 "Built target 3_p_0_bracket_match"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target 3_p_0_bracket_match"
 .PHONY : CMakeFiles/3_p_0_bracket_match.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/3_p_0_bracket_match.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/3_p_0_bracket_match.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/3_p_0_bracket_match.dir/rule
@@ -1470,7 +1499,7 @@ CMakeFiles/3_p_0_bracket_match.dir/clean:
 CMakeFiles/3_p_3_postfix_expression.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_p_3_postfix_expression.dir/build.make CMakeFiles/3_p_3_postfix_expression.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_p_3_postfix_expression.dir/build.make CMakeFiles/3_p_3_postfix_expression.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target 3_p_3_postfix_expression"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=34,35 "Built target 3_p_3_postfix_expression"
 .PHONY : CMakeFiles/3_p_3_postfix_expression.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1497,12 +1526,12 @@ CMakeFiles/3_p_3_postfix_expression.dir/clean:
 CMakeFiles/7_p_1_delete_x_from_BST.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_p_1_delete_x_from_BST.dir/build.make CMakeFiles/7_p_1_delete_x_from_BST.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_p_1_delete_x_from_BST.dir/build.make CMakeFiles/7_p_1_delete_x_from_BST.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=70 "Built target 7_p_1_delete_x_from_BST"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=68,69 "Built target 7_p_1_delete_x_from_BST"
 .PHONY : CMakeFiles/7_p_1_delete_x_from_BST.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/7_p_1_delete_x_from_BST.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/7_p_1_delete_x_from_BST.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/7_p_1_delete_x_from_BST.dir/rule
@@ -1524,7 +1553,7 @@ CMakeFiles/7_p_1_delete_x_from_BST.dir/clean:
 CMakeFiles/4_1_preorder_traversal.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4_1_preorder_traversal.dir/build.make CMakeFiles/4_1_preorder_traversal.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4_1_preorder_traversal.dir/build.make CMakeFiles/4_1_preorder_traversal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target 4_1_preorder_traversal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=36,37 "Built target 4_1_preorder_traversal"
 .PHONY : CMakeFiles/4_1_preorder_traversal.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1551,12 +1580,12 @@ CMakeFiles/4_1_preorder_traversal.dir/clean:
 CMakeFiles/3_p_2_infix_to_postfix.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_p_2_infix_to_postfix.dir/build.make CMakeFiles/3_p_2_infix_to_postfix.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/3_p_2_infix_to_postfix.dir/build.make CMakeFiles/3_p_2_infix_to_postfix.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target 3_p_2_infix_to_postfix"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=33 "Built target 3_p_2_infix_to_postfix"
 .PHONY : CMakeFiles/3_p_2_infix_to_postfix.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/3_p_2_infix_to_postfix.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/3_p_2_infix_to_postfix.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/3_p_2_infix_to_postfix.dir/rule
@@ -1578,12 +1607,12 @@ CMakeFiles/3_p_2_infix_to_postfix.dir/clean:
 CMakeFiles/4_4_levelorder_traversal.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4_4_levelorder_traversal.dir/build.make CMakeFiles/4_4_levelorder_traversal.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4_4_levelorder_traversal.dir/build.make CMakeFiles/4_4_levelorder_traversal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=42,43 "Built target 4_4_levelorder_traversal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=42 "Built target 4_4_levelorder_traversal"
 .PHONY : CMakeFiles/4_4_levelorder_traversal.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/4_4_levelorder_traversal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/4_4_levelorder_traversal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/4_4_levelorder_traversal.dir/rule
@@ -1605,12 +1634,12 @@ CMakeFiles/4_4_levelorder_traversal.dir/clean:
 CMakeFiles/2_p_3_merge_and_deduplication.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_p_3_merge_and_deduplication.dir/build.make CMakeFiles/2_p_3_merge_and_deduplication.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_p_3_merge_and_deduplication.dir/build.make CMakeFiles/2_p_3_merge_and_deduplication.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target 2_p_3_merge_and_deduplication"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=17 "Built target 2_p_3_merge_and_deduplication"
 .PHONY : CMakeFiles/2_p_3_merge_and_deduplication.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/2_p_3_merge_and_deduplication.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/2_p_3_merge_and_deduplication.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/2_p_3_merge_and_deduplication.dir/rule
@@ -1632,7 +1661,7 @@ CMakeFiles/2_p_3_merge_and_deduplication.dir/clean:
 CMakeFiles/4_p_1_LCA.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4_p_1_LCA.dir/build.make CMakeFiles/4_p_1_LCA.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4_p_1_LCA.dir/build.make CMakeFiles/4_p_1_LCA.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=46,47 "Built target 4_p_1_LCA"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=45,46 "Built target 4_p_1_LCA"
 .PHONY : CMakeFiles/4_p_1_LCA.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1659,12 +1688,12 @@ CMakeFiles/4_p_1_LCA.dir/clean:
 CMakeFiles/6_2_adj_list.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_2_adj_list.dir/build.make CMakeFiles/6_2_adj_list.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_2_adj_list.dir/build.make CMakeFiles/6_2_adj_list.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=51,52 "Built target 6_2_adj_list"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles --progress-num=51 "Built target 6_2_adj_list"
 .PHONY : CMakeFiles/6_2_adj_list.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/6_2_adj_list.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/6_2_adj_list.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/admin/CLionProjects/ds_learning/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/6_2_adj_list.dir/rule

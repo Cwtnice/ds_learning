@@ -1,0 +1,1 @@
+/usr/bin/gcc.exe -g -Wl,--enable-auto-import CMakeFiles/0_file1_to_file2.dir/0_C/0_file1_to_file2.c.o -o 0_file1_to_file2.exe -Wl,--out-implib,lib0_file1_to_file2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

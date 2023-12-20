@@ -103,11 +103,11 @@ void DFS_2(ALGraph G, int v){
 
     // 顶点入栈
     st.push(v);
+    visited[v] = 1;
 
     while(!st.empty()){
         int t = st.top();
         st.pop();
-        visited[t] = 1;
         cout << G.AdjList[t].data << " ";
 
         ENode *p = G.AdjList[t].first;

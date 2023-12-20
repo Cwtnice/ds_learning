@@ -47,7 +47,7 @@ void radix_sort(int data[], int n) {
         for (j = 0; j < 10; j++)
             count[j] = 0;
 
-        // 十个桶0~9 桶里面装的不是数据本身 而是每一轮（十、白、千...）排序对应位的个数
+        // 十个桶0~9 桶里面装的不是数据本身 而是每一轮（十、百、千...）排序对应位的个数
         for (j = 0; j < n; j++) {
             k = (data[j + 1] / radix) % 10;
             count[k]++;
@@ -58,7 +58,7 @@ void radix_sort(int data[], int n) {
             count[j] = count[j - 1] + count[j];
 
         // 将所有桶中记录依次收集到tmp中
-        // 例如14 count[4] = 6 说明了在本轮排序中 14前面有5个元素的下标是6
+        // 例如14 count[4] = 6 说明了在本轮排序中 14前面有5个元素 他的下标是6
         for (j = n - 1; j >= 0; j--) {
             k = (data[j + 1] / radix) % 10;
             tmp[count[k]] = data[j + 1];

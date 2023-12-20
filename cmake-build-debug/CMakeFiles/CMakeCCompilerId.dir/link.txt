@@ -1,0 +1,1 @@
+/usr/bin/gcc.exe -g -Wl,--enable-auto-import CMakeFiles/CMakeCCompilerId.dir/CMakeFiles/3.19.2/CompilerIdC/CMakeCCompilerId.c.o -o CMakeCCompilerId.exe -Wl,--out-implib,libCMakeCCompilerId.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

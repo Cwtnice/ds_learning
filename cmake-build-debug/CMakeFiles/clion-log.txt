@@ -1,5 +1,5 @@
 C:\Users\admin\AppData\Local\JetBrains\CLion2021.1\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make.exe -DCMAKE_C_COMPILER=/usr/bin/gcc.exe -DCMAKE_CXX_COMPILER=/usr/bin/g++.exe -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/admin/CLionProjects/ds_learning
-    -- src/0_print_type.cpp will be compiled to bin/0_print_type
+    -- src/0_1_file1_to_file2.cpp will be compiled to bin/0_1_file1_to_file2
     -- src/0_test.cpp will be compiled to bin/0_test
     -- src/2_1_seq_list.cpp will be compiled to bin/2_1_seq_list
     -- src/2_2_link_list.cpp will be compiled to bin/2_2_link_list
@@ -53,6 +53,7 @@ C:\Users\admin\AppData\Local\JetBrains\CLion2021.1\cygwin_cmake\bin\cmake.exe -D
     -- src/8_p_2_quick_select.cpp will be compiled to bin/8_p_2_quick_select
     -- src/8_p_3_count_sort.cpp will be compiled to bin/8_p_3_count_sort
     -- src/8_p_4_double_select_sort.cpp will be compiled to bin/8_p_4_double_select_sort
+    -- src/CMakeCCompilerId.cpp will be compiled to bin/CMakeCCompilerId
     -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
 -- Configuring done
 -- Generating done
